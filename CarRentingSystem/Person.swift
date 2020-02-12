@@ -16,18 +16,20 @@ enum Gender{
 
 class Person : IDisplay
 {
+    
+    
     var id : Int
     var firstName : String
     var lastName : String
     var gender : Gender
-    var birthDate : Date()
+    var birthDate : Date?
     var age : Int
     var mobileNumber : String
     var email : String
     var userName : String
     var password : String
     
-    init(id : Int,firstName : String,lastName : String,gender : Gender,birthDate :Date(),age : Int,mobileNumber : String,email : String,userName :String,password : String)
+    init(id : Int,firstName : String,lastName : String,gender : Gender,birthDate: Date,age : Int,mobileNumber : String,email : String,userName :String,password : String)
     {
         self.id = id
         self.firstName = firstName
@@ -41,6 +43,8 @@ class Person : IDisplay
         self.password = password
         
     }
-    func display()
-    {}
+    func Display()
+    {
+    }
+   
 }
