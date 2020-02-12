@@ -45,6 +45,22 @@ class Person : IDisplay
     }
     func Display()
     {
-    }
+        print("Id : \(id)")
+            print("FirstName : \(firstName)")
+            print("LastName : \(lastName)")
+            print("Gender : \(gender)")
+            if let d = self.birthDate
+            {
+        
+            print("BirthDate : \(d))")
+            }else
+            {
+                print("Birthdate : NO Birthdate Found")
+            }
+            print("Age : \(age)")
+            print("MobileNumber : \(mobileNumber)")
+            print("E-mail : \(email)")
+            print("UserName : \(userName)")
+            print("Password : \(password)")    }
    
 }
