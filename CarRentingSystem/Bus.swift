@@ -13,13 +13,13 @@ class Bus: Vehicle
      var busType: String
      var iswifiAvailable: Bool
      var isAccessibiltyServiceAvailable: Bool
-    init(busType: String, iswifiAvailable: Bool,isAccessibiltyServiceAvailable: Bool)
-    {
-        super.init(identificationNumber: identificationNumber, description: description, isSelfDrive: isSelfDrive, manufacturerName: manufacturerName, isInsured: isInsured, vehicleNoOfSeats: vehicleNoOfSeats, insuranceProviderName: insuranceProviderName, seat: seat, fuelType: fuelType, ratePerDay: ratePerDay, ratePerKm: ratePerKm)
-        
+    init(identificationNumber: String,description: String,isSelfDrive: Bool, manufacturerName: String,isInsured: Bool,vehicleNoOfSeats: Int,   insuranceProviderName: String, seat: Int,fuelType: String,ratePerDay: Double,
+    ratePerKm: Double, busType: String, iswifiAvailable:Bool,isAccessibiltyServiceAvailable: Bool){
         self.busType = busType
         self.iswifiAvailable = iswifiAvailable
         self.isAccessibiltyServiceAvailable = isAccessibiltyServiceAvailable
+        super.init(identificationNumber: identificationNumber, description: description, isSelfDrive: isSelfDrive, manufacturerName: manufacturerName, isInsured: isInsured, vehicleNoOfSeats: vehicleNoOfSeats, insuranceProviderName: insuranceProviderName, seat: seat, fuelType: fuelType, ratePerDay: ratePerDay, ratePerKm: ratePerKm)
+        
     }
     
     
