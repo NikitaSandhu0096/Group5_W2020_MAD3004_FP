@@ -41,4 +41,6 @@ class Person : IDisplay
         self.password = password
         
     }
+    func display()
+    {}
 }
