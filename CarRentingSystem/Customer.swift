@@ -21,9 +21,12 @@ class Customer : Person{
         print("Customer ID \(id)")
         print("Customer First Name \(firstName)")
         print("Customer Last Name \(lastName)")
-        print("Customer ID \(id)")
-        print("Customer ID \(id)")
-        print("Customer ID \(id)")
-        print("Customer ID \(id)")
+        print("Customer gender \(gender)")
+        print("Customer Birth Date \(birthDate)")
+        print("Customer Age \(age)")
+        print("Customer Mobile Number \(mobileNumber)")
+        print("Customer email \(email)")
+        print("Customer username \(userName)")
+        print("Customer password \(password)")
     }
 }
