@@ -18,15 +18,15 @@ class Customer : Person{
     }
     
     override func Display() {
-        print("Customer ID \(id)")
-        print("Customer First Name \(firstName)")
-        print("Customer Last Name \(lastName)")
-        print("Customer gender \(gender)")
-        print("Customer Birth Date \(birthDate)")
-        print("Customer Age \(age)")
-        print("Customer Mobile Number \(mobileNumber)")
-        print("Customer email \(email)")
-        print("Customer username \(userName)")
-        print("Customer password \(password)")
+        print("Customer's ID \(id)")
+        print("Customer's First Name \(firstName)")
+        print("Customer's Last Name \(lastName)")
+        print("Customer's gender \(gender)")
+        print("Customer's Birth Date \(birthDate)")
+        print("Customer's Age \(age)")
+        print("Customer's Mobile Number \(mobileNumber)")
+        print("Customer's email \(email)")
+        print("Customer's username \(userName)")
+        print("Customer's password \(password)")
     }
 }
