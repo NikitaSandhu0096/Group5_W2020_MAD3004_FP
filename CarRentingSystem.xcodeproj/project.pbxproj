@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B275FB523FDE5DA0070B398 /* VehicleRent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B275FB423FDE5DA0070B398 /* VehicleRent.swift */; };
 		9B34691423F4B28100DFE5DD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B34691323F4B28100DFE5DD /* main.swift */; };
 		9B34691B23F4B29800DFE5DD /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B34691A23F4B29800DFE5DD /* IDisplay.swift */; };
 		9B34691F23F4BA3000DFE5DD /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B34691E23F4BA3000DFE5DD /* Customer.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9B275FB423FDE5DA0070B398 /* VehicleRent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleRent.swift; sourceTree = "<group>"; };
 		9B34691023F4B28100DFE5DD /* CarRentingSystem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CarRentingSystem; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B34691323F4B28100DFE5DD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9B34691A23F4B29800DFE5DD /* IDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				9B81438623F4BD8A0052E04F /* Vehicle.swift */,
 				9B81438A23F4C6F00052E04F /* Bus.swift */,
 				EEAFCAAE23FDD4C800EEF4CC /* Extensions.swift */,
+				9B275FB423FDE5DA0070B398 /* VehicleRent.swift */,
 			);
 			path = CarRentingSystem;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				9B34691B23F4B29800DFE5DD /* IDisplay.swift in Sources */,
 				9B34691423F4B28100DFE5DD /* main.swift in Sources */,
 				9B81438723F4BD8A0052E04F /* Vehicle.swift in Sources */,
+				9B275FB523FDE5DA0070B398 /* VehicleRent.swift in Sources */,
 				9B34691F23F4BA3000DFE5DD /* Customer.swift in Sources */,
 				EEAFCAAF23FDD4C800EEF4CC /* Extensions.swift in Sources */,
 			);
