@@ -58,13 +58,7 @@ class Bus : Vehicle
              print("FuelType:                        \(fuelType)")
              print("RatePerDay:                      \(ratePerDay)")
              print("ratePerKm:                       \(ratePerKm)")
-            }
-         
-     }
-        
-    }
-    
-    
-    
+        }
 }
+
 
