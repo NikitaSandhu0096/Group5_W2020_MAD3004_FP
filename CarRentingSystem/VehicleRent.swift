@@ -30,7 +30,6 @@ class VehicleRent: IDisplay
     }
     var noOfKmDrived: Double
     var totalBillToPay: Double = 0.0
-    
     init(rentStartDate: Date, rentEndDate: Date, noOfKmDrived: Double)
     {
         
@@ -42,8 +41,9 @@ class VehicleRent: IDisplay
     func calculateTotalBill() {
         for v in vehicles
         {
-            totalBillToPay = v.value(Double(rentInNoOfDays)) + v.value(Double(totalDays))
+            totalBillToPay = Double(rentInNoOfDays) + v.value.ratePerDay
         }
+        
     }
     func addVehicle(vehicle: Vehicle, identificationNumber: String)
     {
@@ -59,11 +59,23 @@ class VehicleRent: IDisplay
     
     func Display() {
         
-        print("***********************************************************")
-        print("")
-        
+        print("********************Vehicle Rent*******************************")
+        print("Vehicle Rent in No of Days:          \(rentInNoOfDays)")
+        for v in vehicles
+            {
+                v.value.Display()
+            }
+             if vehicles.count == 0
+            {
+                print("This person has no vehicles rented")
+            }
+            else
+            {
+                calculateTotalBill()
+        print("\t \t Total Bill Amount to Pay : \(totalBillToPay)")
+            }
+        print("***********************************************************************")
+        }
         
     }
-    
-    
-}
+
