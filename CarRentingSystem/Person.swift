@@ -20,14 +20,14 @@ protocol Person : IDisplay
     var firstName : String { get set }
     var lastName : String { get set }
     var gender : Gender { get set }
-    var birthDate : Date? { get set }
+    var birthDate : String { get set }
     var age : Int { get set }
     var mobileNumber : String { get set }
     var email : String { get set }
     var userName : String { get set }
     var password : String { get set }
     
-//    init(id : Int,firstName : String,lastName : String,gender : Gender, birthDate: Date, age : Int, mobileNumber : String, email : String, userName :String, password : String)
+//    init(id : Int,firstName : String,lastName : String,gender : Gender, birthDate: String, age : Int, mobileNumber : String, email : String, userName :String, password : String)
     
-    func Display()
+    func display()
 }
