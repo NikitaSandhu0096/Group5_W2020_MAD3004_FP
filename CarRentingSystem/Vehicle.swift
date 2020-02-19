@@ -9,25 +9,26 @@
 import Foundation
 
 
-class Vehicle: IDisplay
+protocol Vehicle: IDisplay
 {
-        
-    var identificationNumber: String
-    var description: String
-    var  isSelfDrive: Bool
-    var manufacturerName: String
-    var  isInsured: Bool
-    var  vehicleNoOfSeats: Int
-    var insuranceProviderName: String
-    var seat: Int
-    var fuelType: String
-    var ratePerDay: Double
-    var ratePerKm: Double
+
+    var identificationNumber: String { get set }
+    var description: String { get set }
+    var  isSelfDrive: Bool { get set }
+    var manufacturerName: String { get set }
+    var  isInsured: Bool { get set }
+    var  vehicleNoOfSeats: Int { get set }
+    var insuranceProviderName: String { get set }
+    var seat: Int { get set }
+    var fuelType: String { get set }
+    var ratePerDay: Double { get set }
+    var ratePerKm: Double { get set}
     //var driver;
     
-    init(identificationNumber: String,description: String,isSelfDrive: Bool, manufacturerName: String,isInsured: Bool,vehicleNoOfSeats: Int,   insuranceProviderName: String, seat: Int,fuelType: String,ratePerDay: Double,
-    ratePerKm: Double) {
-        self.identificationNumber = identificationNumber
+    init(identificationNumber:String,description:String,isSelfDrive:Bool,
+     manufacturerName: String,isInsured: Bool,vehicleNoOfSeats:Int,insuranceProviderName: String, seat: Int,fuelType: String,ratePerDay: Double,ratePerKm: Double)
+
+        /*self.identificationNumber = identificationNumber
         self.description = description
         self.isSelfDrive = isSelfDrive
         self.manufacturerName = manufacturerName
@@ -37,10 +38,11 @@ class Vehicle: IDisplay
         self.seat = seat
         self.fuelType = fuelType
         self.ratePerDay = ratePerDay
-        self.ratePerKm = ratePerKm
-    }
+        self.ratePerKm = ratePerKm*/
     
-    func Display() {
+    
+    func Display()
+    /*
         print("IdentificationNumber:        \(identificationNumber)")
         print("Description:                 \(description)")
         print("isSelfDrive:                 \(isSelfDrive)")
@@ -52,6 +54,6 @@ class Vehicle: IDisplay
         print("FuelType:                        \(fuelType)")
         print("RatePerDay:                      \(ratePerDay)")
         print("ratePerKm:                       \(ratePerKm)")
-    }
+    }*/
 }
 
