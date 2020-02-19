@@ -14,53 +14,20 @@ enum Gender{
     case Others
 }
 
-class Person : IDisplay
+protocol Person : IDisplay
 {
+    var id : Int { get set }
+    var firstName : String { get set }
+    var lastName : String { get set }
+    var gender : Gender { get set }
+    var birthDate : Date? { get set }
+    var age : Int { get set }
+    var mobileNumber : String { get set }
+    var email : String { get set }
+    var userName : String { get set }
+    var password : String { get set }
     
+//    init(id : Int,firstName : String,lastName : String,gender : Gender, birthDate: Date, age : Int, mobileNumber : String, email : String, userName :String, password : String)
     
-    var id : Int
-    var firstName : String
-    var lastName : String
-    var gender : Gender
-    var birthDate : Date?
-    var age : Int
-    var mobileNumber : String
-    var email : String
-    var userName : String
-    var password : String
-    
-    init(id : Int,firstName : String,lastName : String,gender : Gender,birthDate: Date,age : Int,mobileNumber : String,email : String,userName :String,password : String)
-    {
-        self.id = id
-        self.firstName = firstName
-        self.lastName = lastName
-        self.gender = gender
-        self.birthDate = birthDate
-        self.age = age
-        self.mobileNumber = mobileNumber
-        self.email = email
-        self.userName = userName
-        self.password = password
-        
-    }
     func Display()
-    {
-        print("Id : \(id)")
-            print("FirstName : \(firstName)")
-            print("LastName : \(lastName)")
-            print("Gender : \(gender)")
-            if let d = self.birthDate
-            {
-        
-            print("BirthDate : \(d))")
-            }else
-            {
-                print("Birthdate : NO Birthdate Found")
-            }
-            print("Age : \(age)")
-            print("MobileNumber : \(mobileNumber)")
-            print("E-mail : \(email)")
-            print("UserName : \(userName)")
-            print("Password : \(password)")    }
-   
 }
