@@ -17,6 +17,8 @@
 		9B81438B23F4C6F00052E04F /* Bus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B81438A23F4C6F00052E04F /* Bus.swift */; };
 		9BB6162623F4B55500BDF2B8 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB6162523F4B55500BDF2B8 /* Person.swift */; };
 		EEAFCAAF23FDD4C800EEF4CC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAFCAAE23FDD4C800EEF4CC /* Extensions.swift */; };
+		EEAFCAB123FDEFF400EEF4CC /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAFCAB023FDEFF400EEF4CC /* Driver.swift */; };
+		EEAFCAB323FDF1EE00EEF4CC /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAFCAB223FDF1EE00EEF4CC /* Owner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +45,8 @@
 		9B81438A23F4C6F00052E04F /* Bus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bus.swift; sourceTree = "<group>"; };
 		9BB6162523F4B55500BDF2B8 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		EEAFCAAE23FDD4C800EEF4CC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		EEAFCAB023FDEFF400EEF4CC /* Driver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
+		EEAFCAB223FDF1EE00EEF4CC /* Owner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Owner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 				9B34691A23F4B29800DFE5DD /* IDisplay.swift */,
 				9BB6162523F4B55500BDF2B8 /* Person.swift */,
 				9B34691E23F4BA3000DFE5DD /* Customer.swift */,
+				EEAFCAB023FDEFF400EEF4CC /* Driver.swift */,
+				EEAFCAB223FDF1EE00EEF4CC /* Owner.swift */,
 				9B81438623F4BD8A0052E04F /* Vehicle.swift */,
 				9B81438A23F4C6F00052E04F /* Bus.swift */,
 				EEAFCAAE23FDD4C800EEF4CC /* Extensions.swift */,
@@ -152,9 +158,11 @@
 				9B34691B23F4B29800DFE5DD /* IDisplay.swift in Sources */,
 				9B34691423F4B28100DFE5DD /* main.swift in Sources */,
 				9B81438723F4BD8A0052E04F /* Vehicle.swift in Sources */,
+				EEAFCAB123FDEFF400EEF4CC /* Driver.swift in Sources */,
 				9B275FB723FDE9A30070B398 /* Car.swift in Sources */,
 				9B37ADDA23FDF1A400985B65 /* MotorCycle.swift in Sources */,
 				9B275FB523FDE5DA0070B398 /* VehicleRent.swift in Sources */,
+				EEAFCAB323FDF1EE00EEF4CC /* Owner.swift in Sources */,
 				9B34691F23F4BA3000DFE5DD /* Customer.swift in Sources */,
 				EEAFCAAF23FDD4C800EEF4CC /* Extensions.swift in Sources */,
 			);
