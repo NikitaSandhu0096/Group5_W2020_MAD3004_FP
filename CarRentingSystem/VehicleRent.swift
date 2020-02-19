@@ -40,7 +40,10 @@ class VehicleRent: IDisplay
     }
     
     func calculateTotalBill() {
-        totalBillToPay = Double(rentInNoOfDays) + Double(totalDays)
+        for v in vehicles
+        {
+            totalBillToPay = v.value(Double(rentInNoOfDays)) + v.value(Double(totalDays))
+        }
     }
     func addVehicle(vehicle: Vehicle, identificationNumber: String)
     {
