@@ -25,10 +25,10 @@ protocol Vehicle: IDisplay
     var ratePerKm: Double { get set}
     //var driver;
     
-    init(identificationNumber:String,description:String,isSelfDrive:Bool,
+   /* init(identificationNumber:String,description:String,isSelfDrive:Bool,
      manufacturerName: String,isInsured: Bool,vehicleNoOfSeats:Int,insuranceProviderName: String, seat: Int,fuelType: String,ratePerDay: Double,ratePerKm: Double)
 
-        /*self.identificationNumber = identificationNumber
+        self.identificationNumber = identificationNumber
         self.description = description
         self.isSelfDrive = isSelfDrive
         self.manufacturerName = manufacturerName
