@@ -57,7 +57,7 @@ class VehicleRent: IDisplay
     
     
     
-    func Display() {
+    func display() {
         
         print("********************Vehicle Rent*******************************")
         print("Vehicle Rent in No of Days:          \(rentInNoOfDays)")
