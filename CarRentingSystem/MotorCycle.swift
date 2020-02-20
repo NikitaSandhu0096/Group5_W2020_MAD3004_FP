@@ -50,13 +50,13 @@ class MotorCycle : Vehicle
              print("Motorcycle's Description:                 \(description)")
              print("Motorcycle's isSelfDrive:                 \(isSelfDrive)")
              print("Motorcycle's ManufacturerName:            \(manufacturerName)")
-             print("Motorcycle's isInsured                       \(isInsured)")
-             print("Motorcycle's VehicleNoOfSeats:                \(vehicleNoOfSeats)")
-             print("Motorcycle's InsuranceProviderName            \(insuranceProviderName)")
-             print("Motorcycle's Seat                             \(seat)")
-             print("Motorcycle's FuelType:                        \(fuelType)")
-             print("Motorcycle's RatePerDay:                      \(ratePerDay)")
-             print("Motorcycle's ratePerKm:                       \(ratePerKm)")
+             print("Motorcycle's isInsured                    \(isInsured)")
+             print("Motorcycle's VehicleNoOfSeats:            \(vehicleNoOfSeats)")
+             print("Motorcycle's InsuranceProviderName        \(insuranceProviderName)")
+             print("Motorcycle's Seat                         \(seat)")
+             print("Motorcycle's FuelType:                    \(fuelType)")
+            print("Motorcycle's RatePerDay:                  \(ratePerDay.currency())")
+            print("Motorcycle's ratePerKm:                   \(ratePerKm.currency())")
         }
 }
 

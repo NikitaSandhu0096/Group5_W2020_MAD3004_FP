@@ -46,8 +46,8 @@ class Car: Vehicle
         print("Car InsuranceProviderName:       \(insuranceProviderName)")
         print("Car Seat:                        \(seat)")
         print("Car FuelType:                    \(fuelType)")
-        print("Car RatePerKm:                   \(ratePerKm)")
-        print("Car ratePerDay:                  \(ratePerDay)")
+        print("Car RatePerKm:                   \(ratePerKm.currency())")
+        print("Car ratePerDay:                  \(ratePerDay.currency())")
         print("Car Color:                       \(carColor)")
         print("Car Type:                        \(carType)")
     }
