@@ -36,7 +36,6 @@ var mc3 = MotorCycle(identificationNumber: "MC03", description: "Chronic", isSel
 var mc4 = MotorCycle(identificationNumber: "MC04", description: "Chrome", isSelfDrive: true, manufacturerName: "Pulsar", isInsured: true, vehicleNoOfSeats: 2, insuranceProviderName: "Hero", seat: 2, fuelType: "Petrol", ratePerDay: 5, ratePerKm: 5, maxTopSpeed: 70, milage: 25)
 var mc5 = MotorCycle(identificationNumber: "MC05", description: "Classic", isSelfDrive: true, manufacturerName: "Honda", isInsured: true, vehicleNoOfSeats: 2, insuranceProviderName: "Philo", seat: 2, fuelType: "Petrol", ratePerDay: 5, ratePerKm: 5, maxTopSpeed: 60, milage: 55)
 
-
 var rent1 = VehicleRent(vehicleIdentificationNumber: "C01", rentStartDate: "2012-09-01".toDate(), rentEndDate: "2012-10-01".toDate(), noOfKmDrived: 20)
 
 var rent2 = VehicleRent(vehicleIdentificationNumber: "B01", rentStartDate: "2013-01-01".toDate(), rentEndDate: "2013-02-02".toDate(), noOfKmDrived: 200)
