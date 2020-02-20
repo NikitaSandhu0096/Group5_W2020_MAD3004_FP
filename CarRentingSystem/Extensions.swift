@@ -21,3 +21,13 @@ extension String{
         return mobileTest.evaluate(with: self)
     }
 }
+
+extension Double
+{
+    // adding $ symbol with rent calculated
+    func currency() -> String
+    {
+        let s = String.init(format: "$%.2f", self)
+        return s
+    }
+}
