@@ -64,7 +64,7 @@ extension String{
         return nil
     }
     // Password Decryption
-    /*func decrypt(key:String, iv:String, options:Int = kCCOptionPKCS7Padding) -> String? {
+    func decrypt(key:String, iv:String, options:Int = kCCOptionPKCS7Padding) -> String? {
         if let keyData = key.data(using: String.Encoding.utf8),
             let data = NSData(base64Encoded: self, options: .ignoreUnknownCharacters),
             let cryptData    = NSMutableData(length: Int((data.length)) + kCCBlockSizeAES128) {
@@ -91,7 +91,7 @@ extension String{
             }
         }
         return nil
-    }*/
+    }
 }
 
 extension Double
