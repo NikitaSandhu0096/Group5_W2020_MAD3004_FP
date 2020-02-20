@@ -22,6 +22,7 @@ class Bus : Vehicle
          var fuelType: String
          var ratePerDay: Double
          var ratePerKm: Double
+    
          var busType: String
          var iswifiAvailable: Bool
          var isAccessibiltyServiceAvailable: Bool
