@@ -19,7 +19,7 @@ class VehicleRent: IDisplay
     var totalDays: Int
     {
         var diffInDays = 0
-        diffInDays = Calendar.current.dateComponents([.day], from: rentStartDate, to: rentEndDate).day ?? 0
+        diffInDays = Calendar.current.dateComponents([.day], from: rentStartDate, to: rentEndDate).day ?? 0         //https://stackoverflow.com/questions/40075850/swift-3-find-number-of-calendar-days-between-two-dates
         return diffInDays
     }
     var rentInNoOfDays: Float
