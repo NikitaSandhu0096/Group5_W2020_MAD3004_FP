@@ -49,13 +49,21 @@ class Driver : Person{
         return birthDate1!
     }
     
+    func calculateAge() -> Int{            //https://stackoverflow.com/questions/24723431/swift-days-between-two-nsdates
+        
+        let now = Date()
+        let current = Calendar.current
+        let numberOfYears = current.dateComponents([Calendar.Component.year], from: calculateBirthDate(string: birthDate), to: now)
+        return numberOfYears.year!
+    }
+    
      func display() {
         print("Driver's ID \(id)")
         print("Driver's First Name \(firstName)")
         print("Driver's Last Name \(lastName)")
         print("Driver's gender \(gender)")
         print("Driver's Birth Date \(calculatebirthDate(string: birthDate))")
-        print("Driver's Age \(age)")
+        print("Driver's Age \(calculateAge())")
         print("Driver's Mobile Number \(mobileNumber)")
         print("Driver's email \(email)")
         print("Driver's username \(userName)")
