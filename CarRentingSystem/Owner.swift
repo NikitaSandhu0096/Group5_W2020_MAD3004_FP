@@ -60,19 +60,19 @@ class Owner : Person{
     
     
      func display() {
-        print("Owner's ID \(id)")
-        print("Owner's First Name \(firstName)")
-        print("Owner's Last Name \(lastName)")
-        print("Owner's gender \(gender)")
-        print("Owner's Birth Date \(birthDate)")
+        print("Owner's ID \(self.id)")
+        print("Owner's First Name \(self.firstName)")
+        print("Owner's Last Name \(self.lastName)")
+        print("Owner's gender \(self.gender)")
+        print("Owner's Birth Date \(self.birthDate)")
         print("Owner's Age \(calculateAge())")
-        print("Owner's Mobile Number \(mobileNumber)")
-        print("Owner's email \(email)")
-        print("Owner's username \(userName)")
-        print("Owner's password \(password)")
-        print("Owner's Address \(companyTitle)")
-        print("Owner's City \(businessLandLineNumber)")
-        print("Owner's Salary \(website)")
-        print("Owner's Vehicle List Owned \(vehicleListOwned)")
+        print("Owner's Mobile Number \(self.mobileNumber)")
+        print("Owner's email \(self.email)")
+        print("Owner's username \(self.userName)")
+        print("Owner's password \(self.password)")
+        print("Owner's Address \(self.companyTitle)")
+        print("Owner's City \(self.businessLandLineNumber)")
+        print("Owner's Salary \(self.website)")
+        print("Owner's Vehicle List Owned \(self.vehicleListOwned)")
     }
 }
