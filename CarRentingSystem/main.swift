@@ -25,6 +25,9 @@ var b1 = Bus(identificationNumber: "B01", description: "JBL enabled", isSelfDriv
 
 var b2 = Bus(identificationNumber: "B02", description: "Customer-focused bifurcated group ware", isSelfDrive: false, manufacturerName: "Mercedes", isInsured: true, vehicleNoOfSeats: 24, insuranceProviderName: "TruSheild", seat: 24, fuelType: "Diesel", ratePerDay: 3.10, ratePerKm: 2, busType: "Double Decker", iswifiAvailable: true, isAccessibiltyServiceAvailable: true)
 
+var b3 = Bus(identificationNumber: "B03", description: "Focused actuating help-desk", isSelfDrive: false, manufacturerName: "Benz", isInsured: true, vehicleNoOfSeats: 18, insuranceProviderName:"Peter", seat: 18, fuelType: "Diesel", ratePerDay: 15, ratePerKm: 23, busType: "diesel", iswifiAvailable: false, isAccessibiltyServiceAvailable: true)
+/*var b4 = Bus(identificationNumber: <#T##String#>, description: <#T##String#>, isSelfDrive: <#T##Bool#>, manufacturerName: <#T##String#>, isInsured: <#T##Bool#>, vehicleNoOfSeats: <#T##Int#>, insuranceProviderName: <#T##String#>, seat: <#T##Int#>, fuelType: <#T##String#>, ratePerDay: <#T##Double#>, ratePerKm: <#T##Double#>, busType: <#T##String#>, iswifiAvailable: <#T##Bool#>, isAccessibiltyServiceAvailable: <#T##Bool#>)*/
+
 var c1 = Car(identificationNumber: "C01", description: "Sedan", isSelfDrive: true, manufacturerName: "Polo", isInsured: true, vehicleNoOfSeats: 4, insuranceProviderName: "National", seat: 4, fuelType: "Petrol", ratePerDay: 10, ratePerKm: 5, carColor: "White", carType: "Sedan")
 var rent1 = VehicleRent(vehicleIdentificationNumber: "C01", rentStartDate: "2012-09-01".toDate(), rentEndDate: "2012-10-01".toDate(), noOfKmDrived: 20)
 
