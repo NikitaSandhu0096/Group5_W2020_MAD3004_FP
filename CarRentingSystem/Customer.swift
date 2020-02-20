@@ -21,6 +21,7 @@ class Customer : Person{
     
     var address : String
     var city : String
+    var vehicleListRented = [String : VehicleRent]()
     
 //    required init(id: Int, firstName: String, lastName: String, gender: Gender, birthDate: String, age: Int, mobileNumber: String, email: String, userName: String, password: String) {
 //        self.id = id
@@ -72,5 +73,6 @@ class Customer : Person{
         print("Customer's password \(password)")
         print("Customer's Address \(address)")
         print("Customer's City \(city)")
+        print("Customer's Vehicle list rented \(vehicleListRented)")
     }
 }
