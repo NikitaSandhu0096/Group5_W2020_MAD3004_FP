@@ -47,6 +47,7 @@ class Bus:Vehicle
           
     func display()
     {
+            print("*********************BUS*************************************")
              print("Bus IdentificationNumber:            \(identificationNumber)")
              print("Bus Description:                     \(description)")
              print("Bus isSelfDrive:                     \(isSelfDrive)")

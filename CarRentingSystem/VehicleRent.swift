@@ -14,6 +14,7 @@ class VehicleRent: IDisplay
 {
 
     var vehicles = [String: Vehicle]()
+    var vehicleIdentificationNumber: String
     var rentStartDate: Date
     var rentEndDate: Date
     var totalDays: Int
@@ -30,9 +31,9 @@ class VehicleRent: IDisplay
     }
     var noOfKmDrived: Double
     var totalBillToPay: Double = 0.0
-    init(rentStartDate: Date, rentEndDate: Date, noOfKmDrived: Double)
+    init(vehicleIdentificationNumber: String, rentStartDate: Date, rentEndDate: Date, noOfKmDrived: Double)
     {
-        
+        self.vehicleIdentificationNumber = vehicleIdentificationNumber
         self.rentStartDate = rentStartDate
         self.rentEndDate = rentEndDate
         self.noOfKmDrived = noOfKmDrived

@@ -62,13 +62,24 @@ class Customer : Person{
         return dateformatSet1.string(from: birthDate1!)
     }
     
-    func calculateAge() -> Int{            //https://stackoverflow.com/questions/24723431/swift-days-between-two-nsdates
+    func addVehicleRent(vehicleRent: VehicleRent, vehicleIdentificationNumber: String)
+    {
+        vehicleListRented.updateValue(vehicleRent, forKey: vehicleIdentificationNumber)
+    }
+    
+    func removeVehicleRent(vehicleIdentificationNumber: String)
+    {
+        vehicleListRented.removeValue(forKey: vehicleIdentificationNumber)
+    }
+    
+    
+    /*func calculateAge() -> Int{            //https://stackoverflow.com/questions/24723431/swift-days-between-two-nsdates
         
         let now = Date()
         let current = Calendar.current
         let numberOfYears = current.dateComponents([Calendar.Component.year], from: calculateBirthDate(string: birthDate), to: now)
         return numberOfYears.year!
-    }
+    }*/
     
      func display() {
         print("Customer's ID \(id)")
@@ -76,13 +87,21 @@ class Customer : Person{
         print("Customer's Last Name \(lastName)")
         print("Customer's gender \(gender)")
         print("Customer's Birth Date \(calculateBirthDate(string: birthDate))")
-        print("Customer's Age \(calculateAge())")
+      //  print("Customer's Age \(calculateAge())")
         print("Customer's Mobile Number \(mobileNumber)")
         print("Customer's email \(email)")
         print("Customer's username \(userName)")
         print("Customer's password \(password)")
         print("Customer's Address \(address)")
         print("Customer's City \(city)")
-        print("Customer's Vehicle list rented \(vehicleListRented)")
+        for v in vehicleListRented
+            {
+                v.value.display()
+            }
+             if vehicleListRented.count == 0
+            {
+                print("This person has no vehicles rented")
+            }
+        //print("Customer's Vehicle list rented \(vehicleListRented)")
     }
 }
