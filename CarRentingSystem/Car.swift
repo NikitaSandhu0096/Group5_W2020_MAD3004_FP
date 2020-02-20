@@ -36,6 +36,7 @@ class Car: Vehicle
     
     
      func display() {
+        print("*********************CAR*************************************")
         print("Car IdentificationNumber:        \(identificationNumber)")
         print("Car Description:                 \(description)")
         print("Car IsSelfDrive:                 \(isSelfDrive)")

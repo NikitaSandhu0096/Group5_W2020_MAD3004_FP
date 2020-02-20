@@ -61,7 +61,7 @@ class VehicleRent: IDisplay
     func display() {
         
         print("********************Vehicle Rent*******************************")
-        print("Vehicle Rent in No of Days:          \(rentInNoOfDays)")
+        //print("Vehicle Rent in No of Days:          \(rentInNoOfDays)")
         for v in vehicles
             {
                 v.value.display()
