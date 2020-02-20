@@ -37,7 +37,7 @@ var c2 = Car(identificationNumber: "C02", description: "SUV", isSelfDrive: true,
 var c3 = Car(identificationNumber: "C03", description: "Crossover", isSelfDrive: true, manufacturerName: "Nissan", isInsured: true, vehicleNoOfSeats: 7, insuranceProviderName: "Car Insaurance", seat: 5, fuelType: "Diesel", ratePerDay: 15, ratePerKm: 5, carColor: "White", carType: "CUV")
 
 
-
+var c4 = Car(identificationNumber: "C04", description: "Convertible and Crossover", isSelfDrive: true, manufacturerName: "Lamborghini", isInsured: true, vehicleNoOfSeats: 2, insuranceProviderName: "Convertible Insaurances", seat: 2, fuelType: "Diesel", ratePerDay: 30, ratePerKm: 8, carColor: "Red", carType: "Convertible")
 
 var rent1 = VehicleRent(vehicleIdentificationNumber: "C01", rentStartDate: "2012-09-01".toDate(), rentEndDate: "2012-10-01".toDate(), noOfKmDrived: 20)
 
