@@ -40,25 +40,22 @@ class Driver : Person{
         self.salary = salary
     }
     
-    func calculateBirthDate(string : String) -> String {      //https://stackoverflow.com/questions/35700281/date-format-in-swift
+    func calculateBirthDate(string : String) -> Date {      //https://stackoverflow.com/questions/35700281/date-format-in-swift
         
         let dateformatGet1 = DateFormatter()
         dateformatGet1.dateFormat = "dd/MM/yyyy"
-        
-        let dateformatSet1 = DateFormatter()
-        dateformatSet1.dateFormat = "dd/MM/yyyy"
      
         let birthDate1 : Date? = dateformatGet1.date(from: birthDate)
-        return dateformatSet1.string(from: birthDate1!)
+        return birthDate1!
     }
     
-    /*func calculateAge() -> Int{            //https://stackoverflow.com/questions/24723431/swift-days-between-two-nsdates
+    func calculateAge() -> Int{            //https://stackoverflow.com/questions/24723431/swift-days-between-two-nsdates
         
         let now = Date()
         let current = Calendar.current
         let numberOfYears = current.dateComponents([Calendar.Component.year], from: calculateBirthDate(string: birthDate), to: now)
         return numberOfYears.year!
-    }*/
+    }
     
      func display() {
         print("Driver's ID \(id)")
