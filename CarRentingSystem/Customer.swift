@@ -82,18 +82,19 @@ class Customer : Person{
     }*/
     
      func display() {
-        print("Customer's ID \(id)")
-        print("Customer's First Name \(firstName)")
-        print("Customer's Last Name \(lastName)")
-        print("Customer's gender \(gender)")
-        print("Customer's Birth Date \(calculateBirthDate(string: birthDate))")
+        print("*******************Customer***********************************")
+        print("Customer's ID:                                       \(id)")
+        print("Customer's First Name:                               \(firstName)")
+        print("Customer's Last Name:                                \(lastName)")
+        print("Customer's gender:                                   \(gender)")
+        print("Customer's Birth Date:                               \(calculateBirthDate(string:birthDate))")
       //  print("Customer's Age \(calculateAge())")
-        print("Customer's Mobile Number \(mobileNumber)")
-        print("Customer's email \(email)")
-        print("Customer's username \(userName)")
-        print("Customer's password \(password)")
-        print("Customer's Address \(address)")
-        print("Customer's City \(city)")
+        print("Customer's Mobile Number:                            \(mobileNumber)")
+        print("Customer's email:                                    \(email)")
+        print("Customer's username:                                 \(userName)")
+        print("Customer's password:                                 \(password)")
+        print("Customer's Address:                                  \(address)")
+        print("Customer's City:                                     \(city)")
         for v in vehicleListRented
             {
                 v.value.display()

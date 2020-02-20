@@ -75,7 +75,6 @@ class VehicleRent: IDisplay
                 calculateTotalBill()
         print("\t \t Total Rent to Pay : \(totalBillToPay)")
             }
-        print("***********************************************************************")
         }
         
     }
