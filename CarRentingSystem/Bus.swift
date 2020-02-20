@@ -47,11 +47,11 @@ class Bus:Vehicle
           
     func display()
     {
-             print("Bus IdentificationNumber:        \(identificationNumber)")
-             print("Bus Description:                 \(description)")
-             print("Bus isSelfDrive:                 \(isSelfDrive)")
-             print("Bus ManufacturerName:            \(manufacturerName)")
-             print("Bus isInsured                       \(isInsured)")
+             print("Bus IdentificationNumber:            \(identificationNumber)")
+             print("Bus Description:                     \(description)")
+             print("Bus isSelfDrive:                     \(isSelfDrive)")
+             print("Bus ManufacturerName:                \(manufacturerName)")
+             print("Bus isInsured                        \(isInsured)")
              print("Bus VehicleNoOfSeats:                \(vehicleNoOfSeats)")
              print("Bus InsuranceProviderName            \(insuranceProviderName)")
              print("Bus Seat                             \(seat)")

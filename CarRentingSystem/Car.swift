@@ -47,7 +47,7 @@ class Car: Vehicle
         print("Car FuelType:                    \(fuelType)")
         print("Car RatePerKm:                   \(ratePerKm)")
         print("Car ratePerDay:                  \(ratePerDay)")
-        print("Car Color:                    \(carColor)")
-        print("Car Type:                     \(carType)")
+        print("Car Color:                       \(carColor)")
+        print("Car Type:                        \(carType)")
     }
 }
