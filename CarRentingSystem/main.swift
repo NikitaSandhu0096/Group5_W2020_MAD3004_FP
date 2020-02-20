@@ -32,7 +32,9 @@ var b4 = Bus(identificationNumber: "B04", description: "Customer-focused bifurca
 var b5 = Bus(identificationNumber: "B05", description: "Customer-focused bifurcated", isSelfDrive: false, manufacturerName: "Benz", isInsured: true, vehicleNoOfSeats: 20, insuranceProviderName: "Orient", seat: 20, fuelType: "Diesel", ratePerDay: 22, ratePerKm: 5, busType: "City Transit", iswifiAvailable: true, isAccessibiltyServiceAvailable: false)
 
 var c1 = Car(identificationNumber: "C01", description: "Sedan", isSelfDrive: true, manufacturerName: "Polo", isInsured: true, vehicleNoOfSeats: 4, insuranceProviderName: "National", seat: 4, fuelType: "Petrol", ratePerDay: 10, ratePerKm: 5, carColor: "White", carType: "Sedan")
-var c2 = Car(identificationNumber: "Co2", description: "SUV", isSelfDrive: true, manufacturerName: "Mahindra", isInsured: true, vehicleNoOfSeats: 5, insuranceProviderName: "Thomas", seat: 5, fuelType: "Petrol", ratePerDay: 12, ratePerKm: 3 , carColor: "Black", carType: "HatchBack")
+var c2 = Car(identificationNumber: "C02", description: "SUV", isSelfDrive: true, manufacturerName: "Mahindra", isInsured: true, vehicleNoOfSeats: 5, insuranceProviderName: "Thomas", seat: 5, fuelType: "Petrol", ratePerDay: 12, ratePerKm: 3 , carColor: "Black", carType: "HatchBack")
+
+var c3 = Car(identificationNumber: "C03", description: "Crossover", isSelfDrive: true, manufacturerName: "Nissan", isInsured: true, vehicleNoOfSeats: 7, insuranceProviderName: "Car Insaurance", seat: 5, fuelType: "Diesel", ratePerDay: 15, ratePerKm: 5, carColor: "White", carType: "CUV")
 
 
 
