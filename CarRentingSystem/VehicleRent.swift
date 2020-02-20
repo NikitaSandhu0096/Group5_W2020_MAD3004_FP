@@ -63,7 +63,7 @@ class VehicleRent: IDisplay
         print("Vehicle Rent in No of Days:          \(rentInNoOfDays)")
         for v in vehicles
             {
-                v.value.Display()
+                v.value.display()
             }
              if vehicles.count == 0
             {

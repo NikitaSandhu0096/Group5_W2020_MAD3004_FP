@@ -45,7 +45,7 @@ class Bus : Vehicle
              
          }
           
-         func Display()
+         func display()
          {
              print("IdentificationNumber:        \(identificationNumber)")
              print("Description:                 \(description)")

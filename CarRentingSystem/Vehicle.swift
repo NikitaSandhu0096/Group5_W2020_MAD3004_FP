@@ -41,7 +41,7 @@ protocol Vehicle: IDisplay
         self.ratePerKm = ratePerKm*/
     
     
-    func Display()
+    func display()
     /*
         print("IdentificationNumber:        \(identificationNumber)")
         print("Description:                 \(description)")
