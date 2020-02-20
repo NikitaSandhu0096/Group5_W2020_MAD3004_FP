@@ -32,6 +32,8 @@ var b4 = Bus(identificationNumber: "B04", description: "Customer-focused bifurca
 var b5 = Bus(identificationNumber: "B05", description: "Customer-focused bifurcated", isSelfDrive: false, manufacturerName: "Benz", isInsured: true, vehicleNoOfSeats: 20, insuranceProviderName: "Orient", seat: 20, fuelType: "Diesel", ratePerDay: 22, ratePerKm: 5, busType: "City Transit", iswifiAvailable: true, isAccessibiltyServiceAvailable: false)
 
 var c1 = Car(identificationNumber: "C01", description: "Sedan", isSelfDrive: true, manufacturerName: "Polo", isInsured: true, vehicleNoOfSeats: 4, insuranceProviderName: "National", seat: 4, fuelType: "Petrol", ratePerDay: 10, ratePerKm: 5, carColor: "White", carType: "Sedan")
+
+
 var rent1 = VehicleRent(vehicleIdentificationNumber: "C01", rentStartDate: "2012-09-01".toDate(), rentEndDate: "2012-10-01".toDate(), noOfKmDrived: 20)
 
 var rent2 = VehicleRent(vehicleIdentificationNumber: "B01", rentStartDate: "2013-01-01".toDate(), rentEndDate: "2013-02-02".toDate(), noOfKmDrived: 200)

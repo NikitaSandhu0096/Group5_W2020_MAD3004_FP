@@ -32,17 +32,66 @@ extension String{
       }
       return date
     }
+    
     // Password Encryption
-    //https://stackoverflow.com/questions/25761344/how-to-hash-nsstring-with-sha1-in-swift
-    func encrypt() -> String {
-        let data = Data(self.utf8)
-        var digest = [UInt8](repeating: 0, count:Int(CC_SHA1_DIGEST_LENGTH))
-        data.withUnsafeBytes {
-            _ = CC_SHA1($0.baseAddress, CC_LONG(data.count), &digest)
+    //https://forums.developer.apple.com/thread/89272
+    func encrypt(key:String, iv:String, options:Int = kCCOptionPKCS7Padding) -> String? {
+        if let keyData = key.data(using: String.Encoding.utf8),
+            let data = self.data(using: String.Encoding.utf8),
+            let cryptData    = NSMutableData(length: Int((data.count)) + kCCBlockSizeAES128) {
+            let keyLength              = size_t(kCCKeySizeAES128)
+            let operation: CCOperation = UInt32(kCCEncrypt)
+            let algoritm:  CCAlgorithm = UInt32(kCCAlgorithmAES128)
+            let options:   CCOptions   = UInt32(options)
+            var numBytesEncrypted :size_t = 0
+            let cryptStatus = CCCrypt(operation,
+                                      algoritm,
+                                      options,
+                                      (keyData as NSData).bytes, keyLength,
+                                      iv,
+                                      (data as NSData).bytes, data.count,
+                                      cryptData.mutableBytes, cryptData.length,
+                                      &numBytesEncrypted)
+            if UInt32(cryptStatus) == UInt32(kCCSuccess) {
+                cryptData.length = Int(numBytesEncrypted)
+                let base64cryptString = cryptData.base64EncodedString(options: .lineLength64Characters)
+                return base64cryptString
+            }
+            else {
+                return nil
+            }
         }
-        let hexBytes = digest.map { String(format: "%02hhx", $0) }
-        return hexBytes.joined()
+        return nil
     }
+    // Password Decryption
+    /*func decrypt(key:String, iv:String, options:Int = kCCOptionPKCS7Padding) -> String? {
+        if let keyData = key.data(using: String.Encoding.utf8),
+            let data = NSData(base64Encoded: self, options: .ignoreUnknownCharacters),
+            let cryptData    = NSMutableData(length: Int((data.length)) + kCCBlockSizeAES128) {
+            let keyLength              = size_t(kCCKeySizeAES128)
+            let operation: CCOperation = UInt32(kCCDecrypt)
+            let algoritm:  CCAlgorithm = UInt32(kCCAlgorithmAES128)
+            let options:   CCOptions   = UInt32(options)
+            var numBytesEncrypted :size_t = 0
+            let cryptStatus = CCCrypt(operation,
+                                      algoritm,
+                                      options,
+                                      (keyData as NSData).bytes, keyLength,
+                                      iv,
+                                      data.bytes, data.length,
+                                      cryptData.mutableBytes, cryptData.length,
+                                      &numBytesEncrypted)
+            if UInt32(cryptStatus) == UInt32(kCCSuccess) {
+                cryptData.length = Int(numBytesEncrypted)
+                let unencryptedMessage = String(data: cryptData as Data, encoding:String.Encoding.utf8)
+                return unencryptedMessage
+            }
+            else {
+                return nil
+            }
+        }
+        return nil
+    }*/
 }
 
 extension Double
