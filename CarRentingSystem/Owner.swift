@@ -23,9 +23,9 @@ class Owner : Person{
     var companyTitle : String
     var businessLandLineNumber : String
     var website : String
-    var vehicleListOwned : String
+    var vehicleListOwned = [String : Vehicle]()
     
-    init(id: Int, firstName: String, lastName: String, gender: Gender, birthDate: String, age: Int, mobileNumber: String, email: String, userName: String, password: String, companyTitle : String, businessLandLineNumber : String, website : String, vehicleListOwned : String) {
+    init(id: Int, firstName: String, lastName: String, gender: Gender, birthDate: String, age: Int, mobileNumber: String, email: String, userName: String, password: String, companyTitle : String, businessLandLineNumber : String, website : String) {
         self.id = id
         self.firstName = firstName
         self.lastName = lastName
@@ -39,7 +39,6 @@ class Owner : Person{
         self.companyTitle = companyTitle
         self.businessLandLineNumber = businessLandLineNumber
         self.website = website
-        self.vehicleListOwned = vehicleListOwned
     }
     
     func calculatebirthDate(string : String) -> Date {      //https://stackoverflow.com/questions/35700281/date-format-in-swift
