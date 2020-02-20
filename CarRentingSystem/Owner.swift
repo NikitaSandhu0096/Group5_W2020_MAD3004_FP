@@ -41,13 +41,16 @@ class Owner : Person{
         self.website = website
     }
     
-    func calculatebirthDate(string : String) -> Date {      //https://stackoverflow.com/questions/35700281/date-format-in-swift
+    func calculateBirthDate(string : String) -> String {      //https://stackoverflow.com/questions/35700281/date-format-in-swift
         
         let dateformatGet1 = DateFormatter()
         dateformatGet1.dateFormat = "dd/MM/yyyy"
+        
+        let dateformatSet1 = DateFormatter()
+        dateformatSet1.dateFormat = "dd/MM/yyyy"
      
         let birthDate1 : Date? = dateformatGet1.date(from: birthDate)
-        return birthDate1!
+        return dateformatSet1.string(from: birthDate1!)
     }
     
     func calculateAge() -> Int{            //https://stackoverflow.com/questions/24723431/swift-days-between-two-nsdates
@@ -64,7 +67,7 @@ class Owner : Person{
         print("Owner's First Name \(firstName)")
         print("Owner's Last Name \(lastName)")
         print("Owner's gender \(gender)")
-        print("Owner's Birth Date \(calculatebirthDate(string: birthDate))")
+        print("Owner's Birth Date \(calculateBirthDate(string: birthDate))")
         print("Owner's Age \(calculateAge())")
         print("Owner's Mobile Number \(mobileNumber)")
         print("Owner's email \(email)")
