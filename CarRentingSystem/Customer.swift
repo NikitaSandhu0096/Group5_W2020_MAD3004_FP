@@ -24,19 +24,6 @@ class Customer : Person{
     var vehicleListRented = [String : VehicleRent]()
     var totalRent: Double = 0.0
     
-//    required init(id: Int, firstName: String, lastName: String, gender: Gender, birthDate: String, age: Int, mobileNumber: String, email: String, userName: String, password: String) {
-//        self.id = id
-//        self.firstName = firstName
-//        self.lastName = lastName
-//        self.gender = gender
-//        self.birthDate = birthDate
-//        self.age = age
-//        self.mobileNumber = mobileNumber
-//        self.email = email
-//        self.userName = userName
-//        self.password = password
-//    }
-    
     init(id: Int, firstName: String, lastName: String, gender: Gender, birthDate: String, mobileNumber: String, email: String, userName: String, password: String, address : String, city : String) {
         self.id = id
         self.firstName = firstName
@@ -86,26 +73,24 @@ class Customer : Person{
     
     func display() {
     print("*******************Customer*************************")
-        print("Customer's ID:                                       \(self.id)")
-        print("Customer's First Name:                               \(self.firstName)")
-        print("Customer's Last Name:                                \(self.lastName)")
-        print("Customer's gender:                                   \(self.gender)")
-        print("Customer's Birth Date:                               \(self.birthDate)")
-        print("Customer's Age \(calculateAge())")
-        print("Customer's Mobile Number:                            \(self.mobileNumber)")
-        print("Customer's email:                                    \(self.email)")
-        print("Customer's username:                                 \(self.userName)")
-        print("Customer's password:                                 \(self.password)")
-        print("Customer's Address:                                  \(self.address)")
-        print("Customer's City:                                     \(city)")
-        for v in vehicleListRented
-            {
-                v.value.display()
-            }
-             if vehicleListRented.count == 0
-            {
-                print("This person has no vehicles rented")
-            }
+        print("Customer's ID : \(self.id)")
+        print("Customer's First Name : \(self.firstName)")
+        print("Customer's Last Name : \(self.lastName)")
+        print("Customer's gender : \(self.gender)")
+        print("Customer's Birth Date : \(self.birthDate)")
+        print("Customer's Age : \(calculateAge())")
+        print("Customer's Mobile Number : \(self.mobileNumber)")
+        print("Customer's email : \(self.email)")
+        print("Customer's username : \(self.userName)")
+        print("Customer's password : \(self.password)")
+        print("Customer's Address : \(self.address)")
+        print("Customer's City : \(city)")
+        for v in vehicleListRented{
+            v.value.display()
+        }
+        if vehicleListRented.count == 0{
+            print("This person didn't rent any vehicle")
+        }
         else
         {
             calculateTotalBill()
