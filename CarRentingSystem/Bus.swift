@@ -8,27 +8,26 @@
 
 import Foundation
 
-class Bus : Vehicle
-     {
-          
-         var identificationNumber: String
-         var description: String
-         var isSelfDrive: Bool
-         var manufacturerName: String
-         var isInsured: Bool
-         var vehicleNoOfSeats: Int
-         var insuranceProviderName: String
-         var seat: Int
-         var fuelType: String
-         var ratePerDay: Double
-         var ratePerKm: Double
+class Bus:Vehicle
+{
+    var identificationNumber: String
+    var description: String
+    var isSelfDrive: Bool
+    var manufacturerName: String
+    var isInsured: Bool
+    var vehicleNoOfSeats: Int
+    var insuranceProviderName: String
+    var seat: Int
+    var fuelType: String
+    var ratePerDay: Double
+    var ratePerKm: Double
     
-         var busType: String
-         var iswifiAvailable: Bool
-         var isAccessibiltyServiceAvailable: Bool
+    var busType: String
+    var iswifiAvailable: Bool
+    var isAccessibiltyServiceAvailable: Bool
            
-         init(identificationNumber: String, description: String, isSelfDrive: Bool, manufacturerName: String, isInsured: Bool, vehicleNoOfSeats: Int, insuranceProviderName: String, seat: Int, fuelType: String, ratePerDay: Double, ratePerKm: Double, busType : String , iswifiAvailable : Bool, isAccessibiltyServiceAvailable: Bool)
-         {
+    init(identificationNumber: String, description: String, isSelfDrive: Bool, manufacturerName: String, isInsured: Bool, vehicleNoOfSeats: Int, insuranceProviderName: String, seat: Int, fuelType: String, ratePerDay: Double, ratePerKm: Double, busType : String , iswifiAvailable : Bool, isAccessibiltyServiceAvailable: Bool)
+    {
              self.identificationNumber = identificationNumber
              self.description = description
              self.isSelfDrive = isSelfDrive
@@ -44,10 +43,10 @@ class Bus : Vehicle
              self.iswifiAvailable = iswifiAvailable
              self.isAccessibiltyServiceAvailable = isAccessibiltyServiceAvailable
              
-         }
+    }
           
-         func display()
-         {
+    func display()
+    {
              print("IdentificationNumber:        \(identificationNumber)")
              print("Description:                 \(description)")
              print("isSelfDrive:                 \(isSelfDrive)")
@@ -59,7 +58,5 @@ class Bus : Vehicle
              print("FuelType:                        \(fuelType)")
              print("RatePerDay:                      \(ratePerDay)")
              print("ratePerKm:                       \(ratePerKm)")
-        }
+    }
 }
-
-
