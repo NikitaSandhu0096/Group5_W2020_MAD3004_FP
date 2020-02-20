@@ -21,6 +21,7 @@ class Bus:Vehicle
     var fuelType: String
     var ratePerDay: Double
     var ratePerKm: Double
+    var driver = [String: Driver]()
     
     var busType: String
     var iswifiAvailable: Bool
@@ -43,6 +44,16 @@ class Bus:Vehicle
              self.iswifiAvailable = iswifiAvailable
              self.isAccessibiltyServiceAvailable = isAccessibiltyServiceAvailable
              
+    }
+    
+    func addDriver(drivers: Driver, driverId: String)
+    {
+        driver.updateValue(drivers, forKey: driverId)
+    }
+    
+    func removeDriver(driverId: String)
+    {
+        driver.removeValue(forKey: driverId)
     }
           
     func display()
