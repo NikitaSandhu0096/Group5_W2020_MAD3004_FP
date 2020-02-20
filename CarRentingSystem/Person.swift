@@ -26,8 +26,6 @@ protocol Person : IDisplay
     var email : String { get set }
     var userName : String { get set }
     var password : String { get set }
-    
-//    init(id : Int,firstName : String,lastName : String,gender : Gender, birthDate: String, age : Int, mobileNumber : String, email : String, userName :String, password : String)
-    
+
     func display()
 }
