@@ -14,6 +14,8 @@ var customer1 = Customer(id: 1, firstName: "Nikita", lastName: "Sandhu", gender:
 
 var customer2 = Customer(id: 2, firstName: "kamalpreet", lastName: "kaur", gender: .Female, birthDate: "20/02/1998", mobileNumber: "4561589875", email: "kamalpreet34@gmail.com", userName: "kamalkaur", password: "kaur98".encrypt(), address: "Speedwell Street", city: "Brampton")
 
+var customer3 = Customer(id: 3, firstName: "Jyoti", lastName: "Thomas", gender: .Male, birthDate: "5/09/1990", mobileNumber: "4574359876", email: "jyotit123@gmail.com", userName: "jyotithomas", password: "thomas12".encrypt(), address: "Shepherd Ave", city: "Scorbrough")
+
 
 var b1 = Bus(identificationNumber: "B01", description: "JBL enabled", isSelfDrive: false, manufacturerName: "Benz", isInsured: true, vehicleNoOfSeats: 20, insuranceProviderName: "Orient", seat: 20, fuelType: "Diesel", ratePerDay: 20, ratePerKm: 20, busType: "Volvo", iswifiAvailable: true, isAccessibiltyServiceAvailable: true)
 
