@@ -40,39 +40,36 @@ class Driver : Person{
         self.salary = salary
     }
     
-    func calculateBirthDate(string : String) -> String {      //https://stackoverflow.com/questions/35700281/date-format-in-swift
+    func calculateBirthDate(string : String) -> Date {      //https://stackoverflow.com/questions/35700281/date-format-in-swift
         
         let dateformatGet1 = DateFormatter()
         dateformatGet1.dateFormat = "dd/MM/yyyy"
-        
-        let dateformatSet1 = DateFormatter()
-        dateformatSet1.dateFormat = "dd/MM/yyyy"
      
         let birthDate1 : Date? = dateformatGet1.date(from: birthDate)
-        return dateformatSet1.string(from: birthDate1!)
+        return birthDate1!
     }
     
-    /*func calculateAge() -> Int{            //https://stackoverflow.com/questions/24723431/swift-days-between-two-nsdates
+    func calculateAge() -> Int{            //https://stackoverflow.com/questions/24723431/swift-days-between-two-nsdates
         
         let now = Date()
         let current = Calendar.current
         let numberOfYears = current.dateComponents([Calendar.Component.year], from: calculateBirthDate(string: birthDate), to: now)
         return numberOfYears.year!
-    }*/
+    }
     
      func display() {
-        print("Driver's ID \(id)")
-        print("Driver's First Name \(firstName)")
-        print("Driver's Last Name \(lastName)")
-        print("Driver's gender \(gender)")
-        print("Driver's Birth Date \(calculateBirthDate(string: birthDate))")
-        //print("Driver's Age \(calculateAge())")
-        print("Driver's Mobile Number \(mobileNumber)")
-        print("Driver's email \(email)")
-        print("Driver's username \(userName)")
-        print("Driver's password \(password)")
-        print("Driver's Address \(drivingLicenseNumber)")
-        print("Driver's City \(isDrivingHistoryCleared)")
-        print("Driver's Salary \(salary)")
+        print("Driver's ID \(self.id)")
+        print("Driver's First Name \(self.firstName)")
+        print("Driver's Last Name \(self.lastName)")
+        print("Driver's gender \(self.gender)")
+        print("Driver's Birth Date \(self.birthDate)")
+        print("Driver's Age \(calculateAge())")
+        print("Driver's Mobile Number \(self.mobileNumber)")
+        print("Driver's email \(self.email)")
+        print("Driver's username \(self.userName)")
+        print("Driver's password \(self.password)")
+        print("Driver's Address \(self.drivingLicenseNumber)")
+        print("Driver's City \(self.isDrivingHistoryCleared)")
+        print("Driver's Salary \(self.salary)")
     }
 }
