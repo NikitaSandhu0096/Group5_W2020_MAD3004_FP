@@ -57,7 +57,7 @@ class Owner : Person{
         print("Owner's Last Name \(lastName)")
         print("Owner's gender \(gender)")
         print("Owner's Birth Date \(calculatebirthDate(string: birthDate))")
-        print("v's Age \(age)")
+        print("Owner's Age \(age)")
         print("Owner's Mobile Number \(mobileNumber)")
         print("Owner's email \(email)")
         print("Owner's username \(userName)")

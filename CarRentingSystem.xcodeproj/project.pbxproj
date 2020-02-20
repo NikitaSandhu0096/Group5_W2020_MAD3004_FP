@@ -87,10 +87,10 @@
 				EEAFCAB223FDF1EE00EEF4CC /* Owner.swift */,
 				9B81438623F4BD8A0052E04F /* Vehicle.swift */,
 				9B81438A23F4C6F00052E04F /* Bus.swift */,
-				EEAFCAAE23FDD4C800EEF4CC /* Extensions.swift */,
-				9B275FB423FDE5DA0070B398 /* VehicleRent.swift */,
 				9B275FB623FDE9A30070B398 /* Car.swift */,
 				9B37ADD923FDF1A400985B65 /* MotorCycle.swift */,
+				EEAFCAAE23FDD4C800EEF4CC /* Extensions.swift */,
+				9B275FB423FDE5DA0070B398 /* VehicleRent.swift */,
 			);
 			path = CarRentingSystem;
 			sourceTree = "<group>";
