@@ -47,5 +47,8 @@ customer1.addVehicleRent(vehicleRent: rent2, vehicleIdentificationNumber: rent2.
 
 customer1.display()
 
+// Decrypt the password
+//print("EbMlRxcUH9TGJ3SxiEVzLA==".decrypt(key: "encrypt", iv: "encrypt") ?? "encrypt")
+
 
 
