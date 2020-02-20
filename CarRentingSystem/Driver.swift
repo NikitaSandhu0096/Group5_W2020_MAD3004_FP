@@ -58,18 +58,18 @@ class Driver : Person{
     }
     
      func display() {
-        print("Driver's ID \(id)")
-        print("Driver's First Name \(firstName)")
-        print("Driver's Last Name \(lastName)")
-        print("Driver's gender \(gender)")
-        print("Driver's Birth Date \(birthDate)")
+        print("Driver's ID \(self.id)")
+        print("Driver's First Name \(self.firstName)")
+        print("Driver's Last Name \(self.lastName)")
+        print("Driver's gender \(self.gender)")
+        print("Driver's Birth Date \(self.birthDate)")
         print("Driver's Age \(calculateAge())")
-        print("Driver's Mobile Number \(mobileNumber)")
-        print("Driver's email \(email)")
-        print("Driver's username \(userName)")
-        print("Driver's password \(password)")
-        print("Driver's Address \(drivingLicenseNumber)")
-        print("Driver's City \(isDrivingHistoryCleared)")
-        print("Driver's Salary \(salary)")
+        print("Driver's Mobile Number \(self.mobileNumber)")
+        print("Driver's email \(self.email)")
+        print("Driver's username \(self.userName)")
+        print("Driver's password \(self.password)")
+        print("Driver's Address \(self.drivingLicenseNumber)")
+        print("Driver's City \(self.isDrivingHistoryCleared)")
+        print("Driver's Salary \(self.salary)")
     }
 }
