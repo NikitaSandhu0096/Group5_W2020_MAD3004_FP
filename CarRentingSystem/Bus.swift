@@ -21,7 +21,7 @@ class Bus:Vehicle
     var fuelType: String
     var ratePerDay: Double
     var ratePerKm: Double
-    var driver = [String: Driver]()
+    var driver = [Int: Driver]()
     
     var busType: String
     var iswifiAvailable: Bool
@@ -46,12 +46,12 @@ class Bus:Vehicle
              
     }
     
-    func addDriver(drivers: Driver, driverId: String)
+    func addDriver(drivers: Driver, driverId: Int)
     {
         driver.updateValue(drivers, forKey: driverId)
     }
     
-    func removeDriver(driverId: String)
+    func removeDriver(driverId: Int)
     {
         driver.removeValue(forKey: driverId)
     }
