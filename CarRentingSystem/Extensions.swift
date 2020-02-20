@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import CommonCrypto
+import CryptoKit
 
 extension String{
     func emailValid() -> Bool{      //https://stackoverflow.com/questions/27998409/email-phone-validation-in-swift
@@ -29,6 +31,17 @@ extension String{
         preconditionFailure("not valid date")
       }
       return date
+    }
+    // Password Encryption
+    //https://stackoverflow.com/questions/25761344/how-to-hash-nsstring-with-sha1-in-swift
+    func encrypt() -> String {
+        let data = Data(self.utf8)
+        var digest = [UInt8](repeating: 0, count:Int(CC_SHA1_DIGEST_LENGTH))
+        data.withUnsafeBytes {
+            _ = CC_SHA1($0.baseAddress, CC_LONG(data.count), &digest)
+        }
+        let hexBytes = digest.map { String(format: "%02hhx", $0) }
+        return hexBytes.joined()
     }
 }
 
