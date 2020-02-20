@@ -58,6 +58,15 @@ class Owner : Person{
         return numberOfYears.year!
     }
     
+    func addVehicleOwned(vehicleOwned: Vehicle, vehicleIdentificationNumber: String)
+    {
+        vehicleListOwned.updateValue(vehicleOwned, forKey: vehicleIdentificationNumber)
+    }
+    
+    func removeVehicleRent(vehicleIdentificationNumber: String)
+    {
+        vehicleListOwned.removeValue(forKey: vehicleIdentificationNumber)
+    }
     
      func display() {
         print("Owner's ID : \(self.id)")
