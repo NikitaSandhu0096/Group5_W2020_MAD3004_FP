@@ -22,6 +22,7 @@ class Customer : Person{
     var address : String
     var city : String
     var vehicleListRented = [String : VehicleRent]()
+    var totalRent: Double = 0.0
     
 //    required init(id: Int, firstName: String, lastName: String, gender: Gender, birthDate: String, age: Int, mobileNumber: String, email: String, userName: String, password: String) {
 //        self.id = id
@@ -71,7 +72,11 @@ class Customer : Person{
     {
         vehicleListRented.removeValue(forKey: vehicleIdentificationNumber)
     }
-    
+    func calculateTotalBill() {
+        for i in vehicleListRented {
+            totalRent = totalRent + i.value.totalBillToPay
+        }
+    }
     
     /*func calculateAge() -> Int{            //https://stackoverflow.com/questions/24723431/swift-days-between-two-nsdates
         
@@ -103,6 +108,10 @@ class Customer : Person{
             {
                 print("This person has no vehicles rented")
             }
-        //print("Customer's Vehicle list rented \(vehicleListRented)")
+        else
+        {
+            calculateTotalBill()
+            print("\t \t Total Vehicle Rent to Pay : \(totalRent.currency())")
+        }
     }
 }

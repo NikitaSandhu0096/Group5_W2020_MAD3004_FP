@@ -73,7 +73,7 @@ class VehicleRent: IDisplay
             else
             {
                 calculateTotalBill()
-        print("\t \t Total Rent to Pay : \(totalBillToPay)")
+        print("\t \t Rent to Pay : \(totalBillToPay)")
             }
         }
         
