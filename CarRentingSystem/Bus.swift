@@ -47,16 +47,16 @@ class Bus:Vehicle
           
     func display()
     {
-             print("IdentificationNumber:        \(identificationNumber)")
-             print("Description:                 \(description)")
-             print("isSelfDrive:                 \(isSelfDrive)")
-             print("ManufacturerName:            \(manufacturerName)")
-             print("isInsured                       \(isInsured)")
-             print("VehicleNoOfSeats:                \(vehicleNoOfSeats)")
-             print("InsuranceProviderName            \(insuranceProviderName)")
-             print("Seat                             \(seat)")
-             print("FuelType:                        \(fuelType)")
-             print("RatePerDay:                      \(ratePerDay)")
-             print("ratePerKm:                       \(ratePerKm)")
+             print("Bus IdentificationNumber:            \(identificationNumber)")
+             print("Bus Description:                     \(description)")
+             print("Bus isSelfDrive:                     \(isSelfDrive)")
+             print("Bus ManufacturerName:                \(manufacturerName)")
+             print("Bus isInsured                        \(isInsured)")
+             print("Bus VehicleNoOfSeats:                \(vehicleNoOfSeats)")
+             print("Bus InsuranceProviderName            \(insuranceProviderName)")
+             print("Bus Seat                             \(seat)")
+             print("Bus FuelType:                        \(fuelType)")
+             print("Bus RatePerDay:                      \(ratePerDay)")
+             print("Bus ratePerKm:                       \(ratePerKm)")
     }
 }

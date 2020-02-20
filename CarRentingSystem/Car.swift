@@ -36,18 +36,18 @@ class Car: Vehicle
     
     
      func display() {
-        print("IdentificationNumber:        \(identificationNumber)")
-        print("Description:                 \(description)")
-        print("IsSelfDrive:                 \(isSelfDrive)")
-        print("ManufacturerName:            \(manufacturerName)")
-        print("IsInsured:                   \(isInsured)")
-        print("VehicleNoOfSeats:            \(vehicleNoOfSeats)")
-        print("InsuranceProviderName:       \(insuranceProviderName)")
-        print("Seat:                        \(seat)")
-        print("FuelType:                    \(fuelType)")
-        print("RatePerKm:                   \(ratePerKm)")
-        print("ratePerDay:                  \(ratePerDay)")
-        print("carColor:                    \(carColor)")
-        print("carType:                     \(carType)")
+        print("Car IdentificationNumber:        \(identificationNumber)")
+        print("Car Description:                 \(description)")
+        print("Car IsSelfDrive:                 \(isSelfDrive)")
+        print("Car ManufacturerName:            \(manufacturerName)")
+        print("Car IsInsured:                   \(isInsured)")
+        print("Car VehicleNoOfSeats:            \(vehicleNoOfSeats)")
+        print("Car InsuranceProviderName:       \(insuranceProviderName)")
+        print("Car Seat:                        \(seat)")
+        print("Car FuelType:                    \(fuelType)")
+        print("Car RatePerKm:                   \(ratePerKm)")
+        print("Car ratePerDay:                  \(ratePerDay)")
+        print("Car Color:                       \(carColor)")
+        print("Car Type:                        \(carType)")
     }
 }
