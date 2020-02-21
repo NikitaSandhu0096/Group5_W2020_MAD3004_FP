@@ -70,8 +70,18 @@ class Bus:Vehicle
             print("Bus FuelType:                        \(fuelType)")
             print("Bus RatePerDay:                      \(ratePerDay.currency())")
             print("Bus ratePerKm:                       \(ratePerKm.currency())")
-            for d in driver{
-                d.value.display()
+            
+        if  driver.count == 0
+        {
+            print("This vehicle doesnot have a driver")
+        }
+        else
+        {
+               for d in driver
+               {
+                    d.value.display()
+                  print("-------------------------------------")
             }
+        }
     }
 }
