@@ -30,7 +30,6 @@ class Driver : Person{
         self.lastName = lastName
         self.gender = gender
         self.birthDate = birthDate
-        //self.age = self.calculateAge()
         self.mobileNumber = mobileNumber
         self.email = email
         self.userName = userName
