@@ -97,6 +97,22 @@ var owner5 = Owner(id: 5, firstName: "Charmi", lastName: "Patel", gender: .Femal
 
 
 owner1.addVehicleOwned(vehicleOwned: c1, vehicleIdentificationNumber: c1.identificationNumber)
+owner1.addVehicleOwned(vehicleOwned: b1, vehicleIdentificationNumber: b1.identificationNumber)
+owner1.addVehicleOwned(vehicleOwned: c2, vehicleIdentificationNumber: c2.identificationNumber)
+
+owner2.addVehicleOwned(vehicleOwned: mc1, vehicleIdentificationNumber: mc1.identificationNumber)
+owner2.addVehicleOwned(vehicleOwned: b2, vehicleIdentificationNumber: b2.identificationNumber)
+owner2.addVehicleOwned(vehicleOwned: c3, vehicleIdentificationNumber: c3.identificationNumber)
+
+owner3.addVehicleOwned(vehicleOwned: c4, vehicleIdentificationNumber: c4.identificationNumber)
+owner3.addVehicleOwned(vehicleOwned: c5, vehicleIdentificationNumber: c5.identificationNumber)
+
+owner4.addVehicleOwned(vehicleOwned: b3, vehicleIdentificationNumber: b3.identificationNumber)
+owner4.addVehicleOwned(vehicleOwned: b4, vehicleIdentificationNumber: b4.identificationNumber)
+owner4.addVehicleOwned(vehicleOwned: b5, vehicleIdentificationNumber: b5.identificationNumber)
+
+
+
 
 owner1.display()
 
