@@ -57,6 +57,7 @@ class Driver : Person{
     }
     
      func display() {
+        print("------DRIVER------")
         print("Driver's ID : \(self.id)")
         print("Driver's First Name : \(self.firstName)")
         print("Driver's Last Name : \(self.lastName)")
@@ -67,8 +68,8 @@ class Driver : Person{
         print("Driver's email : \(self.email)")
         print("Driver's username : \(self.userName)")
         print("Driver's password : \(self.password)")
-        print("Driver's Address : \(self.drivingLicenseNumber)")
-        print("Driver's City : \(self.isDrivingHistoryCleared)")
+        print("Driver's Driving License Number : \(self.drivingLicenseNumber)")
+        print("Driver's Driving History Cleared : \(self.isDrivingHistoryCleared)")
         print("Driver's Salary : \(self.salary)")
     }
 }

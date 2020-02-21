@@ -12,12 +12,16 @@ import Foundation
 
 class VehicleRent: IDisplay
 {
-
-    var vehicles = [String: Vehicle]()
-    var vehicleIdentificationNumber: String
     var rentStartDate: Date
     var rentEndDate: Date
     var totalDays: Int
+    var vehicles = [String: Vehicle]()
+    var numberOfKmDriver : Int
+    var totalBillToPay : Float = 0.0
+//    var vehicleIdentificationNumber: String
+    
+    
+    
     {
         var diffInDays = 0
         diffInDays = Calendar.current.dateComponents([.day], from: rentStartDate, to: rentEndDate).day ?? 0         //https://stackoverflow.com/questions/40075850/swift-3-find-number-of-calendar-days-between-two-dates
