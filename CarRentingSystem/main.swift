@@ -120,3 +120,6 @@ owner5.addVehicleOwned(vehicleOwned: mc5, vehicleIdentificationNumber: mc5.ident
 
 
 owner1.display()
+
+customer1.addVehicleRent(vehicleRent: rent1, vehicleRentID: rent1.vehicleRentID)
+customer1.display()
