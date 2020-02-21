@@ -111,6 +111,11 @@ owner4.addVehicleOwned(vehicleOwned: b3, vehicleIdentificationNumber: b3.identif
 owner4.addVehicleOwned(vehicleOwned: b4, vehicleIdentificationNumber: b4.identificationNumber)
 owner4.addVehicleOwned(vehicleOwned: b5, vehicleIdentificationNumber: b5.identificationNumber)
 
+owner5.addVehicleOwned(vehicleOwned: mc2, vehicleIdentificationNumber: mc2.identificationNumber)
+owner5.addVehicleOwned(vehicleOwned: mc3, vehicleIdentificationNumber: mc3.identificationNumber)
+owner5.addVehicleOwned(vehicleOwned: mc4, vehicleIdentificationNumber: mc4.identificationNumber)
+owner5.addVehicleOwned(vehicleOwned: mc5, vehicleIdentificationNumber: mc5.identificationNumber)
+
 
 
 
