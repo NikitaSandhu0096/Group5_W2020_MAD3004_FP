@@ -23,7 +23,7 @@ class Owner : Person{
     var companyTitle : String
     var businessLandLineNumber : String
     var website : String
-    var vehicleListOwned = [String : Vehicle]()
+    private lazy var vehicleListOwned = [String : Vehicle]()
     
     init(id: Int, firstName: String, lastName: String, gender: Gender, birthDate: String, age: Int, mobileNumber: String, email: String, userName: String, password: String, companyTitle : String, businessLandLineNumber : String, website : String) {
         self.id = id
@@ -79,9 +79,16 @@ class Owner : Person{
         print("Owner's email : \(self.email)")
         print("Owner's username : \(self.userName)")
         print("Owner's password : \(self.password)")
-        print("Owner's Address : \(self.companyTitle)")
-        print("Owner's City : \(self.businessLandLineNumber)")
-        print("Owner's Salary : \(self.website)")
-        print("Owner's Vehicle List Owned : \(self.vehicleListOwned)")
+        print("Owner's Company Title : \(self.companyTitle)")
+        print("Owner's Business Landline Number : \(self.businessLandLineNumber)")
+        print("Owner's Website : \(self.website)")
+//        print("Owner's Vehicle List Owned : \(self.vehicleListOwned)")
+        for i in vehicleListOwned{
+            i.value.display()
+            print("------------------------------------")
+        }
+        if vehicleListOwned.count == 0{
+            print("No vehilce owned by this owner")
+        }
     }
 }

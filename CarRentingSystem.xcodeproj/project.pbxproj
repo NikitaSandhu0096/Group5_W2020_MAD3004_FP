@@ -81,6 +81,7 @@
 			children = (
 				9B34691323F4B28100DFE5DD /* main.swift */,
 				9B34691A23F4B29800DFE5DD /* IDisplay.swift */,
+				EEAFCAAE23FDD4C800EEF4CC /* Extensions.swift */,
 				9BB6162523F4B55500BDF2B8 /* Person.swift */,
 				9B34691E23F4BA3000DFE5DD /* Customer.swift */,
 				EEAFCAB023FDEFF400EEF4CC /* Driver.swift */,
@@ -89,7 +90,6 @@
 				9B81438A23F4C6F00052E04F /* Bus.swift */,
 				9B275FB623FDE9A30070B398 /* Car.swift */,
 				9B37ADD923FDF1A400985B65 /* MotorCycle.swift */,
-				EEAFCAAE23FDD4C800EEF4CC /* Extensions.swift */,
 				9B275FB423FDE5DA0070B398 /* VehicleRent.swift */,
 			);
 			path = CarRentingSystem;
