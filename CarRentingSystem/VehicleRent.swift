@@ -12,8 +12,9 @@ import Foundation
 
 class VehicleRent: IDisplay
 {
-    var rentStartDate: String
-    var rentEndDate: String
+    var vehicleRentID : Int
+    var rentStartDate : String
+    var rentEndDate : String
     var rentInNumberOfDays : Float = 0.0
     var vehicles = [String: Vehicle]()
     var numberOfKmDrived : Int
@@ -21,7 +22,8 @@ class VehicleRent: IDisplay
     var totalBillToPay : Float = 0.0
 //    var vehicleIdentificationNumber: String
     
-    init(rentStartDate : String, rentEndDate : String, numberOfKmDrived : Int) {
+    init(vehicleRentID : Int, rentStartDate : String, rentEndDate : String, numberOfKmDrived : Int) {
+        self.vehicleRentID = vehicleRentID
         self.rentStartDate = rentStartDate
         self.rentEndDate = rentEndDate
         self.numberOfKmDrived = numberOfKmDrived

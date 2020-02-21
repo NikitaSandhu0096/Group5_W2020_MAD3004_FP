@@ -57,13 +57,16 @@ var mc5 = MotorCycle(identificationNumber: "MC05", description: "Classic", manuf
 
 
 
-var rent1 = VehicleRent(rentStartDate: "01/01/20", rentEndDate: "06/01/20", numberOfKmDrived: 50)
-
-//var rent2 = VehicleRent(vehicleIdentificationNumber: "B01", rentStartDate: "2013-01-01".toDate(), rentEndDate: "2013-02-02".toDate(), noOfKmDrived: 200)
+var rent1 = VehicleRent(vehicleRentID: 1, rentStartDate: "01/01/20", rentEndDate: "06/01/20", numberOfKmDrived: 20)
 
 rent1.addVehicle(vehicle: b1, identificationNumber: b1.identificationNumber)
-rent1.addVehicle(vehicle: c1, identificationNumber: c1.identificationNumber)
 rent1.display()
+
+var rent2 = VehicleRent(vehicleRentID: 2, rentStartDate: "05/02/19", rentEndDate: "10/02/19", numberOfKmDrived: 40)
+
+rent2.addVehicle(vehicle: c1, identificationNumber: c1.identificationNumber)
+rent2.display()
+
 //if(b1.isSelfDrive != true)
 //{
 //    b1.addDriver(drivers: d1, driverId: d1.id)
