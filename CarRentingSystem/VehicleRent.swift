@@ -69,7 +69,7 @@ class VehicleRent: IDisplay
     
     func rentForKm() -> Float{
         for i in vehicles{
-            rentInKm = i.value.ratePerKm * Float(numberOfKmDrived)
+            rentInKm = i.value.ratePerKm * Float(self.numberOfKmDrived)
         }
         return rentInKm
     }
@@ -81,27 +81,14 @@ class VehicleRent: IDisplay
     
     func display() {
         print("------VEHICLE RENT------")
+        for i in vehicles{
+            i.value.display()
+        }
         print("Rent Start Date : \(self.rentStartDate)")
         print("Rent End Date : \(self.rentEndDate)")
-        print("Rent in number of days : \(rentForDays())")
+        print("Rent in number of days : \(rentForDays().currency())")
         print("Number of KM Drived : \(self.numberOfKmDrived)")
-        print("Rent in number of KM : \(rentForDays())")
-        print("Total rent to pay : \(calculateTotalBill())")
-        //print("Vehicle Rent in No of Days:          \(rentInNoOfDays)")
-        for v in vehicles
-            {
-                v.value.display()
-            }
-             if vehicles.count == 0
-            {
-                print("This person has no vehicles rented")
-            }
-            else
-            {
-                calculateTotalBill()
-        print("\t \t Rent to Pay : \(totalBillToPay)")
-            }
-        }
-        
+        print("Rent in number of KM : \(rentForKm().currency())")
+        print("Total rent to pay : \(calculateTotalBill().currency())")
     }
-
+}
