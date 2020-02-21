@@ -8,15 +8,15 @@ class Car: Vehicle
     var vehicleNoOfSeats: Int
     var insuranceProviderName: String
     var fuelType: String
-    var ratePerDay: Double
-    var ratePerKm: Double
+    var ratePerDay: Float
+    var ratePerKm: Float
     var driver = [Int: Driver]()
     
     var carColor: String
     var carType: String
     
     init(identificationNumber:String,description:String,isSelfDrive:Bool,
-         manufacturerName: String,isInsured: Bool,insuranceProviderName: String, vehicleNoOfSeats : Int,fuelType: String,ratePerDay: Double,ratePerKm: Double, carColor: String, carType: String)
+         manufacturerName: String,isInsured: Bool,insuranceProviderName: String, vehicleNoOfSeats : Int,fuelType: String,ratePerDay: Float,ratePerKm: Float, carColor: String, carType: String)
     {
         self.identificationNumber = identificationNumber
         self.description = description

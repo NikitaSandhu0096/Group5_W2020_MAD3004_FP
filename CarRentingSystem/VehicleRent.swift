@@ -49,20 +49,6 @@ class VehicleRent: IDisplay
         return numberOfDays.day!
     }
     
-    var rentInNoOfDays: Float
-    {
-        let totalRent = totalDays() * 10
-        return Float(totalRent)
-        
-    }
-    
-    func calculateTotalBill() {
-        for v in vehicles
-        {
-            totalBillToPay = Double(rentInNoOfDays) + v.value.ratePerDay
-        }
-        
-    }
     func addVehicle(vehicle: Vehicle, identificationNumber: String)
     {
         vehicles.updateValue(vehicle, forKey: identificationNumber)
@@ -73,13 +59,26 @@ class VehicleRent: IDisplay
         vehicles.removeValue(forKey: identificationNumber)
     }
     
+    func rentForDays() -> Float{
+        for i in vehicles{
+            rentInNumberOfDays = i.value.ratePerDay * Float(totalDays())
+        }
+        return rentInNumberOfDays
+    }
     
+    func calculateTotalBill() {
+        for v in vehicles
+        {
+            totalBillToPay = Double(rentInNoOfDays) + v.value.ratePerDay
+        }
+        
+    }
     
     func display() {
         print("------VEHICLE RENT------")
         print("Rent Start Date : \(self.rentStartDate)")
         print("Rent End Date : \(self.rentEndDate)")
-        print("Rent in number of days : ")
+        print("Rent in number of days : \(rentForDays())")
         //print("Vehicle Rent in No of Days:          \(rentInNoOfDays)")
         for v in vehicles
             {
