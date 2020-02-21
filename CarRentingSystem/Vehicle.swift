@@ -19,7 +19,6 @@ protocol Vehicle: IDisplay
     var  isInsured: Bool { get set }
     var  vehicleNoOfSeats: Int { get set }
     var insuranceProviderName: String { get set }
-    var seat: Int { get set }
     var fuelType: String { get set }
     var ratePerDay: Double { get set }
     var ratePerKm: Double { get set}

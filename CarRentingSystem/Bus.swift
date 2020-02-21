@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Bus:Vehicle
+class Bus  : Vehicle
 {
     var identificationNumber: String
     var description: String
@@ -17,17 +17,15 @@ class Bus:Vehicle
     var isInsured: Bool
     var vehicleNoOfSeats: Int
     var insuranceProviderName: String
-    var seat: Int
     var fuelType: String
     var ratePerDay: Double
     var ratePerKm: Double
     var driver = [Int: Driver]()
-    
     var busType: String
     var iswifiAvailable: Bool
     var isAccessibiltyServiceAvailable: Bool
            
-    init(identificationNumber: String, description: String, isSelfDrive: Bool, manufacturerName: String, isInsured: Bool, vehicleNoOfSeats: Int, insuranceProviderName: String, seat: Int, fuelType: String, ratePerDay: Double, ratePerKm: Double, busType : String , iswifiAvailable : Bool, isAccessibiltyServiceAvailable: Bool)
+    init(identificationNumber: String, description: String, isSelfDrive: Bool, manufacturerName: String, isInsured: Bool, vehicleNoOfSeats: Int, insuranceProviderName: String,fuelType: String, ratePerDay: Double, ratePerKm: Double, busType : String , iswifiAvailable : Bool, isAccessibiltyServiceAvailable: Bool)
     {
              self.identificationNumber = identificationNumber
              self.description = description
@@ -36,7 +34,6 @@ class Bus:Vehicle
              self.isInsured = isInsured
              self.vehicleNoOfSeats = vehicleNoOfSeats
              self.insuranceProviderName = insuranceProviderName
-             self.seat = seat
              self.fuelType = fuelType
              self.ratePerDay = ratePerDay
              self.ratePerKm = ratePerKm
@@ -61,12 +58,11 @@ class Bus:Vehicle
         print("------BUS------")
         print("Bus IdentificationNumber:            \(identificationNumber)")
         print("Bus Description:                     \(description)")
-        print("Bus isSelfDrive:                     \(isSelfDrive)")
         print("Bus ManufacturerName:                \(manufacturerName)")
+        print("Bus isSelfDrive:                     \(isSelfDrive)")
         print("Bus isInsured                        \(isInsured)")
-        print("Bus VehicleNoOfSeats:                \(vehicleNoOfSeats)")
         print("Bus InsuranceProviderName            \(insuranceProviderName)")
-        print("Bus Seat                             \(seat)")
+        print("Bus VehicleNoOfSeats:                \(vehicleNoOfSeats)")
         print("Bus FuelType:                        \(fuelType)")
         print("Bus RatePerDay:                      \(ratePerDay.currency())")
         print("Bus ratePerKm:                       \(ratePerKm.currency())")
