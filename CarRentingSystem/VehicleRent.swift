@@ -60,35 +60,38 @@ class VehicleRent: IDisplay
         vehicles.removeValue(forKey: identificationNumber)
     }
     
-    func rentForDays() -> Float{
-        for i in vehicles{
-            rentInNumberOfDays = i.value.ratePerDay * Float(totalDays())
-        }
-        return rentInNumberOfDays
-    }
-    
-    func rentForKm() -> Float{
-        for i in vehicles{
-            rentInKm = i.value.ratePerKm * Float(self.numberOfKmDrived)
-        }
-        return rentInKm
-    }
-    
-    func calculateTotalBill() -> Float{
-        totalBillToPay = rentInNumberOfDays + rentInKm
-        return totalBillToPay
-    }
+//    func rentForDays() -> Float{
+//        for i in vehicles{
+//            rentInNumberOfDays = i.value.ratePerDay * Float(totalDays())
+//        }
+//        return rentInNumberOfDays
+//    }
+//
+//    func rentForKm() -> Float{
+//        for i in vehicles{
+//            rentInKm = i.value.ratePerKm * Float(self.numberOfKmDrived)
+//        }
+//        return rentInKm
+//    }
+//
+//    func calculateTotalBill() -> Float{
+//        totalBillToPay = rentInNumberOfDays + rentInKm
+//        return totalBillToPay
+//    }
     
     func display() {
         print("------VEHICLE RENT------")
         for i in vehicles{
             i.value.display()
+            rentInNumberOfDays = i.value.ratePerDay * Float(totalDays())
+            rentInKm = i.value.ratePerKm * Float(self.numberOfKmDrived)
+            totalBillToPay = rentInNumberOfDays + rentInKm
+            print("Rent Start Date : \(self.rentStartDate)")
+            print("Rent End Date : \(self.rentEndDate)")
+            print("Rent in number of days : \(rentInNumberOfDays.currency())")
+            print("Number of KM Drived : \(self.numberOfKmDrived)")
+            print("Rent in number of KM : \(rentInKm.currency())")
+            print("Total rent to pay : \(totalBillToPay.currency())")
         }
-        print("Rent Start Date : \(self.rentStartDate)")
-        print("Rent End Date : \(self.rentEndDate)")
-        print("Rent in number of days : \(rentForDays().currency())")
-        print("Number of KM Drived : \(self.numberOfKmDrived)")
-        print("Rent in number of KM : \(rentForKm().currency())")
-        print("Total rent to pay : \(calculateTotalBill().currency())")
     }
 }

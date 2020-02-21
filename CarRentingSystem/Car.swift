@@ -58,6 +58,7 @@ class Car: Vehicle
         print("Car ratePerDay:                  \(ratePerDay.currency())")
         print("Car Color:                       \(carColor)")
         print("Car Type:                        \(carType)")
+        print("------------------------------------")
         if driver.count == 0{
             print("This vehicle doesn't have a driver")
         } else{

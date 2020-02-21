@@ -76,6 +76,7 @@ class Customer : Person{
         print("Customer's password : \(self.password)")
         print("Customer's Address : \(self.address)")
         print("Customer's City : \(city)")
+        print("------------------------------------")
         if vehicleListRented.count == 0{
             print("This person didn't rent any vehicle")
         }else{
