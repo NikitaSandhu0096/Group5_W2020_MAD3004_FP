@@ -84,12 +84,13 @@ class Owner : Person{
         print("------------------------------------")
         print("Owner's Vehicle List Owned : ")
         print("------------------------------------")
-        for i in vehicleListOwned{
-            i.value.display()
-            print("------------------------------------")
-        }
         if vehicleListOwned.count == 0{
             print("No vehilce owned by this owner")
+        } else{
+            for i in vehicleListOwned{
+                i.value.display()
+                print("------------------------------------")
+            }
         }
     }
 }
