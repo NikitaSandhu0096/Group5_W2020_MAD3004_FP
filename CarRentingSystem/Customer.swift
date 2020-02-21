@@ -8,6 +8,7 @@
 import Foundation
 
 class Customer : Person{
+
     var id: Int
     var firstName: String
     var lastName: String
