@@ -12,14 +12,22 @@ import Foundation
 
 class VehicleRent: IDisplay
 {
-    var rentStartDate: Date
-    var rentEndDate: Date
+    var rentStartDate: String
+    var rentEndDate: String
     var totalDays: Int
     var vehicles = [String: Vehicle]()
-    var numberOfKmDriver : Int
+    var numberOfKmDrived : Int
     var totalBillToPay : Float = 0.0
 //    var vehicleIdentificationNumber: String
     
+        func startingDate(string : String) -> Date {      //https://stackoverflow.com/questions/35700281/date-format-in-swift
+            
+         let dateformatGet1 = DateFormatter()
+         dateformatGet1.dateFormat = "dd/MM/yyyy"
+         
+         let startDate1 : Date? = dateformatGet1.date(from: rentStartDate)
+         return startDate1!
+        }
     
     
     {
@@ -64,7 +72,7 @@ class VehicleRent: IDisplay
     
     func display() {
         
-        print("********************Vehicle Rent*******************************")
+        print("------VEHICLE RENT------")
         //print("Vehicle Rent in No of Days:          \(rentInNoOfDays)")
         for v in vehicles
             {
