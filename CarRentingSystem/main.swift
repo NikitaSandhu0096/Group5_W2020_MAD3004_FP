@@ -99,3 +99,6 @@ var owner5 = Owner(id: 5, firstName: "Charmi", lastName: "Patel", gender: .Femal
 owner1.addVehicleOwned(vehicleOwned: c1, vehicleIdentificationNumber: c1.identificationNumber)
 
 owner1.display()
+
+customer1.addVehicleRent(vehicleRent: rent1, vehicleRentID: rent1.vehicleRentID)
+customer1.display()

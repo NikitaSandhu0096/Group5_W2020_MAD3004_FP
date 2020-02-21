@@ -21,7 +21,7 @@ class Customer : Person{
     
     var address : String
     var city : String
-    var vehicleListRented = [String : VehicleRent]()
+    var vehicleListRented = [Int : VehicleRent]()
         
     init(id: Int, firstName: String, lastName: String, gender: Gender, birthDate: String, mobileNumber: String, email: String, userName: String, password: String, address : String, city : String) {
         self.id = id
@@ -54,12 +54,12 @@ class Customer : Person{
         return numberOfYears.year!
     }
     
-    func addVehicleRent(vehicleRent: VehicleRent, vehicleIdentificationNumber: String){
-        vehicleListRented.updateValue(vehicleRent, forKey: vehicleIdentificationNumber)
+    func addVehicleRent(vehicleRent: VehicleRent, vehicleRentID: Int){
+        vehicleListRented.updateValue(vehicleRent, forKey: vehicleRentID)
     }
     
-    func removeVehicleRent(vehicleIdentificationNumber: String){
-        vehicleListRented.removeValue(forKey: vehicleIdentificationNumber)
+    func removeVehicleRent(vehicleRentID: Int){
+        vehicleListRented.removeValue(forKey: vehicleRentID)
     }
     
     func display() {
