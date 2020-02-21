@@ -14,11 +14,17 @@ class VehicleRent: IDisplay
 {
     var rentStartDate: String
     var rentEndDate: String
-    var totalDays: Int
+    var rentInNumberOfDays : Float = 0.0
     var vehicles = [String: Vehicle]()
     var numberOfKmDrived : Int
     var totalBillToPay : Float = 0.0
 //    var vehicleIdentificationNumber: String
+    
+    init(rentStartDate : String, rentEndDate : String, numberOfKmDrived : Int) {
+        self.rentStartDate = rentStartDate
+        self.rentEndDate = rentEndDate
+        self.numberOfKmDrived = numberOfKmDrived
+    }
     
     func startingDate(string : String) -> Date {    //https://stackoverflow.com/questions/35700281/date-format-in-swift
         let dateformatGet1 = DateFormatter()
@@ -37,25 +43,17 @@ class VehicleRent: IDisplay
      return endDate1!
     }
     
-    {
-        var diffInDays = 0
-        diffInDays = Calendar.current.dateComponents([.day], from: rentStartDate, to: rentEndDate).day ?? 0         //https://stackoverflow.com/questions/40075850/swift-3-find-number-of-calendar-days-between-two-dates
-        return diffInDays
+    func totalDays() -> Int{            //https://stackoverflow.com/questions/24723431/swift-days-between-two-nsdates
+        let current = Calendar.current
+        let numberOfDays = current.dateComponents([Calendar.Component.day], from: startingDate(string: rentStartDate), to: endingDate(string: rentEndDate))
+        return numberOfDays.day!
     }
+    
     var rentInNoOfDays: Float
     {
-        let totalRent = totalDays * 10
+        let totalRent = totalDays() * 10
         return Float(totalRent)
         
-    }
-    var noOfKmDrived: Double
-    var totalBillToPay: Double = 0.0
-    init(vehicleIdentificationNumber: String, rentStartDate: Date, rentEndDate: Date, noOfKmDrived: Double)
-    {
-        self.vehicleIdentificationNumber = vehicleIdentificationNumber
-        self.rentStartDate = rentStartDate
-        self.rentEndDate = rentEndDate
-        self.noOfKmDrived = noOfKmDrived
     }
     
     func calculateTotalBill() {
@@ -78,8 +76,10 @@ class VehicleRent: IDisplay
     
     
     func display() {
-        
         print("------VEHICLE RENT------")
+        print("Rent Start Date : \(self.rentStartDate)")
+        print("Rent End Date : \(self.rentEndDate)")
+        print("Rent in number of days : ")
         //print("Vehicle Rent in No of Days:          \(rentInNoOfDays)")
         for v in vehicles
             {
