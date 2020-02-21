@@ -51,7 +51,7 @@ class MotorCycle : Vehicle
              print("Motorcycle's InsuranceProviderName        \(insuranceProviderName)")
              print("Motorcycle's VehicleNoOfSeats:            \(vehicleNoOfSeats)")
              print("Motorcycle's FuelType:                    \(fuelType)")
-             print("Motorcycle's RatePerDay:                  \(ratePerDay.currency())")
+            print("Motorcycle's RatePerDay:                  \(ratePerDay.currency())")
              print("Motorcycle's ratePerKm:                   \(ratePerKm.currency())")
         }
 }

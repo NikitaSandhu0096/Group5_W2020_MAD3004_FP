@@ -84,6 +84,9 @@ class VehicleRent: IDisplay
         print("Rent Start Date : \(self.rentStartDate)")
         print("Rent End Date : \(self.rentEndDate)")
         print("Rent in number of days : \(rentForDays())")
+        print("Number of KM Drived : \(self.numberOfKmDrived)")
+        print("Rent in number of KM : \(rentForDays())")
+        print("Total rent to pay : \(calculateTotalBill())")
         //print("Vehicle Rent in No of Days:          \(rentInNoOfDays)")
         for v in vehicles
             {

@@ -94,7 +94,7 @@ extension String{
     }
 }
 
-extension Double
+extension Float
 {
     // adding $ symbol with rent calculated
     func currency() -> String
