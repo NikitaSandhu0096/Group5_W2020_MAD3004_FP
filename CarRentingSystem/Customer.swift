@@ -22,8 +22,7 @@ class Customer : Person{
     var address : String
     var city : String
     var vehicleListRented = [String : VehicleRent]()
-    var totalRent: Double = 0.0
-    
+        
     init(id: Int, firstName: String, lastName: String, gender: Gender, birthDate: String, mobileNumber: String, email: String, userName: String, password: String, address : String, city : String) {
         self.id = id
         self.firstName = firstName
@@ -55,24 +54,16 @@ class Customer : Person{
         return numberOfYears.year!
     }
     
-    func addVehicleRent(vehicleRent: VehicleRent, vehicleIdentificationNumber: String)
-    {
+    func addVehicleRent(vehicleRent: VehicleRent, vehicleIdentificationNumber: String){
         vehicleListRented.updateValue(vehicleRent, forKey: vehicleIdentificationNumber)
     }
     
-    func removeVehicleRent(vehicleIdentificationNumber: String)
-    {
+    func removeVehicleRent(vehicleIdentificationNumber: String){
         vehicleListRented.removeValue(forKey: vehicleIdentificationNumber)
     }
     
-    func calculateTotalBill() {
-        for i in vehicleListRented {
-            totalRent = totalRent + i.value.totalBillToPay
-        }
-    }
-    
     func display() {
-    print("*******************Customer*************************")
+    print("------CUSTOMER------")
         print("Customer's ID : \(self.id)")
         print("Customer's First Name : \(self.firstName)")
         print("Customer's Last Name : \(self.lastName)")
@@ -85,16 +76,13 @@ class Customer : Person{
         print("Customer's password : \(self.password)")
         print("Customer's Address : \(self.address)")
         print("Customer's City : \(city)")
-        for v in vehicleListRented{
-            v.value.display()
-        }
         if vehicleListRented.count == 0{
             print("This person didn't rent any vehicle")
-        }
-        else
-        {
-            calculateTotalBill()
-            print("\t \t Total Vehicle Rent to Pay : \(totalRent.currency())")
+        }else{
+            for v in vehicleListRented{
+            v.value.display()
+            print("--------------------------------------")
+            }
         }
     }
 }
