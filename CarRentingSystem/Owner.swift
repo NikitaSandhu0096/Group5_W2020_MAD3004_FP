@@ -14,7 +14,7 @@ class Owner : Person{
     var lastName: String
     var gender: Gender
     var birthDate: String
-    var age: Int
+    var age: Int = 0
     var mobileNumber: String
     var email: String
     var userName: String
@@ -81,7 +81,9 @@ class Owner : Person{
         print("Owner's Company Title : \(self.companyTitle)")
         print("Owner's Business Landline Number : \(self.businessLandLineNumber)")
         print("Owner's Website : \(self.website)")
-//        print("Owner's Vehicle List Owned : \(self.vehicleListOwned)")
+        print("------------------------------------")
+        print("Owner's Vehicle List Owned : ")
+        print("------------------------------------")
         for i in vehicleListOwned{
             i.value.display()
             print("------------------------------------")

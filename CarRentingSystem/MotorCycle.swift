@@ -45,7 +45,7 @@ class MotorCycle : Vehicle
           
          func display()
          {
-             print("*********************MOTORCYCLE**********************************")
+             print("------MOTORCYCLE------")
              print("Motorcycle's IdentificationNumber:        \(identificationNumber)")
              print("Motorcycle's Description:                 \(description)")
              print("Motorcycle's isSelfDrive:                 \(isSelfDrive)")

@@ -59,4 +59,8 @@ customer1.display()
 //print("EbMlRxcUH9TGJ3SxiEVzLA==".decrypt(key: "encrypt", iv: "encrypt") ?? "encrypt")
 
 
-var owner1 = Owner(
+var owner1 = Owner(id: 1, firstName: "Nikita", lastName: "Sandhu", gender: .Female, birthDate: "13/10/1994", mobileNumber: "1234567890", email: "asdasf", userName: "sfasf", password: "safsdf", companyTitle: "afsaf", businessLandLineNumber: "sfdf", website: "sff")
+
+owner1.addVehicleOwned(vehicleOwned: c1, vehicleIdentificationNumber: c1.identificationNumber)
+
+owner1.display()
