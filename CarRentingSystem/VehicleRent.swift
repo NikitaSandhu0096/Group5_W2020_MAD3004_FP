@@ -20,15 +20,22 @@ class VehicleRent: IDisplay
     var totalBillToPay : Float = 0.0
 //    var vehicleIdentificationNumber: String
     
-        func startingDate(string : String) -> Date {      //https://stackoverflow.com/questions/35700281/date-format-in-swift
-            
-         let dateformatGet1 = DateFormatter()
-         dateformatGet1.dateFormat = "dd/MM/yyyy"
-         
-         let startDate1 : Date? = dateformatGet1.date(from: rentStartDate)
-         return startDate1!
-        }
+    func startingDate(string : String) -> Date {    //https://stackoverflow.com/questions/35700281/date-format-in-swift
+        let dateformatGet1 = DateFormatter()
+        dateformatGet1.dateFormat = "dd/MM/yyyy"
     
+        let startDate1 : Date? = dateformatGet1.date(from: rentStartDate)
+        return startDate1!
+    }
+    
+    func endingDate(string : String) -> Date {      //https://stackoverflow.com/questions/35700281/date-format-in-swift
+        
+     let dateformatGet2 = DateFormatter()
+     dateformatGet2.dateFormat = "dd/MM/yyyy"
+     
+     let endDate1 : Date? = dateformatGet2.date(from: rentEndDate)
+     return endDate1!
+    }
     
     {
         var diffInDays = 0
