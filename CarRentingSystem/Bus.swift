@@ -58,18 +58,18 @@ class Bus:Vehicle
           
     func display()
     {
-            print("------BUS------")
-            print("Bus IdentificationNumber:            \(identificationNumber)")
-            print("Bus Description:                     \(description)")
-            print("Bus isSelfDrive:                     \(isSelfDrive)")
-            print("Bus ManufacturerName:                \(manufacturerName)")
-            print("Bus isInsured                        \(isInsured)")
-            print("Bus VehicleNoOfSeats:                \(vehicleNoOfSeats)")
-            print("Bus InsuranceProviderName            \(insuranceProviderName)")
-            print("Bus Seat                             \(seat)")
-            print("Bus FuelType:                        \(fuelType)")
-            print("Bus RatePerDay:                      \(ratePerDay.currency())")
-            print("Bus ratePerKm:                       \(ratePerKm.currency())")
+        print("------BUS------")
+        print("Bus IdentificationNumber:            \(identificationNumber)")
+        print("Bus Description:                     \(description)")
+        print("Bus isSelfDrive:                     \(isSelfDrive)")
+        print("Bus ManufacturerName:                \(manufacturerName)")
+        print("Bus isInsured                        \(isInsured)")
+        print("Bus VehicleNoOfSeats:                \(vehicleNoOfSeats)")
+        print("Bus InsuranceProviderName            \(insuranceProviderName)")
+        print("Bus Seat                             \(seat)")
+        print("Bus FuelType:                        \(fuelType)")
+        print("Bus RatePerDay:                      \(ratePerDay.currency())")
+        print("Bus ratePerKm:                       \(ratePerKm.currency())")
             
         if  driver.count == 0
         {
