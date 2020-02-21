@@ -59,4 +59,4 @@ customer1.display()
 //print("EbMlRxcUH9TGJ3SxiEVzLA==".decrypt(key: "encrypt", iv: "encrypt") ?? "encrypt")
 
 
-
+var owner1 = Owner(
