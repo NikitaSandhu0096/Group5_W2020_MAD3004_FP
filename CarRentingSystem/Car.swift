@@ -16,20 +16,20 @@ class Car: Vehicle
     var carType: String
     
     init(identificationNumber:String,description:String,isSelfDrive:Bool,
-         manufacturerName: String,isInsured: Bool,vehicleNoOfSeats:Int,insuranceProviderName: String,fuelType: String,ratePerDay: Double,ratePerKm: Double, carColor: String, carType: String)
+         manufacturerName: String,isInsured: Bool,insuranceProviderName: String, vehicleNoOfSeats : Int,fuelType: String,ratePerDay: Double,ratePerKm: Double, carColor: String, carType: String)
     {
-       self.identificationNumber = identificationNumber
-       self.description = description
-       self.isSelfDrive = isSelfDrive
-       self.manufacturerName = manufacturerName
-       self.isInsured = isInsured
-       self.vehicleNoOfSeats = vehicleNoOfSeats
-       self.insuranceProviderName = insuranceProviderName
-       self.fuelType = fuelType
-       self.ratePerDay = ratePerDay
-       self.ratePerKm = ratePerKm
-       self.carColor = carColor
-       self.carType = carType
+        self.identificationNumber = identificationNumber
+        self.description = description
+        self.manufacturerName = manufacturerName
+        self.isSelfDrive = isSelfDrive
+        self.isInsured = isInsured
+        self.insuranceProviderName = insuranceProviderName
+        self.vehicleNoOfSeats = vehicleNoOfSeats
+        self.fuelType = fuelType
+        self.ratePerDay = ratePerDay
+        self.ratePerKm = ratePerKm
+        self.carColor = carColor
+        self.carType = carType
     
       }
     func addDriver(drivers: Driver, driverId: Int)
