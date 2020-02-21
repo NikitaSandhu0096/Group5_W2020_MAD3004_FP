@@ -18,29 +18,26 @@ class MotorCycle : Vehicle
          var isInsured: Bool
          var vehicleNoOfSeats: Int
          var insuranceProviderName: String
-         var seat: Int
          var fuelType: String
          var ratePerDay: Double
          var ratePerKm: Double
-    
          var maxTopSpeed: Int
          var milage: Int
            
-    init(identificationNumber: String, description: String, isSelfDrive: Bool, manufacturerName: String, isInsured: Bool, vehicleNoOfSeats: Int, insuranceProviderName: String, seat: Int, fuelType: String, ratePerDay: Double, ratePerKm: Double, maxTopSpeed : Int, milage : Int)
+    init(identificationNumber: String, description: String,manufacturerName: String,isSelfDrive: Bool,  isInsured: Bool,  insuranceProviderName: String,vehicleNoOfSeats: Int, fuelType: String, ratePerDay: Double, ratePerKm: Double, maxTopSpeed : Int, milage : Int)
          {
-             self.identificationNumber = identificationNumber
-             self.description = description
-             self.isSelfDrive = isSelfDrive
-             self.manufacturerName = manufacturerName
-             self.isInsured = isInsured
-             self.vehicleNoOfSeats = vehicleNoOfSeats
-             self.insuranceProviderName = insuranceProviderName
-             self.seat = seat
-             self.fuelType = fuelType
-             self.ratePerDay = ratePerDay
-             self.ratePerKm = ratePerKm
-             self.maxTopSpeed = maxTopSpeed
-            self.milage = milage
+                self.identificationNumber = identificationNumber
+                self.description = description
+                self.manufacturerName = manufacturerName
+                self.isSelfDrive = isSelfDrive
+                self.vehicleNoOfSeats = vehicleNoOfSeats
+                self.isInsured = isInsured
+                self.insuranceProviderName = insuranceProviderName
+                self.fuelType = fuelType
+                self.ratePerDay = ratePerDay
+                self.ratePerKm = ratePerKm
+                self.maxTopSpeed = maxTopSpeed
+                self.milage = milage
          }
           
          func display()
@@ -48,15 +45,14 @@ class MotorCycle : Vehicle
              print("------MOTORCYCLE------")
              print("Motorcycle's IdentificationNumber:        \(identificationNumber)")
              print("Motorcycle's Description:                 \(description)")
-             print("Motorcycle's isSelfDrive:                 \(isSelfDrive)")
              print("Motorcycle's ManufacturerName:            \(manufacturerName)")
+             print("Motorcycle's isSelfDrive:                 \(isSelfDrive)")
              print("Motorcycle's isInsured                    \(isInsured)")
-             print("Motorcycle's VehicleNoOfSeats:            \(vehicleNoOfSeats)")
              print("Motorcycle's InsuranceProviderName        \(insuranceProviderName)")
-             print("Motorcycle's Seat                         \(seat)")
+             print("Motorcycle's VehicleNoOfSeats:            \(vehicleNoOfSeats)")
              print("Motorcycle's FuelType:                    \(fuelType)")
-            print("Motorcycle's RatePerDay:                  \(ratePerDay.currency())")
-            print("Motorcycle's ratePerKm:                   \(ratePerKm.currency())")
+             print("Motorcycle's RatePerDay:                  \(ratePerDay.currency())")
+             print("Motorcycle's ratePerKm:                   \(ratePerKm.currency())")
         }
 }
 

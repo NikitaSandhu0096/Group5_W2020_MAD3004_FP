@@ -38,11 +38,11 @@ var c4 = Car(identificationNumber: "C04", description: "Convertible and Crossove
 var c5 = Car(identificationNumber: "C05", description: "Mercedes Benz GLE Coupe", isSelfDrive: true, manufacturerName: "Mercedes", isInsured: true, insuranceProviderName: "National", vehicleNoOfSeats: 5, fuelType: "Diesel", ratePerDay: 30, ratePerKm: 5, carColor: "White", carType: "Passenger Car")
 
 // MotorCycle objects
-var mc1 = MotorCycle(identificationNumber: "MC01", description: "Classic", isSelfDrive: true, manufacturerName: "Bajaj", isInsured: true, vehicleNoOfSeats: 2, insuranceProviderName: "Overseas", seat: 2, fuelType: "Petrol", ratePerDay: 5, ratePerKm: 5, maxTopSpeed: 60, milage: 25)
-var mc2 = MotorCycle(identificationNumber: "MC02", description: "Thunderbird", isSelfDrive: true, manufacturerName: "Bullet", isInsured: true, vehicleNoOfSeats: 2, insuranceProviderName: "Nation", seat: 2, fuelType: "Petrol", ratePerDay: 5, ratePerKm: 5, maxTopSpeed: 50, milage: 35)
-var mc3 = MotorCycle(identificationNumber: "MC03", description: "Chronic", isSelfDrive: true, manufacturerName: "Yamaha", isInsured: true, vehicleNoOfSeats: 2, insuranceProviderName: "Oriental", seat: 2, fuelType: "Petrol", ratePerDay: 5, ratePerKm: 5, maxTopSpeed: 40, milage: 40)
-var mc4 = MotorCycle(identificationNumber: "MC04", description: "Chrome", isSelfDrive: true, manufacturerName: "Pulsar", isInsured: true, vehicleNoOfSeats: 2, insuranceProviderName: "Hero", seat: 2, fuelType: "Petrol", ratePerDay: 5, ratePerKm: 5, maxTopSpeed: 70, milage: 25)
-var mc5 = MotorCycle(identificationNumber: "MC05", description: "Classic", isSelfDrive: true, manufacturerName: "Honda", isInsured: true, vehicleNoOfSeats: 2, insuranceProviderName: "Philo", seat: 2, fuelType: "Petrol", ratePerDay: 5, ratePerKm: 5, maxTopSpeed: 60, milage: 55)
+var mc1 = MotorCycle(identificationNumber: "MC01", description: "Classic",manufacturerName: "Bajaj", isSelfDrive: true, isInsured: true,  insuranceProviderName: "Overseas",vehicleNoOfSeats: 2,fuelType: "Petrol", ratePerDay: 5, ratePerKm: 5, maxTopSpeed: 60, milage: 25)
+var mc2 = MotorCycle(identificationNumber: "MC02", description: "Thunderbird",manufacturerName: "Bullet",isSelfDrive: true,  isInsured: true, insuranceProviderName: "Nation", vehicleNoOfSeats: 2, fuelType: "Petrol", ratePerDay: 5, ratePerKm: 5, maxTopSpeed: 50, milage: 35)
+var mc3 = MotorCycle(identificationNumber: "MC03", description: "Chronic", manufacturerName: "Yamaha", isSelfDrive: true, isInsured: true, insuranceProviderName: "Oriental", vehicleNoOfSeats: 2,  fuelType: "Petrol", ratePerDay: 5, ratePerKm: 5, maxTopSpeed: 40, milage: 40)
+var mc4 = MotorCycle(identificationNumber: "MC04", description: "Chrome", manufacturerName: "Pulsar", isSelfDrive: true, isInsured: true, insuranceProviderName: "Hero", vehicleNoOfSeats: 2,  fuelType: "Petrol", ratePerDay: 5, ratePerKm: 5, maxTopSpeed: 70, milage: 25)
+var mc5 = MotorCycle(identificationNumber: "MC05", description: "Classic", manufacturerName: "Honda", isSelfDrive: true, isInsured: true, insuranceProviderName: "Philo", vehicleNoOfSeats: 2,  fuelType: "Petrol", ratePerDay: 5, ratePerKm: 5, maxTopSpeed: 60, milage: 55)
 
 
 
