@@ -18,14 +18,14 @@ class Bus  : Vehicle
     var vehicleNoOfSeats: Int
     var insuranceProviderName: String
     var fuelType: String
-    var ratePerDay: Double
-    var ratePerKm: Double
+    var ratePerDay: Float
+    var ratePerKm: Float
     var driver = [Int: Driver]()
     var busType: String
     var iswifiAvailable: Bool
     var isAccessibiltyServiceAvailable: Bool
            
-    init(identificationNumber: String, description: String, isSelfDrive: Bool, manufacturerName: String, isInsured: Bool, vehicleNoOfSeats: Int, insuranceProviderName: String,fuelType: String, ratePerDay: Double, ratePerKm: Double, busType : String , iswifiAvailable : Bool, isAccessibiltyServiceAvailable: Bool)
+    init(identificationNumber: String, description: String, isSelfDrive: Bool, manufacturerName: String, isInsured: Bool, vehicleNoOfSeats: Int, insuranceProviderName: String,fuelType: String, ratePerDay: Float, ratePerKm: Float, busType : String , iswifiAvailable : Bool, isAccessibiltyServiceAvailable: Bool)
     {
              self.identificationNumber = identificationNumber
              self.description = description

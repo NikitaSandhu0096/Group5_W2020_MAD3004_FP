@@ -20,8 +20,8 @@ protocol Vehicle: IDisplay
     var  vehicleNoOfSeats: Int { get set }
     var insuranceProviderName: String { get set }
     var fuelType: String { get set }
-    var ratePerDay: Double { get set }
-    var ratePerKm: Double { get set}
+    var ratePerDay: Float { get set }
+    var ratePerKm: Float { get set}
     //var driver;
       
     func display()

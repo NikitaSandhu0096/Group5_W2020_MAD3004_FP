@@ -19,12 +19,12 @@ class MotorCycle : Vehicle
          var vehicleNoOfSeats: Int
          var insuranceProviderName: String
          var fuelType: String
-         var ratePerDay: Double
-         var ratePerKm: Double
+         var ratePerDay: Float
+         var ratePerKm: Float
          var maxTopSpeed: Int
          var milage: Int
            
-    init(identificationNumber: String, description: String,manufacturerName: String,isSelfDrive: Bool,  isInsured: Bool,  insuranceProviderName: String,vehicleNoOfSeats: Int, fuelType: String, ratePerDay: Double, ratePerKm: Double, maxTopSpeed : Int, milage : Int)
+    init(identificationNumber: String, description: String,manufacturerName: String,isSelfDrive: Bool,  isInsured: Bool,  insuranceProviderName: String,vehicleNoOfSeats: Int, fuelType: String, ratePerDay: Float, ratePerKm: Float, maxTopSpeed : Int, milage : Int)
          {
                 self.identificationNumber = identificationNumber
                 self.description = description
