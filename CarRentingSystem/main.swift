@@ -36,9 +36,7 @@ var mc3 = MotorCycle(identificationNumber: "MC03", description: "Chronic", isSel
 var mc4 = MotorCycle(identificationNumber: "MC04", description: "Chrome", isSelfDrive: true, manufacturerName: "Pulsar", isInsured: true, vehicleNoOfSeats: 2, insuranceProviderName: "Hero", seat: 2, fuelType: "Petrol", ratePerDay: 5, ratePerKm: 5, maxTopSpeed: 70, milage: 25)
 var mc5 = MotorCycle(identificationNumber: "MC05", description: "Classic", isSelfDrive: true, manufacturerName: "Honda", isInsured: true, vehicleNoOfSeats: 2, insuranceProviderName: "Philo", seat: 2, fuelType: "Petrol", ratePerDay: 5, ratePerKm: 5, maxTopSpeed: 60, milage: 55)
 
-
-
-
+var d1 = Driver(id: 1, firstName: "Vel", lastName: "Ratan", gender: .Male, birthDate: "1988-02-05", mobileNumber: "2546572334", email: "ratvel234@out.com", userName: "retvel21", password: "dster543", drivingLicenseNumber: "DRI123", isDrivingHistoryCleared: true, salary: 1000)
 
 var rent1 = VehicleRent(vehicleIdentificationNumber: "C01", rentStartDate: "2012-09-01".toDate(), rentEndDate: "2012-10-01".toDate(), noOfKmDrived: 20)
 
@@ -47,7 +45,7 @@ var rent2 = VehicleRent(vehicleIdentificationNumber: "B01", rentStartDate: "2013
 rent1.addVehicle(vehicle: b1, identificationNumber: b1.identificationNumber)
 if(b1.isSelfDrive != true)
 {
-    //b1.addDriver(drivers: d1, driverId: d1.id)
+    b1.addDriver(drivers: d1, driverId: d1.id)
 }
 customer1.addVehicleRent(vehicleRent: rent1, vehicleIdentificationNumber: rent1.vehicleIdentificationNumber)
 

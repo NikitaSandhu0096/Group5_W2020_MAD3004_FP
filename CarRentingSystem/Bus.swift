@@ -70,5 +70,8 @@ class Bus:Vehicle
             print("Bus FuelType:                        \(fuelType)")
             print("Bus RatePerDay:                      \(ratePerDay.currency())")
             print("Bus ratePerKm:                       \(ratePerKm.currency())")
+            for d in driver{
+                d.value.display()
+            }
     }
 }

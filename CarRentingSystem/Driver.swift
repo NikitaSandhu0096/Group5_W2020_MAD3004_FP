@@ -14,7 +14,7 @@ class Driver : Person{
     var lastName: String
     var gender: Gender
     var birthDate: String
-    var age: Int
+    var age: Int = 0
     var mobileNumber: String
     var email: String
     var userName: String
@@ -24,13 +24,13 @@ class Driver : Person{
     var isDrivingHistoryCleared : Bool
     var salary : Int
     
-    init(id: Int, firstName: String, lastName: String, gender: Gender, birthDate: String, age: Int, mobileNumber: String, email: String, userName: String, password: String, drivingLicenseNumber : String, isDrivingHistoryCleared : Bool, salary : Int) {
+    init(id: Int, firstName: String, lastName: String, gender: Gender, birthDate: String, mobileNumber: String, email: String, userName: String, password: String, drivingLicenseNumber : String, isDrivingHistoryCleared : Bool, salary : Int) {
         self.id = id
         self.firstName = firstName
         self.lastName = lastName
         self.gender = gender
         self.birthDate = birthDate
-        self.age = age
+        //self.age = self.calculateAge()
         self.mobileNumber = mobileNumber
         self.email = email
         self.userName = userName
