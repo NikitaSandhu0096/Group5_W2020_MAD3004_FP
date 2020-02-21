@@ -17,6 +17,7 @@ class VehicleRent: IDisplay
     var rentInNumberOfDays : Float = 0.0
     var vehicles = [String: Vehicle]()
     var numberOfKmDrived : Int
+    var rentInKm : Float = 0.0
     var totalBillToPay : Float = 0.0
 //    var vehicleIdentificationNumber: String
     
@@ -66,12 +67,16 @@ class VehicleRent: IDisplay
         return rentInNumberOfDays
     }
     
-    func calculateTotalBill() {
-        for v in vehicles
-        {
-            totalBillToPay = Double(rentInNoOfDays) + v.value.ratePerDay
+    func rentForKm() -> Float{
+        for i in vehicles{
+            rentInKm = i.value.ratePerKm * Float(numberOfKmDrived)
         }
-        
+        return rentInKm
+    }
+    
+    func calculateTotalBill() -> Float{
+        totalBillToPay = rentInNumberOfDays + rentInKm
+        return totalBillToPay
     }
     
     func display() {
