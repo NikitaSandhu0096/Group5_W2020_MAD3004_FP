@@ -83,7 +83,18 @@ customer1.display()
 //print("EbMlRxcUH9TGJ3SxiEVzLA==".decrypt(key: "encrypt", iv: "encrypt") ?? "encrypt")
 
 
-var owner1 = Owner(id: 1, firstName: "Nikita", lastName: "Sandhu", gender: .Female, birthDate: "13/10/1994", mobileNumber: "1234567890", email: "asdasf", userName: "sfasf", password: "safsdf", companyTitle: "afsaf", businessLandLineNumber: "sfdf", website: "sff")
+var owner1 = Owner(id: 1, firstName: "Nikita", lastName: "Sandhu", gender: .Female, birthDate: "13/10/1994", mobileNumber: "1234567890", email: "asdasf", userName: "sfasf", password: "safsdf".encrypt(key: "encrypt", iv: "encrypt") ?? "encrypt" , companyTitle: "tmall", businessLandLineNumber: "657498", website: "tmall.com")
+
+var owner2 = Owner(id: 2, firstName: "Kamalpreet", lastName: "kaur", gender: .Female, birthDate: "20/02/1998", mobileNumber: "4573681257", email: "kamalKaur@gmail.com", userName: "kamalKaur", password: "kaur".encrypt(key: "encrypt", iv: "encrypt") ?? "encrypt", companyTitle: "nature", businessLandLineNumber: "112642", website: "nature.com")
+
+var owner3 = Owner(id: 3, firstName: "Jyoti", lastName: "Thomas", gender: .Female, birthDate: "03/10/1990", mobileNumber: "4569872457", email: "Jthomas@yahoo.com", userName: "jyotiT", password: "thomas".encrypt(key: "encrypt", iv: "encrypt") ?? "encrypt", companyTitle: "twitterbeat", businessLandLineNumber: "235987", website: "macromedia.com")
+
+var owner4 = Owner(id: 4, firstName: "Millind", lastName: "Gaba", gender: .Male, birthDate: "08/04/1992", mobileNumber: "3419871547", email: "millind67@gmail.com", userName: "Gmillind", password: "gaba".encrypt(key: "encrypt", iv: "encrypt") ?? "encrypt", companyTitle: "Rooxo", businessLandLineNumber: "123455", website: "tmall.com")
+
+var owner5 = Owner(id: 5, firstName: "Charmi", lastName: "Patel", gender: .Female, birthDate: "03/11/1993", mobileNumber: "6584237485", email: "charmi12@outlook.com", userName: "charmiPatel", password: "patel".encrypt(key: "encrypt", iv: "encrypt") ??
+    "encrypt", companyTitle: "Multimedia", businessLandLineNumber: "658494", website: "multimedia.com")
+
+
 
 owner1.addVehicleOwned(vehicleOwned: c1, vehicleIdentificationNumber: c1.identificationNumber)
 
