@@ -7,10 +7,15 @@
 //
 import Foundation
 
+enum CustomerError: Error {
+    case invalid(String)
+    case tooShort
+}
+
 class Customer : Person{
     var id: Int
-    var firstName: String
-    var lastName: String
+    var firstName: String?
+    var lastName: String?
     var gender: Gender
     var birthDate: String
     var age: Int = 0
@@ -23,8 +28,11 @@ class Customer : Person{
     var city : String
     var vehicleListRented = [Int : VehicleRent]()
         
-    init(id: Int, firstName: String, lastName: String, gender: Gender, birthDate: String, mobileNumber: String, email: String, userName: String, password: String, address : String, city : String) {
+    init(id: Int, firstName: String?, lastName: String?, gender: Gender, birthDate: String, mobileNumber: String, email: String, userName: String, password: String, address : String, city : String) throws {
         self.id = id
+        guard let firstName = firstName else{
+            throw CustomerError.invalid("Invalid")
+        }
         self.firstName = firstName
         self.lastName = lastName
         self.gender = gender
