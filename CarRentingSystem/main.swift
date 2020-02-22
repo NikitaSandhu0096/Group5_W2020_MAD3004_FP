@@ -84,15 +84,30 @@ var mc5 = MotorCycle(identificationNumber: "MC05", description: "Classic", manuf
 
 var rent1 = VehicleRent(vehicleRentID: 1, rentStartDate: "01/01/20", rentEndDate: "06/01/20", numberOfKmDrived: 20)
 
+// Adding vehicle rent to each vehicles
+
 rent1.addVehicle(vehicle: b1, identificationNumber: b1.identificationNumber)
+rent1.addVehicle(vehicle: c2, identificationNumber: c2.identificationNumber)
 //rent1.display()
 
 var rent2 = VehicleRent(vehicleRentID: 2, rentStartDate: "05/02/19", rentEndDate: "10/02/19", numberOfKmDrived: 40)
 
 rent2.addVehicle(vehicle: c1, identificationNumber: c1.identificationNumber)
+rent2.addVehicle(vehicle: mc1, identificationNumber: mc1.identificationNumber)
+rent2.addVehicle(vehicle: b4, identificationNumber: b4.identificationNumber)
 
 var rent3 = VehicleRent(vehicleRentID: 3, rentStartDate: "08/05/18", rentEndDate: "08/08/18", numberOfKmDrived: 200)
 rent3.addVehicle(vehicle: b2, identificationNumber: b2.identificationNumber)
+rent3.addVehicle(vehicle: c4, identificationNumber: c4.identificationNumber)
+rent3.addVehicle(vehicle: mc3, identificationNumber: mc3.identificationNumber)
+
+var rent4 = VehicleRent(vehicleRentID: 4, rentStartDate: "09/01/19", rentEndDate: "30/01/19", numberOfKmDrived: 140)
+rent4.addVehicle(vehicle: mc2, identificationNumber: mc2.identificationNumber)
+rent4.addVehicle(vehicle: mc3, identificationNumber: mc3.identificationNumber)
+rent4.addVehicle(vehicle: c5, identificationNumber: c5.identificationNumber)
+
+var rent5 = VehicleRent(vehicleRentID: 5, rentStartDate: "10/10/19", rentEndDate: "1/12/19", numberOfKmDrived: 310)
+rent5.addVehicle(vehicle: c4, identificationNumber: c4.identificationNumber)
 
 //rent2.display()
 
@@ -122,7 +137,7 @@ var owner5 = try Owner(id: 5, firstName: "Charmi", lastName: "Patel", gender: .F
     "encrypt", companyTitle: "Multimedia", businessLandLineNumber: "658494", website: "multimedia.com")
 
 
-
+// Adding Owner's vehicle list
 owner1.addVehicleOwned(vehicleOwned: c1, vehicleIdentificationNumber: c1.identificationNumber)
 owner1.addVehicleOwned(vehicleOwned: b1, vehicleIdentificationNumber: b1.identificationNumber)
 owner1.addVehicleOwned(vehicleOwned: c2, vehicleIdentificationNumber: c2.identificationNumber)
@@ -158,6 +173,17 @@ customer1.display()
 
 customer2.addVehicleRent(vehicleRent: rent3, vehicleRentID: rent3.vehicleRentID)
 customer2.display()
+
+customer3.addVehicleRent(vehicleRent: rent3, vehicleRentID: rent3.vehicleRentID)
+customer3.addVehicleRent(vehicleRent: rent4, vehicleRentID: rent4.vehicleRentID)
+customer3.addVehicleRent(vehicleRent: rent1, vehicleRentID: rent1.vehicleRentID)
+customer3.display()
+
+customer4.addVehicleRent(vehicleRent: rent5, vehicleRentID: rent5.vehicleRentID)
+customer4.display()
+
+// This customer has not rented any vehicle
+customer5.display()
 
 
 
