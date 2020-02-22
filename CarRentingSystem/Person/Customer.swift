@@ -87,11 +87,12 @@ class Customer : Person{
         }else{
             for v in vehicleListRented{
             v.value.display()
-                print("--------------------------------------")}
-                for j in vehicleListRented{
-                    amountToPayForAllRentedVehicles = amountToPayForAllRentedVehicles + j.value.totalBillToPay
-                }
-                print("Amount to pay for all the rented vehicles : \(amountToPayForAllRentedVehicles.currency())")
+                print("--------------------------------------")
+            }
+            for j in vehicleListRented{
+                amountToPayForAllRentedVehicles = amountToPayForAllRentedVehicles + j.value.totalBillToPay
+            }
+            print("Amount to pay for all the rented vehicles : \(amountToPayForAllRentedVehicles.currency())")
         }
     }
 }

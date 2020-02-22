@@ -110,7 +110,7 @@ rent3.addVehicle(vehicle: b2, identificationNumber: b2.identificationNumber)
 //print("EbMlRxcUH9TGJ3SxiEVzLA==".decrypt(key: "encrypt", iv: "encrypt") ?? "encrypt")
 
 
-var owner1 = try Owner(id: 1, firstName: "Nikita", lastName: "Sandhu", gender: .Female, birthDate: "13/10/1994", mobileNumber: "1234567890", email: "asdasf", userName: "sfasf", password: "safsdf".encrypt(key: "encrypt", iv: "encrypt") ?? "encrypt" , companyTitle: "tmall", businessLandLineNumber: "657498", website: "tmall.com")
+var owner1 = try Owner(id: 1, firstName: "Nikita", lastName: "Sandhu", gender: .Female, birthDate: "13/10/1994", mobileNumber: "1234567890", email: "nsandhu@gmail.com", userName: "sfasf", password: "safsdf".encrypt(key: "encrypt", iv: "encrypt") ?? "encrypt" , companyTitle: "tmall", businessLandLineNumber: "657498", website: "tmall.com")
 
 var owner2 = try Owner(id: 2, firstName: "Kamalpreet", lastName: "kaur", gender: .Female, birthDate: "20/02/1998", mobileNumber: "4573681257", email: "kamalKaur@gmail.com", userName: "kamalKaur", password: "kaur".encrypt(key: "encrypt", iv: "encrypt") ?? "encrypt", companyTitle: "nature", businessLandLineNumber: "112642", website: "nature.com")
 
@@ -159,9 +159,52 @@ customer1.display()
 customer2.addVehicleRent(vehicleRent: rent3, vehicleRentID: rent3.vehicleRentID)
 customer2.display()
 
+var owners = [Int : Owner]()
 
+func addOwner(owner : Owner, ownerId : Int){
+    owners.updateValue(owner, forKey: ownerId)
+}
 
+addOwner(owner: owner1, ownerId: owner1.id)
+addOwner(owner: owner2, ownerId: owner2.id)
+addOwner(owner: owner3, ownerId: owner3.id)
+addOwner(owner: owner4, ownerId: owner4.id)
+addOwner(owner: owner5, ownerId: owner5.id)
 
+func getOwnerById(Id : Int){
+    if(owners.index(forKey: Id) != nil){
+        owners[Id]?.display()
+    }else{
+        print("Owner doesn't exist")
+    }
+}
 
+if (owner1.email.emailValid() && owner1.mobileNumber.mobileValid()){
+    getOwnerById(Id: 1)
+}else{
+    print("Enter valid email or mobile number for the Owner 1")
+}
 
+if (owner2.email.emailValid() && owner2.mobileNumber.mobileValid()){
+    getOwnerById(Id: 2)
+}else{
+    print("Enter valid email or mobile number for the Owner 2")
+}
+
+if (owner3.email.emailValid() && owner3.mobileNumber.mobileValid()){
+    getOwnerById(Id: 3)
+}else{
+    print("Enter valid email or mobile number for the Owner 3")
+}
+
+if (owner4.email.emailValid() && owner4.mobileNumber.mobileValid()){
+    getOwnerById(Id: 4)
+}else{
+    print("Enter valid email or mobile number for the Owner 4")
+}
+if (owner5.email.emailValid() && owner5.mobileNumber.mobileValid()){
+    getOwnerById(Id: 5)
+}else{
+    print("Enter valid email or mobile number for the Owner 5")
+}
 
