@@ -89,15 +89,15 @@ class VehicleRent: IDisplay
             rentInNumberOfDays = i.value.ratePerDay * Float(totalDays())
             rentInKm = i.value.ratePerKm * Float(self.numberOfKmDrived)
             totalBillToPay = rentInNumberOfDays + rentInKm
-            print("\n-------------------- RENT DETAILS ------------------\n")
+            print("\n-------------------- RENT DETAILS -------------------\n")
             print("Rent Start Date : \(self.rentStartDate)")
             print("Rent End Date : \(self.rentEndDate)")
             print("Rent in number of days : \(rentInNumberOfDays.currency())")
             print("Number of KM Drived : \(self.numberOfKmDrived)")
             print("Rent in number of KM : \(rentInKm.currency())")
-            print("====================================================")
+            print("=====================================================")
             print("Total rent to pay : \(totalBillToPay.currency())")
-            print("====================================================")
+            print("=====================================================")
             
         }
     }

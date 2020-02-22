@@ -182,7 +182,7 @@ owner4.display()
 owner5.display()
 
 //Displaying Customer Details
-customer1.display() // customer has no vehicle rented initially
+
 customer1.addVehicleRent(vehicleRent: rent1, vehicleRentID: rent1.vehicleRentID)
 customer1.addVehicleRent(vehicleRent: rent2, vehicleRentID: rent2.vehicleRentID)
 customer1.display()
