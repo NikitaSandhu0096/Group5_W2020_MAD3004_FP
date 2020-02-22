@@ -83,12 +83,13 @@ var mc5 = MotorCycle(identificationNumber: "MC05", description: "Classic", manuf
 var rent1 = VehicleRent(vehicleRentID: 1, rentStartDate: "01/01/20", rentEndDate: "06/01/20", numberOfKmDrived: 20)
 
 rent1.addVehicle(vehicle: b1, identificationNumber: b1.identificationNumber)
-rent1.display()
+//rent1.display()
 
 var rent2 = VehicleRent(vehicleRentID: 2, rentStartDate: "05/02/19", rentEndDate: "10/02/19", numberOfKmDrived: 40)
 
 rent2.addVehicle(vehicle: c1, identificationNumber: c1.identificationNumber)
-rent2.display()
+
+//rent2.display()
 
 //if(b1.isSelfDrive != true)
 //{
@@ -99,8 +100,6 @@ rent2.display()
 
 //rent2.addVehicle(vehicle: c1, identificationNumber: c1.identificationNumber)
 //customer1.addVehicleRent(vehicleRent: rent2, vehicleIdentificationNumber: rent2.vehicleIdentificationNumber)
-
-customer1.display()
 
 // Decrypt the password
 //print("EbMlRxcUH9TGJ3SxiEVzLA==".decrypt(key: "encrypt", iv: "encrypt") ?? "encrypt")
@@ -139,10 +138,10 @@ owner5.addVehicleOwned(vehicleOwned: mc3, vehicleIdentificationNumber: mc3.ident
 owner5.addVehicleOwned(vehicleOwned: mc4, vehicleIdentificationNumber: mc4.identificationNumber)
 owner5.addVehicleOwned(vehicleOwned: mc5, vehicleIdentificationNumber: mc5.identificationNumber)
 
-
-
-
-owner1.display()
+customer1.display() // customer has no vehicle rented initially
 
 customer1.addVehicleRent(vehicleRent: rent1, vehicleRentID: rent1.vehicleRentID)
+
 customer1.display()
+
+owner1.display()
