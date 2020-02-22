@@ -55,21 +55,22 @@ class Bus  : Vehicle
           
     func display()
     {
-        print("------BUS------")
-        print("Bus IdentificationNumber:            \(identificationNumber)")
-        print("Bus Description:                     \(description)")
-        print("Bus ManufacturerName:                \(manufacturerName)")
-        print("Bus isSelfDrive:                     \(isSelfDrive)")
-        print("Bus isInsured                        \(isInsured)")
-        print("Bus InsuranceProviderName            \(insuranceProviderName)")
-        print("Bus VehicleNoOfSeats:                \(vehicleNoOfSeats)")
-        print("Bus FuelType:                        \(fuelType)")
-        print("Bus RatePerDay:                      \(ratePerDay.currency())")
-        print("Bus ratePerKm:                       \(ratePerKm.currency())")
-        print("------------------------------------")
+        print("                  BUS        ")
+        print("----------------------------------------------------")
+        print("Bus IdentificationNumber         : \(identificationNumber)")
+        print("Bus Description                  : \(description)")
+        print("Bus ManufacturerName             : \(manufacturerName)")
+        print("Bus isSelfDrive                  : \(isSelfDrive)")
+        print("Bus isInsured                    : \(isInsured)")
+        print("Bus InsuranceProviderName        : \(insuranceProviderName)")
+        print("Bus VehicleNoOfSeats             : \(vehicleNoOfSeats)")
+        print("Bus FuelType                     : \(fuelType)")
+        print("Bus RatePerDay                   : \(ratePerDay.currency())")
+        print("Bus ratePerKm                    : \(ratePerKm.currency())")
+        print("----------------------------------------------------")
         for d in driver{
+            print("Driver is assigned to the bus (isSelfDrive = false)")
             d.value.display()
-            print("-------------------------------------")
         }
     }
 }
