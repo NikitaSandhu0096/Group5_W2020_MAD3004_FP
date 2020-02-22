@@ -91,6 +91,9 @@ var rent2 = VehicleRent(vehicleRentID: 2, rentStartDate: "05/02/19", rentEndDate
 
 rent2.addVehicle(vehicle: c1, identificationNumber: c1.identificationNumber)
 
+var rent3 = VehicleRent(vehicleRentID: 3, rentStartDate: "08/05/18", rentEndDate: "08/08/18", numberOfKmDrived: 200)
+rent3.addVehicle(vehicle: b2, identificationNumber: b2.identificationNumber)
+
 //rent2.display()
 
 //if(b1.isSelfDrive != true)
@@ -140,10 +143,25 @@ owner5.addVehicleOwned(vehicleOwned: mc3, vehicleIdentificationNumber: mc3.ident
 owner5.addVehicleOwned(vehicleOwned: mc4, vehicleIdentificationNumber: mc4.identificationNumber)
 owner5.addVehicleOwned(vehicleOwned: mc5, vehicleIdentificationNumber: mc5.identificationNumber)
 
+//Displaying Owner Details
+owner1.display()
+owner2.display()
+owner3.display()
+owner4.display()
+owner5.display()
+
+//Displaying Customer Details
 customer1.display() // customer has no vehicle rented initially
-
 customer1.addVehicleRent(vehicleRent: rent1, vehicleRentID: rent1.vehicleRentID)
-
+customer1.addVehicleRent(vehicleRent: rent2, vehicleRentID: rent2.vehicleRentID)
 customer1.display()
 
-owner1.display()
+customer2.addVehicleRent(vehicleRent: rent3, vehicleRentID: rent3.vehicleRentID)
+customer2.display()
+
+
+
+
+
+
+
