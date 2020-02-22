@@ -92,8 +92,8 @@
 		9B3AF0F824009ECF0020C6C6 /* Person */ = {
 			isa = PBXGroup;
 			children = (
-				9B34691E23F4BA3000DFE5DD /* Customer.swift */,
 				9BB6162523F4B55500BDF2B8 /* Person.swift */,
+				9B34691E23F4BA3000DFE5DD /* Customer.swift */,
 				EEAFCAB223FDF1EE00EEF4CC /* Owner.swift */,
 				EEAFCAB023FDEFF400EEF4CC /* Driver.swift */,
 			);

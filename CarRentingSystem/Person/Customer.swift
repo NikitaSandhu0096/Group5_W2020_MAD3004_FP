@@ -23,8 +23,9 @@ class Customer : Person{
     var address : String
     var city : String
     var vehicleListRented = [Int : VehicleRent]()
+    var amountToPayForAllRentedVehicles : Float = 0.0
         
-    init(id: Int, firstName: String, lastName: String, gender: Gender, birthDate: String, mobileNumber: String, email: String, userName: String, password: String, address : String, city : String)  {
+    init(id: Int, firstName: String, lastName: String, gender: Gender, birthDate: String, mobileNumber: String, email: String, userName: String, password: String, address : String, city : String) {
         self.id = id
         self.firstName = firstName
         self.lastName = lastName
@@ -83,8 +84,11 @@ class Customer : Person{
         }else{
             for v in vehicleListRented{
             v.value.display()
-            print("--------------------------------------")
-            }
+                print("--------------------------------------")}
+                for j in vehicleListRented{
+                    amountToPayForAllRentedVehicles = amountToPayForAllRentedVehicles + j.value.totalBillToPay
+                }
+                print("Amount to pay for all the rented vehicles : \(amountToPayForAllRentedVehicles.currency())")
         }
     }
 }

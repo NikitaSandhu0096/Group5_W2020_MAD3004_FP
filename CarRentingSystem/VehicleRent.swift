@@ -20,7 +20,6 @@ class VehicleRent: IDisplay
     var numberOfKmDrived : Int
     var rentInKm : Float = 0.0
     var totalBillToPay : Float = 0.0
-//    var vehicleIdentificationNumber: String
     
     init(vehicleRentID : Int, rentStartDate : String, rentEndDate : String, numberOfKmDrived : Int) {
         self.vehicleRentID = vehicleRentID

@@ -9,6 +9,8 @@
 import Foundation
 
 // Customer Objects
+
+
 var customer1 =  Customer(id: 1, firstName: "", lastName: "Sandhu", gender: .Female, birthDate: "13/10/1994", mobileNumber: "1234567890", email: "nsandhu@gmail.com", userName: "nsandhu", password: "Nsandhu94".encrypt(key: "encrypt", iv: "encrypt") ?? "encrypt", address: "Yorkland Blvd", city: "Toronto")
 var customer2 =  Customer(id: 2, firstName: "kamalpreet", lastName: "kaur", gender: .Female, birthDate: "20/02/1998", mobileNumber: "4561589875", email: "kamalpreet34@gmail.com", userName: "kamalkaur", password: "kaur98".encrypt(key: "encrypt", iv: "encrypt") ?? "encrypt",address: "Speedwell Street", city: "Brampton")
 var customer3 =  Customer(id: 3, firstName: "Jyothi", lastName: "Thomas", gender: .Male, birthDate: "5/09/1990", mobileNumber: "4574359876", email: "jyotit123@gmail.com", userName: "jyotithomas", password: "thomas12".encrypt(key: "encrypt", iv: "encrypt") ?? "encrypt", address: "Shepherd Ave", city: "Scorbrough")
@@ -122,4 +124,5 @@ owner5.addVehicleOwned(vehicleOwned: mc5, vehicleIdentificationNumber: mc5.ident
 owner1.display()
 
 customer1.addVehicleRent(vehicleRent: rent1, vehicleRentID: rent1.vehicleRentID)
+customer1.addVehicleRent(vehicleRent: rent2, vehicleRentID: rent2.vehicleRentID)
 customer1.display()
