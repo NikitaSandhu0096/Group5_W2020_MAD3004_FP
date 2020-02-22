@@ -57,7 +57,7 @@ class Driver : Person{
     }
     
      func display() {
-        print(" \n     ----- DRIVER DETAILS ------\n")
+        print(" \n----------------- DRIVER DETAILS -------------------\n")
         print("Driver's ID                      : \(self.id)")
         print("Driver's First Name              : \(self.firstName)")
         print("Driver's Last Name               : \(self.lastName)")
