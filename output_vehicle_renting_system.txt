@@ -7,7 +7,7 @@ Owner's Birth Date                   : 13/10/1994
 Owner's Age                          : 25
 Owner's Mobile Number                : 1234567890
 Owner's email                        : nsandhu@gmail.com
-Owner's username                     : sfasf
+Owner's username                     : nsandhu
 Owner's password                     : +kHsnUftwIRFve1RJ7m9xQ==
 Owner's Company Title                : tmall
 Owner's Business Landline Number     : 657498

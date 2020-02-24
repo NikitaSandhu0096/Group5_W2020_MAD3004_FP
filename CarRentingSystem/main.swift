@@ -126,7 +126,7 @@ rent5.addVehicle(vehicle: c4, identificationNumber: c4.identificationNumber)
 //print("EbMlRxcUH9TGJ3SxiEVzLA==".decrypt(key: "encrypt", iv: "encrypt") ?? "encrypt")
 
 
-var owner1 = try Owner(id: 1, firstName: "Nikita", lastName: "Sandhu", gender: .Female, birthDate: "13/10/1994", mobileNumber: "1234567890", email: "nsandhu@gmail.com", userName: "sfasf", password: "safsdf".encrypt(key: "encrypt", iv: "encrypt") ?? "encrypt" , companyTitle: "tmall", businessLandLineNumber: "657498", website: "tmall.com")
+var owner1 = try Owner(id: 1, firstName: "Nikita", lastName: "Sandhu", gender: .Female, birthDate: "13/10/1994", mobileNumber: "1234567890", email: "nsandhu@gmail.com", userName: "nsandhu", password: "safsdf".encrypt(key: "encrypt", iv: "encrypt") ?? "encrypt" , companyTitle: "tmall", businessLandLineNumber: "657498", website: "tmall.com")
 
 var owner2 = try Owner(id: 2, firstName: "Kamalpreet", lastName: "kaur", gender: .Female, birthDate: "20/02/1998", mobileNumber: "4573681257", email: "kamalKaur@gmail.com", userName: "kamalKaur", password: "kaur".encrypt(key: "encrypt", iv: "encrypt") ?? "encrypt", companyTitle: "nature", businessLandLineNumber: "112642", website: "nature.com")
 
@@ -140,18 +140,18 @@ var owner5 = try Owner(id: 5, firstName: "Charmi", lastName: "Patel", gender: .F
 // File Ouput Code
 //https://stackoverflow.com/questions/43108563/log-to-both-xcode-console-and-file
 
-func logToFile() {
-    let paths = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)
-  let documentsDirectory = paths[0]
-  let fileName = "output_vehicle_renting_system.txt"
-  let logFilePath = (documentsDirectory as NSString).appendingPathComponent(fileName)
-
-  freopen(logFilePath.cString(using: String.Encoding.ascii)!, "a+", stderr)
-  freopen(logFilePath.cString(using: String.Encoding.ascii)!, "a+", stdin)
-  freopen(logFilePath.cString(using: String.Encoding.ascii)!, "a+", stdout)
-}
-
-logToFile()
+//func logToFile() {
+//    let paths = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)
+//  let documentsDirectory = paths[0]
+//  let fileName = "output_vehicle_renting_system.txt"
+//  let logFilePath = (documentsDirectory as NSString).appendingPathComponent(fileName)
+//
+//  freopen(logFilePath.cString(using: String.Encoding.ascii)!, "a+", stderr)
+//  freopen(logFilePath.cString(using: String.Encoding.ascii)!, "a+", stdin)
+//  freopen(logFilePath.cString(using: String.Encoding.ascii)!, "a+", stdout)
+//}
+//
+//logToFile()
 
 
 // Adding Owner's vehicle list
