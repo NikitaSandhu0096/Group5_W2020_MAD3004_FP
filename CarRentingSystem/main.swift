@@ -140,18 +140,18 @@ var owner5 = try Owner(id: 5, firstName: "Charmi", lastName: "Patel", gender: .F
 // File Ouput Code
 //https://stackoverflow.com/questions/43108563/log-to-both-xcode-console-and-file
 
-//func logToFile() {
-//    let paths = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)
-//  let documentsDirectory = paths[0]
-//  let fileName = "output_vehicle_renting_system.txt"
-//  let logFilePath = (documentsDirectory as NSString).appendingPathComponent(fileName)
-//
-//  freopen(logFilePath.cString(using: String.Encoding.ascii)!, "a+", stderr)
-//  freopen(logFilePath.cString(using: String.Encoding.ascii)!, "a+", stdin)
-//  freopen(logFilePath.cString(using: String.Encoding.ascii)!, "a+", stdout)
-//}
-//
-//logToFile()
+func logToFile() {
+    let paths = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)
+  let documentsDirectory = paths[0]
+  let fileName = "output_vehicle_renting_system.txt"
+  let logFilePath = (documentsDirectory as NSString).appendingPathComponent(fileName)
+
+  freopen(logFilePath.cString(using: String.Encoding.ascii)!, "a+", stderr)
+  freopen(logFilePath.cString(using: String.Encoding.ascii)!, "a+", stdin)
+  freopen(logFilePath.cString(using: String.Encoding.ascii)!, "a+", stdout)
+}
+
+logToFile()
 
 
 // Adding Owner's vehicle list
