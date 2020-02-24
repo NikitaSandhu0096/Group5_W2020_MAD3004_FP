@@ -45,7 +45,7 @@ class Car: Vehicle
     
     
      func display() {
-<<<<<<< HEAD
+
         print("                 ------CAR------")
         print("Car IdentificationNumber         : \(identificationNumber)")
         print("Car Description                  : \(description)")
@@ -59,21 +59,7 @@ class Car: Vehicle
         print("Car ratePerDay                   : \(ratePerDay.currency())")
         print("Car Color                        : \(carColor)")
         print("Car Type                         : \(carType)")
-=======
-         print("----------------------- CAR ------------------------")
-        print("Car IdentificationNumber:            :\(identificationNumber)")
-        print("Car Description:                     :\(description)")
-        print("Car ManufacturerName:                :\(manufacturerName)")
-        print("Car IsSelfDrive:                     :\(isSelfDrive)")
-        print("Car IsInsured:                       :\(isInsured)")
-        print("Car InsuranceProviderName:           :\(insuranceProviderName)")
-        print("Car VehicleNoOfSeats:                :\(vehicleNoOfSeats)")
-        print("Car FuelType:                        :\(fuelType)")
-        print("Car RatePerKm:                       :\(ratePerKm.currency())")
-        print("Car ratePerDay:                      :\(ratePerDay.currency())")
-        print("Car Color:                           :\(carColor)")
-        print("Car Type:                            :\(carType)")
->>>>>>> df983b1e49914a0059370a3d94e5a85a81574d41
+
         if driver.count == 0{
             print("====================================================")
             print("This vehicle doesn't have a driver")

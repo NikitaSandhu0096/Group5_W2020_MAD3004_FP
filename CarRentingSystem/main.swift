@@ -140,18 +140,18 @@ var owner5 = try Owner(id: 5, firstName: "Charmi", lastName: "Patel", gender: .F
 // File Ouput Code
 //https://stackoverflow.com/questions/43108563/log-to-both-xcode-console-and-file
 
-func logToFile() {
-    let paths = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)
-  let documentsDirectory = paths[0]
-  let fileName = "output_vehicle_renting_system.txt"
-  let logFilePath = (documentsDirectory as NSString).appendingPathComponent(fileName)
-
-  freopen(logFilePath.cString(using: String.Encoding.ascii)!, "a+", stderr)
-  freopen(logFilePath.cString(using: String.Encoding.ascii)!, "a+", stdin)
-  freopen(logFilePath.cString(using: String.Encoding.ascii)!, "a+", stdout)
-}
-
-logToFile()
+//func logToFile() {
+//    let paths = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)
+//  let documentsDirectory = paths[0]
+//  let fileName = "output_vehicle_renting_system.txt"
+//  let logFilePath = (documentsDirectory as NSString).appendingPathComponent(fileName)
+//
+//  freopen(logFilePath.cString(using: String.Encoding.ascii)!, "a+", stderr)
+//  freopen(logFilePath.cString(using: String.Encoding.ascii)!, "a+", stdin)
+//  freopen(logFilePath.cString(using: String.Encoding.ascii)!, "a+", stdout)
+//}
+//
+//logToFile()
 
 
 // Adding Owner's vehicle list
@@ -183,11 +183,7 @@ owner5.addVehicleOwned(vehicleOwned: mc5, vehicleIdentificationNumber: mc5.ident
 //owner5.display()
 
 //Displaying Customer Details
-<<<<<<< HEAD
-//customer1.display() // customer has no vehicle rented initially
-=======
 
->>>>>>> df983b1e49914a0059370a3d94e5a85a81574d41
 customer1.addVehicleRent(vehicleRent: rent1, vehicleRentID: rent1.vehicleRentID)
 customer1.addVehicleRent(vehicleRent: rent2, vehicleRentID: rent2.vehicleRentID)
 //customer1.display()

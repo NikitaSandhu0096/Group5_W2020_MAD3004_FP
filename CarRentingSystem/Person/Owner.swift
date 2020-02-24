@@ -68,25 +68,7 @@ class Owner : Person{
     }
     
      func display() {
-<<<<<<< HEAD
-        print("                 ------OWNER------")
-        print("Owner's ID                          : \(self.id)")
-        print("Owner's First Name                  : \(self.firstName)")
-        print("Owner's Last Name                   : \(self.lastName)")
-        print("Owner's gender                      : \(self.gender)")
-        print("Owner's Birth Date                  : \(self.birthDate)")
-        print("Owner's Age                         : \(calculateAge())")
-        print("Owner's Mobile Number               : \(self.mobileNumber)")
-        print("Owner's email                       : \(self.email)")
-        print("Owner's username                    : \(self.userName)")
-        print("Owner's password                    : \(self.password)")
-        print("Owner's Company Title               : \(self.companyTitle)")
-        print("Owner's Business Landline Number    : \(self.businessLandLineNumber)")
-        print("Owner's Website                     : \(self.website)")
-        print("----------------------------------------------")
-        print("Owner's Vehicle List Owned : ")
-        print("----------------------------------------------")
-=======
+
        print("------------------- OWNER DETAILS -----------------")
         print("Owner's ID                           : \(self.id)")
         print("Owner's First Name                   : \(self.firstName)")
@@ -104,18 +86,14 @@ class Owner : Person{
         print("====================================================")
         print("         Owner's Vehicle List Owned :         ")
         print("====================================================")
->>>>>>> df983b1e49914a0059370a3d94e5a85a81574d41
+
         if vehicleListOwned.count == 0{
             print("No vehilce owned by this owner")
         } else{
             for i in vehicleListOwned{
                 i.value.display()
-<<<<<<< HEAD
                 print("----------------------------------------------")
-=======
                 print("====================================================")
-                
->>>>>>> df983b1e49914a0059370a3d94e5a85a81574d41
             }
         }
     }
