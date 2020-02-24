@@ -1,10 +1,10 @@
 # Group5_W2020_MAD3004_FP
 
-Car Renting System
+# Car Renting System
 
-# C0766552 - Nikita Sandhu
-# C0775696 - Jyothi Thomas
-# C0777682 - Kamalpreet Kaur
+## C0766552 - Nikita Sandhu
+## C0775696 - Jyothi Thomas
+## C0777682 - Kamalpreet Kaur
 
 
 Jira link: https://team-1581126235150.atlassian.net/secure/RapidBoard.jspa?rapidView=2&projectKey=W2020VRS&view=reporting&chart=cumulativeFlowDiagram&swimlane=2&column=10&column=11&column=12&days=7
