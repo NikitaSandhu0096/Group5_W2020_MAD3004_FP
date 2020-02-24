@@ -31,6 +31,9 @@ class Driver : Person{
         self.gender = gender
         self.birthDate = birthDate
         self.mobileNumber = mobileNumber
+        if(!email.emailValid()){
+            throw DriverError.InvalidEmail
+        }
         self.email = email
         self.userName = userName
         self.password = password
@@ -38,6 +41,13 @@ class Driver : Person{
         self.isDrivingHistoryCleared = isDrivingHistoryCleared
         self.salary = salary
     }
+    
+//    func setEmail(email : String?){
+//        guard (email?.emailValid())! == true else {
+//            return
+//        }
+//        self.email = email!
+//    }
     
     func calculateBirthDate(string : String) -> Date {      //https://stackoverflow.com/questions/35700281/date-format-in-swift
         

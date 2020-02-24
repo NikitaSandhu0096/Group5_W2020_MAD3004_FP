@@ -11,16 +11,16 @@ import Foundation
 // Customer Objects
 
 
-var customer1 =  try Customer(id: 1, firstName: "Nikita", lastName: "Sandhu", gender: .Female, birthDate: "13/10/1994", mobileNumber: "1234567890", email: "nsandhu@gmail.com", userName: "nsandhu", password: "Nsandhu94".encrypt(key: "encrypt", iv: "encrypt") ?? "encrypt", address: "Yorkland Blvd", city: "Toronto")
-var customer2 =  try Customer(id: 2, firstName: "kamalpreet", lastName: "kaur", gender: .Female, birthDate: "20/02/1998", mobileNumber: "4561589875", email: "kamalpreet34@gmail.com", userName: "kamalkaur", password: "kaur98".encrypt(key: "encrypt", iv: "encrypt") ?? "encrypt",address: "Speedwell Street", city: "Brampton")
-var customer3 =  try Customer(id: 3, firstName: "Jyothi", lastName: "Thomas", gender: .Male, birthDate: "5/09/1990", mobileNumber: "4574359876", email: "jyotit123@gmail.com", userName: "jyotithomas", password: "thomas12".encrypt(key: "encrypt", iv: "encrypt") ?? "encrypt", address: "Shepherd Ave", city: "Scorbrough")
-var customer4 =  try Customer(id: 4, firstName: "Avni", lastName: "Patel", gender: .Female, birthDate: "27/02/1992", mobileNumber: "7892584598", email: "avniPatel@yahoo.com", userName: "AvniPAtel", password: "patel92".encrypt(key: "encrypt", iv: "encrypt") ?? "encrypt", address: "Yonge Street", city: "Toronto")
-var customer5 =  try Customer(id: 5, firstName: "Charmi", lastName: "Patel", gender: .Female, birthDate: "25/11/1993", mobileNumber: "6572583587", email: "patelCharmi34@outlook.com", userName: "charmi89", password: "charmi".encrypt(key: "encrypt", iv: "encrypt") ?? "encrypt", address: "Square One", city: "Missisauga")
+var customer1 =  try Customer(id: 1, firstName: "Nikita", lastName: "Sandhu", gender: .Female, birthDate: "13/10/1994", mobileNumber: "3647912580", email: "nsandhu@gmail.com", userName: "nsandhu", password: "Nsandhu94".encrypt(key: "encrypt", iv: "encrypt") ?? "encrypt", address: "159, Yorkland Blvd", city: "Toronto")
+var customer2 =  try Customer(id: 2, firstName: "Kamalpreet", lastName: "Kaur", gender: .Female, birthDate: "20/02/1998", mobileNumber: "4561589875", email: "kamalpreet34@gmail.com", userName: "kamalkaur", password: "kaur98".encrypt(key: "encrypt", iv: "encrypt") ?? "encrypt",address: "234, Speedwell Street", city: "Brampton")
+var customer3 =  try Customer(id: 3, firstName: "Jyothi", lastName: "Thomas", gender: .Male, birthDate: "5/09/1990", mobileNumber: "4574359876", email: "jyotit123@gmail.com", userName: "jyotithomas", password: "thomas12".encrypt(key: "encrypt", iv: "encrypt") ?? "encrypt", address: "123, Shepherd Ave", city: "Scorbrough")
+var customer4 =  try Customer(id: 4, firstName: "Avni", lastName: "Patel", gender: .Female, birthDate: "27/02/1992", mobileNumber: "7892584598", email: "avniPatel@yahoo.com", userName: "AvniPAtel", password: "patel92".encrypt(key: "encrypt", iv: "encrypt") ?? "encrypt", address: "456, Yonge Street", city: "Toronto")
+var customer5 =  try Customer(id: 5, firstName: "Charmi", lastName: "Patel", gender: .Female, birthDate: "25/11/1993", mobileNumber: "6572583587", email: "patelCharmi34@outlook.com", userName: "charmi89", password: "charmi".encrypt(key: "encrypt", iv: "encrypt") ?? "encrypt", address: "4070, Square One", city: "Missisauga")
 
 
 // driver objects
 
-var d1 = try Driver(id: 01, firstName: "Vel", lastName: "Ratan", gender: .Male, birthDate: "14/11/1995", mobileNumber: "2546572334", email: "ratvel234@out.com", userName: "retvel21", password: "dster543", drivingLicenseNumber: "DRI123", isDrivingHistoryCleared: true, salary: 1000)
+var d1 = try Driver(id: 1, firstName: "Vel", lastName: "Ratan", gender: .Male, birthDate: "14/11/1995", mobileNumber: "2546572334", email: "ratvel234@out.com", userName: "retvel21", password: "dster543", drivingLicenseNumber: "C02358-0986-5609", isDrivingHistoryCleared: true, salary: 1000)
 
 var d2 = try Driver(id: 02, firstName: "Kartik", lastName: "Sharma", gender: .Male, birthDate: "12/06/1992", mobileNumber: "4562583579", email: "kartik34@yahoo.com", userName: "Skartik", password: "kartik".encrypt(key: "encrypt", iv: "encrypt") ?? "encrypt", drivingLicenseNumber: "C01147-9875-4598", isDrivingHistoryCleared: true, salary: 500)
 
@@ -51,6 +51,7 @@ var b5 = Bus(identificationNumber: "B05", description: "Customer-focused bifurca
 if (b5.isSelfDrive == false){
     b5.addDriver(drivers: d5, driverId: d5.id)
 }
+
 // Car objects
 var c1 = Car(identificationNumber: "C01", description: "Sedan", isSelfDrive: false, manufacturerName: "Polo", isInsured: true, insuranceProviderName: "National", vehicleNoOfSeats: 4, fuelType: "Petrol", ratePerDay: 10, ratePerKm: 5, carColor: "White", carType: "Sedan")
 if (c1.isSelfDrive == false){
@@ -84,15 +85,30 @@ var mc5 = MotorCycle(identificationNumber: "MC05", description: "Classic", manuf
 
 var rent1 = VehicleRent(vehicleRentID: 1, rentStartDate: "01/01/20", rentEndDate: "06/01/20", numberOfKmDrived: 20)
 
+// Adding vehicle rent to each vehicles
+
 rent1.addVehicle(vehicle: b1, identificationNumber: b1.identificationNumber)
+//rent1.addVehicle(vehicle: c2, identificationNumber: c2.identificationNumber)
 //rent1.display()
 
 var rent2 = VehicleRent(vehicleRentID: 2, rentStartDate: "05/02/19", rentEndDate: "10/02/19", numberOfKmDrived: 40)
 
 rent2.addVehicle(vehicle: c1, identificationNumber: c1.identificationNumber)
+//rent2.addVehicle(vehicle: c2, identificationNumber: c2.identificationNumber)
+//rent2.addVehicle(vehicle: b4, identificationNumber: b4.identificationNumber)
 
 var rent3 = VehicleRent(vehicleRentID: 3, rentStartDate: "08/05/18", rentEndDate: "08/08/18", numberOfKmDrived: 200)
 rent3.addVehicle(vehicle: b2, identificationNumber: b2.identificationNumber)
+//rent3.addVehicle(vehicle: c4, identificationNumber: c4.identificationNumber)
+//rent3.addVehicle(vehicle: mc3, identificationNumber: mc3.identificationNumber)
+
+var rent4 = VehicleRent(vehicleRentID: 4, rentStartDate: "09/01/19", rentEndDate: "30/01/19", numberOfKmDrived: 140)
+rent4.addVehicle(vehicle: mc2, identificationNumber: mc2.identificationNumber)
+//rent4.addVehicle(vehicle: mc3, identificationNumber: mc3.identificationNumber)
+//rent4.addVehicle(vehicle: c5, identificationNumber: c5.identificationNumber)
+
+var rent5 = VehicleRent(vehicleRentID: 5, rentStartDate: "10/10/19", rentEndDate: "1/12/19", numberOfKmDrived: 310)
+rent5.addVehicle(vehicle: c4, identificationNumber: c4.identificationNumber)
 
 //rent2.display()
 
@@ -121,8 +137,24 @@ var owner4 = try Owner(id: 4, firstName: "Millind", lastName: "Gaba", gender: .M
 var owner5 = try Owner(id: 5, firstName: "Charmi", lastName: "Patel", gender: .Female, birthDate: "03/11/1993", mobileNumber: "6584237485", email: "charmi12@outlook.com", userName: "charmiPatel", password: "patel".encrypt(key: "encrypt", iv: "encrypt") ??
     "encrypt", companyTitle: "Multimedia", businessLandLineNumber: "658494", website: "multimedia.com")
 
+// File Ouput Code
+//https://stackoverflow.com/questions/43108563/log-to-both-xcode-console-and-file
+
+func logToFile() {
+    let paths = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)
+  let documentsDirectory = paths[0]
+  let fileName = "output_vehicle_renting_system.txt"
+  let logFilePath = (documentsDirectory as NSString).appendingPathComponent(fileName)
+
+  freopen(logFilePath.cString(using: String.Encoding.ascii)!, "a+", stderr)
+  freopen(logFilePath.cString(using: String.Encoding.ascii)!, "a+", stdin)
+  freopen(logFilePath.cString(using: String.Encoding.ascii)!, "a+", stdout)
+}
+
+logToFile()
 
 
+// Adding Owner's vehicle list
 owner1.addVehicleOwned(vehicleOwned: c1, vehicleIdentificationNumber: c1.identificationNumber)
 owner1.addVehicleOwned(vehicleOwned: b1, vehicleIdentificationNumber: b1.identificationNumber)
 owner1.addVehicleOwned(vehicleOwned: c2, vehicleIdentificationNumber: c2.identificationNumber)
@@ -144,20 +176,32 @@ owner5.addVehicleOwned(vehicleOwned: mc4, vehicleIdentificationNumber: mc4.ident
 owner5.addVehicleOwned(vehicleOwned: mc5, vehicleIdentificationNumber: mc5.identificationNumber)
 
 //Displaying Owner Details
-owner1.display()
-owner2.display()
-owner3.display()
-owner4.display()
-owner5.display()
+//owner1.display()
+//owner2.display()
+//owner3.display()
+//owner4.display()
+//owner5.display()
 
 //Displaying Customer Details
-customer1.display() // customer has no vehicle rented initially
+//customer1.display() // customer has no vehicle rented initially
 customer1.addVehicleRent(vehicleRent: rent1, vehicleRentID: rent1.vehicleRentID)
 customer1.addVehicleRent(vehicleRent: rent2, vehicleRentID: rent2.vehicleRentID)
-customer1.display()
+//customer1.display()
 
-customer2.addVehicleRent(vehicleRent: rent3, vehicleRentID: rent3.vehicleRentID)
-customer2.display()
+customer2.addVehicleRent(vehicleRent: rent2, vehicleRentID: rent3.vehicleRentID)
+//customer2.display()
+
+customer3.addVehicleRent(vehicleRent: rent3, vehicleRentID: rent3.vehicleRentID)
+customer3.addVehicleRent(vehicleRent: rent4, vehicleRentID: rent4.vehicleRentID)
+//customer3.addVehicleRent(vehicleRent: rent1, vehicleRentID: rent1.vehicleRentID)
+//customer3.display()
+
+customer4.addVehicleRent(vehicleRent: rent4, vehicleRentID: rent5.vehicleRentID)
+//customer4.display()
+customer5.addVehicleRent(vehicleRent: rent5, vehicleRentID: rent5.vehicleRentID)
+
+// This customer has not rented any vehicle
+//customer5.display()
 
 var owners = [Int : Owner]()
 
@@ -208,3 +252,66 @@ if (owner5.email.emailValid() && owner5.mobileNumber.mobileValid()){
     print("Enter valid email or mobile number for the Owner 5")
 }
 
+
+var customers = [Int : Customer]()
+
+func addCustomer(customer : Customer, customerId : Int){
+    customers.updateValue(customer, forKey: customerId)
+}
+
+addCustomer(customer: customer1, customerId: customer1.id)
+addCustomer(customer: customer2, customerId: customer2.id)
+addCustomer(customer: customer3, customerId: customer3.id)
+addCustomer(customer: customer4, customerId: customer4.id)
+addCustomer(customer: customer5, customerId: customer5.id)
+
+func getCustomerById(Id : Int){
+    if(customers.index(forKey: Id) != nil){
+        customers[Id]?.display()
+    }else{
+        print("Customer doesn't exist")
+    }
+}
+
+if (customer1.email.emailValid() && customer1.mobileNumber.mobileValid()){
+    getCustomerById(Id: 1)
+}else{
+    print("Enter valid email or mobile number for the Customer 1")
+}
+
+if (customer2.mobileNumber.mobileValid() && customer2.mobileNumber.mobileValid()){
+    getCustomerById(Id: 2)
+}else{
+    print("Enter valid email or mobile number for the Customer 2")
+}
+
+if (customer3.email.emailValid() && customer3.mobileNumber.mobileValid()){
+    getCustomerById(Id: 3)
+}else{
+    print("Enter valid email or mobile number for the Customer 3")
+}
+
+if (customer4.email.emailValid() && customer4.mobileNumber.mobileValid()){
+    getCustomerById(Id: 4)
+}else{
+    print("Enter valid email or mobile number for the Customer 4")
+}
+if (customer5.email.emailValid() && customer5.mobileNumber.mobileValid()){
+    getCustomerById(Id: 5)
+}else{
+    print("Enter valid email or mobile number for the Customer 5")
+}
+
+do{
+    let d6 = try? Driver(id: 06, firstName: "Jasmine", lastName: "sharma", gender: .Female, birthDate: "07/09/1990", mobileNumber: "6579246574", email: "jasmins36@gmail.com", userName: "sharmaJas", password: "jasmine".encrypt(key: "encrypt", iv: "encrypt") ?? "encrypt", drivingLicenseNumber: "C0983-6754-3421", isDrivingHistoryCleared: true, salary: 1000)
+
+    if let d = d6{
+//        d.setEmail(email: "Invalid Email")
+        print(d.email)
+    }else{
+        throw DriverError.InvalidEmail
+    }
+}
+catch DriverError.InvalidEmail{
+    print("Error : Email")
+}

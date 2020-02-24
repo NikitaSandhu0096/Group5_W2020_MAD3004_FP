@@ -1,0 +1,733 @@
+                 ------OWNER------
+Owner's ID                          : 1
+Owner's First Name                  : Nikita
+Owner's Last Name                   : Sandhu
+Owner's gender                      : Female
+Owner's Birth Date                  : 13/10/1994
+Owner's Age                         : 25
+Owner's Mobile Number               : 1234567890
+Owner's email                       : nsandhu@gmail.com
+Owner's username                    : sfasf
+Owner's password                    : +kHsnUftwIRFve1RJ7m9xQ==
+Owner's Company Title               : tmall
+Owner's Business Landline Number    : 657498
+Owner's Website                     : tmall.com
+----------------------------------------------
+Owner's Vehicle List Owned : 
+----------------------------------------------
+                 ------CAR------
+Car IdentificationNumber         : C01
+Car Description                  : Sedan
+Car ManufacturerName             : Polo
+Car IsSelfDrive                  : false
+Car IsInsured                    : true
+Car InsuranceProviderName        : National
+Car VehicleNoOfSeats             : 4
+Car FuelType                     : Petrol
+Car RatePerKm                    : $5.00
+Car ratePerDay                   : $10.00
+Car Color                        : White
+Car Type                         : Sedan
+ 
+     ----- DRIVER DETAILS ------
+
+Driver's ID                      : 1
+Driver's First Name              : Vel
+Driver's Last Name               : Ratan
+Driver's gender                  : Male
+Driver's Birth Date              : 14/11/1995
+Driver's Age                     : 24
+Driver's Mobile Number           : 2546572334
+Driver's email                   : ratvel234@out.com
+Driver's username                : retvel21
+Driver's password                : dster543
+Driver's Driving License Number  : C02358-0986-5609
+Driver's Driving History Cleared : true
+Driver's Salary                  : 1000
+----------------------------------------------
+                  BUS        
+----------------------------------------------------
+Bus IdentificationNumber         : B01
+Bus Description                  : JBL enabled
+Bus ManufacturerName             : Benz
+Bus isSelfDrive                  : false
+Bus isInsured                    : true
+Bus InsuranceProviderName        : Orient
+Bus VehicleNoOfSeats             : 20
+Bus FuelType                     : Diesel
+Bus RatePerDay                   : $20.00
+Bus ratePerKm                    : $3.00
+----------------------------------------------------
+ 
+     ----- DRIVER DETAILS ------
+
+Driver's ID                      : 1
+Driver's First Name              : Vel
+Driver's Last Name               : Ratan
+Driver's gender                  : Male
+Driver's Birth Date              : 14/11/1995
+Driver's Age                     : 24
+Driver's Mobile Number           : 2546572334
+Driver's email                   : ratvel234@out.com
+Driver's username                : retvel21
+Driver's password                : dster543
+Driver's Driving License Number  : C02358-0986-5609
+Driver's Driving History Cleared : true
+Driver's Salary                  : 1000
+----------------------------------------------
+                 ------CAR------
+Car IdentificationNumber         : C02
+Car Description                  : SUV
+Car ManufacturerName             : Mahindra
+Car IsSelfDrive                  : true
+Car IsInsured                    : true
+Car InsuranceProviderName        : Thomas
+Car VehicleNoOfSeats             : 5
+Car FuelType                     : Petrol
+Car RatePerKm                    : $3.00
+Car ratePerDay                   : $12.00
+Car Color                        : Black
+Car Type                         : HatchBack
+This vehicle doesn't have a driver
+----------------------------------------------
+                 ------OWNER------
+Owner's ID                          : 2
+Owner's First Name                  : Kamalpreet
+Owner's Last Name                   : kaur
+Owner's gender                      : Female
+Owner's Birth Date                  : 20/02/1998
+Owner's Age                         : 22
+Owner's Mobile Number               : 4573681257
+Owner's email                       : kamalKaur@gmail.com
+Owner's username                    : kamalKaur
+Owner's password                    : fHFpBy8VVQKrphxwO8r9tQ==
+Owner's Company Title               : nature
+Owner's Business Landline Number    : 112642
+Owner's Website                     : nature.com
+----------------------------------------------
+Owner's Vehicle List Owned : 
+----------------------------------------------
+                  BUS        
+----------------------------------------------------
+Bus IdentificationNumber         : B02
+Bus Description                  : Customer-focused bifurcated group ware
+Bus ManufacturerName             : Mercedes
+Bus isSelfDrive                  : false
+Bus isInsured                    : true
+Bus InsuranceProviderName        : TruSheild
+Bus VehicleNoOfSeats             : 24
+Bus FuelType                     : Diesel
+Bus RatePerDay                   : $10.00
+Bus ratePerKm                    : $2.00
+----------------------------------------------------
+ 
+     ----- DRIVER DETAILS ------
+
+Driver's ID                      : 2
+Driver's First Name              : Kartik
+Driver's Last Name               : Sharma
+Driver's gender                  : Male
+Driver's Birth Date              : 12/06/1992
+Driver's Age                     : 27
+Driver's Mobile Number           : 4562583579
+Driver's email                   : kartik34@yahoo.com
+Driver's username                : Skartik
+Driver's password                : HB+1K3YRe0bipXVyo+qaUw==
+Driver's Driving License Number  : C01147-9875-4598
+Driver's Driving History Cleared : true
+Driver's Salary                  : 500
+----------------------------------------------
+------MOTORCYCLE------
+Motorcycle's IdentificationNumber        : MC01
+Motorcycle's Description                 : Classic
+Motorcycle's ManufacturerName            : Bajaj
+Motorcycle's isSelfDrive                 : true
+Motorcycle's isInsured                   : true
+Motorcycle's InsuranceProviderName       : Overseas
+Motorcycle's VehicleNoOfSeats            : 2
+Motorcycle's FuelType                    : Petrol
+Motorcycle's RatePerDay                  : $5.00
+Motorcycle's ratePerKm                   : $5.00
+------------------------------------
+----------------------------------------------
+                 ------CAR------
+Car IdentificationNumber         : C03
+Car Description                  : Crossover
+Car ManufacturerName             : Nissan
+Car IsSelfDrive                  : true
+Car IsInsured                    : true
+Car InsuranceProviderName        : Car Insaurance
+Car VehicleNoOfSeats             : 7
+Car FuelType                     : Diesel
+Car RatePerKm                    : $5.00
+Car ratePerDay                   : $15.00
+Car Color                        : White
+Car Type                         : CUV
+This vehicle doesn't have a driver
+----------------------------------------------
+                 ------OWNER------
+Owner's ID                          : 3
+Owner's First Name                  : Jyoti
+Owner's Last Name                   : Thomas
+Owner's gender                      : Female
+Owner's Birth Date                  : 03/10/1990
+Owner's Age                         : 29
+Owner's Mobile Number               : 4569872457
+Owner's email                       : Jthomas@yahoo.com
+Owner's username                    : jyotiT
+Owner's password                    : Ws/+qvATqWOk2jBkFzwj+g==
+Owner's Company Title               : twitterbeat
+Owner's Business Landline Number    : 235987
+Owner's Website                     : macromedia.com
+----------------------------------------------
+Owner's Vehicle List Owned : 
+----------------------------------------------
+                 ------CAR------
+Car IdentificationNumber         : C05
+Car Description                  : Mercedes Benz GLE Coupe
+Car ManufacturerName             : Mercedes
+Car IsSelfDrive                  : true
+Car IsInsured                    : true
+Car InsuranceProviderName        : National
+Car VehicleNoOfSeats             : 5
+Car FuelType                     : Diesel
+Car RatePerKm                    : $5.00
+Car ratePerDay                   : $30.00
+Car Color                        : White
+Car Type                         : Passenger Car
+This vehicle doesn't have a driver
+----------------------------------------------
+                 ------CAR------
+Car IdentificationNumber         : C04
+Car Description                  : Convertible and Crossover
+Car ManufacturerName             : Lamborghini
+Car IsSelfDrive                  : true
+Car IsInsured                    : true
+Car InsuranceProviderName        : Convertible Insaurances
+Car VehicleNoOfSeats             : 2
+Car FuelType                     : Diesel
+Car RatePerKm                    : $8.00
+Car ratePerDay                   : $30.00
+Car Color                        : Red
+Car Type                         : Convertible
+This vehicle doesn't have a driver
+----------------------------------------------
+                 ------OWNER------
+Owner's ID                          : 4
+Owner's First Name                  : Millind
+Owner's Last Name                   : Gaba
+Owner's gender                      : Male
+Owner's Birth Date                  : 08/04/1992
+Owner's Age                         : 27
+Owner's Mobile Number               : 3419871547
+Owner's email                       : millind67@gmail.com
+Owner's username                    : Gmillind
+Owner's password                    : n2Cdf9qSHMsAi6ONQBCQ/A==
+Owner's Company Title               : Rooxo
+Owner's Business Landline Number    : 123455
+Owner's Website                     : tmall.com
+----------------------------------------------
+Owner's Vehicle List Owned : 
+----------------------------------------------
+                  BUS        
+----------------------------------------------------
+Bus IdentificationNumber         : B05
+Bus Description                  : Customer-focused bifurcated
+Bus ManufacturerName             : Benz
+Bus isSelfDrive                  : false
+Bus isInsured                    : true
+Bus InsuranceProviderName        : Orient
+Bus VehicleNoOfSeats             : 20
+Bus FuelType                     : Diesel
+Bus RatePerDay                   : $22.00
+Bus ratePerKm                    : $5.00
+----------------------------------------------------
+ 
+     ----- DRIVER DETAILS ------
+
+Driver's ID                      : 5
+Driver's First Name              : Jasmine
+Driver's Last Name               : sharma
+Driver's gender                  : Female
+Driver's Birth Date              : 07/09/1990
+Driver's Age                     : 29
+Driver's Mobile Number           : 6579246574
+Driver's email                   : jasmins36@gmail.com
+Driver's username                : sharmaJas
+Driver's password                : WeA4YL99E4OXU4FYLGSWtQ==
+Driver's Driving License Number  : C0983-6754-3421
+Driver's Driving History Cleared : true
+Driver's Salary                  : 1000
+----------------------------------------------
+                  BUS        
+----------------------------------------------------
+Bus IdentificationNumber         : B03
+Bus Description                  : Focused actuating help-desk
+Bus ManufacturerName             : Benz
+Bus isSelfDrive                  : false
+Bus isInsured                    : true
+Bus InsuranceProviderName        : Peter
+Bus VehicleNoOfSeats             : 18
+Bus FuelType                     : Diesel
+Bus RatePerDay                   : $15.00
+Bus ratePerKm                    : $4.50
+----------------------------------------------------
+ 
+     ----- DRIVER DETAILS ------
+
+Driver's ID                      : 3
+Driver's First Name              : Markham
+Driver's Last Name               : Ellacot
+Driver's gender                  : Male
+Driver's Birth Date              : 04/01/1993
+Driver's Age                     : 27
+Driver's Mobile Number           : 6583249856
+Driver's email                   : Merel93@yahoo.com
+Driver's username                : merel
+Driver's password                : Mr2JDQuJfGy8kfqqwQ1Q3w==
+Driver's Driving License Number  : C0987-5289-3412
+Driver's Driving History Cleared : true
+Driver's Salary                  : 640
+----------------------------------------------
+                  BUS        
+----------------------------------------------------
+Bus IdentificationNumber         : B04
+Bus Description                  : Customer-focused bifurcated
+Bus ManufacturerName             : Mercedes
+Bus isSelfDrive                  : false
+Bus isInsured                    : true
+Bus InsuranceProviderName        : MR.Yonge
+Bus VehicleNoOfSeats             : 45
+Bus FuelType                     : Diesel
+Bus RatePerDay                   : $30.00
+Bus ratePerKm                    : $5.00
+----------------------------------------------------
+ 
+     ----- DRIVER DETAILS ------
+
+Driver's ID                      : 4
+Driver's First Name              : Pritam
+Driver's Last Name               : Singh
+Driver's gender                  : Male
+Driver's Birth Date              : 12/12/1995
+Driver's Age                     : 24
+Driver's Mobile Number           : 9872571257
+Driver's email                   : singhpritam@outlook.com
+Driver's username                : pritamS
+Driver's password                : qb4MbSDdtqHQmRRFbjsPKA==
+Driver's Driving License Number  : C0451-7157-6825
+Driver's Driving History Cleared : true
+Driver's Salary                  : 800
+----------------------------------------------
+                 ------OWNER------
+Owner's ID                          : 5
+Owner's First Name                  : Charmi
+Owner's Last Name                   : Patel
+Owner's gender                      : Female
+Owner's Birth Date                  : 03/11/1993
+Owner's Age                         : 26
+Owner's Mobile Number               : 6584237485
+Owner's email                       : charmi12@outlook.com
+Owner's username                    : charmiPatel
+Owner's password                    : ZjLAEIJ3f+OJRhNWM7w5Dw==
+Owner's Company Title               : Multimedia
+Owner's Business Landline Number    : 658494
+Owner's Website                     : multimedia.com
+----------------------------------------------
+Owner's Vehicle List Owned : 
+----------------------------------------------
+------MOTORCYCLE------
+Motorcycle's IdentificationNumber        : MC03
+Motorcycle's Description                 : Chronic
+Motorcycle's ManufacturerName            : Yamaha
+Motorcycle's isSelfDrive                 : true
+Motorcycle's isInsured                   : true
+Motorcycle's InsuranceProviderName       : Oriental
+Motorcycle's VehicleNoOfSeats            : 2
+Motorcycle's FuelType                    : Petrol
+Motorcycle's RatePerDay                  : $5.00
+Motorcycle's ratePerKm                   : $5.00
+------------------------------------
+----------------------------------------------
+------MOTORCYCLE------
+Motorcycle's IdentificationNumber        : MC04
+Motorcycle's Description                 : Chrome
+Motorcycle's ManufacturerName            : Pulsar
+Motorcycle's isSelfDrive                 : true
+Motorcycle's isInsured                   : true
+Motorcycle's InsuranceProviderName       : Hero
+Motorcycle's VehicleNoOfSeats            : 2
+Motorcycle's FuelType                    : Petrol
+Motorcycle's RatePerDay                  : $5.00
+Motorcycle's ratePerKm                   : $5.00
+------------------------------------
+----------------------------------------------
+------MOTORCYCLE------
+Motorcycle's IdentificationNumber        : MC05
+Motorcycle's Description                 : Classic
+Motorcycle's ManufacturerName            : Honda
+Motorcycle's isSelfDrive                 : true
+Motorcycle's isInsured                   : true
+Motorcycle's InsuranceProviderName       : Philo
+Motorcycle's VehicleNoOfSeats            : 2
+Motorcycle's FuelType                    : Petrol
+Motorcycle's RatePerDay                  : $5.00
+Motorcycle's ratePerKm                   : $5.00
+------------------------------------
+----------------------------------------------
+------MOTORCYCLE------
+Motorcycle's IdentificationNumber        : MC02
+Motorcycle's Description                 : Thunderbird
+Motorcycle's ManufacturerName            : Bullet
+Motorcycle's isSelfDrive                 : true
+Motorcycle's isInsured                   : true
+Motorcycle's InsuranceProviderName       : Nation
+Motorcycle's VehicleNoOfSeats            : 2
+Motorcycle's FuelType                    : Petrol
+Motorcycle's RatePerDay                  : $5.00
+Motorcycle's ratePerKm                   : $5.00
+------------------------------------
+----------------------------------------------
+
+        ------ CUSTOMER DETAILS ------     
+  
+====================================================
+Customer's ID                    : 1
+Customer's First Name            : Nikita
+Customer's Last Name             : Sandhu
+Customer's gender                : Female
+Customer's Birth Date            : 13/10/1994
+Customer's Age                   : 25
+Customer's Mobile Number         : 3647912580
+Customer's email                 : nsandhu@gmail.com
+Customer's username              : nsandhu
+Customer's password              : Xscv+95vlHIkAFEcHo60fg==
+Customer's Address               : 159, Yorkland Blvd
+Customer's City                  : Toronto
+------------------------------------------
+     ------VEHICLE RENTED BY THE CUSTOMER------        
+====================================================
+                  BUS        
+----------------------------------------------------
+Bus IdentificationNumber         : B01
+Bus Description                  : JBL enabled
+Bus ManufacturerName             : Benz
+Bus isSelfDrive                  : false
+Bus isInsured                    : true
+Bus InsuranceProviderName        : Orient
+Bus VehicleNoOfSeats             : 20
+Bus FuelType                     : Diesel
+Bus RatePerDay                   : $20.00
+Bus ratePerKm                    : $3.00
+----------------------------------------------------
+ 
+     ----- DRIVER DETAILS ------
+
+Driver's ID                      : 1
+Driver's First Name              : Vel
+Driver's Last Name               : Ratan
+Driver's gender                  : Male
+Driver's Birth Date              : 14/11/1995
+Driver's Age                     : 24
+Driver's Mobile Number           : 2546572334
+Driver's email                   : ratvel234@out.com
+Driver's username                : retvel21
+Driver's password                : dster543
+Driver's Driving License Number  : C02358-0986-5609
+Driver's Driving History Cleared : true
+Driver's Salary                  : 1000
+
+-------------------- RENT DETAILS ------------------
+
+Rent Start Date : 01/01/20
+Rent End Date : 06/01/20
+Rent in number of days : $100.00
+Number of KM Drived : 20
+Rent in number of KM : $60.00
+====================================================
+Total rent to pay : $160.00
+====================================================
+--------------------------------------
+     ------VEHICLE RENTED BY THE CUSTOMER------        
+====================================================
+                 ------CAR------
+Car IdentificationNumber         : C01
+Car Description                  : Sedan
+Car ManufacturerName             : Polo
+Car IsSelfDrive                  : false
+Car IsInsured                    : true
+Car InsuranceProviderName        : National
+Car VehicleNoOfSeats             : 4
+Car FuelType                     : Petrol
+Car RatePerKm                    : $5.00
+Car ratePerDay                   : $10.00
+Car Color                        : White
+Car Type                         : Sedan
+ 
+     ----- DRIVER DETAILS ------
+
+Driver's ID                      : 1
+Driver's First Name              : Vel
+Driver's Last Name               : Ratan
+Driver's gender                  : Male
+Driver's Birth Date              : 14/11/1995
+Driver's Age                     : 24
+Driver's Mobile Number           : 2546572334
+Driver's email                   : ratvel234@out.com
+Driver's username                : retvel21
+Driver's password                : dster543
+Driver's Driving License Number  : C02358-0986-5609
+Driver's Driving History Cleared : true
+Driver's Salary                  : 1000
+
+-------------------- RENT DETAILS ------------------
+
+Rent Start Date : 05/02/19
+Rent End Date : 10/02/19
+Rent in number of days : $50.00
+Number of KM Drived : 40
+Rent in number of KM : $200.00
+====================================================
+Total rent to pay : $250.00
+====================================================
+--------------------------------------
+Amount to pay for all the rented vehicles : $410.00
+
+        ------ CUSTOMER DETAILS ------     
+  
+====================================================
+Customer's ID                    : 2
+Customer's First Name            : Kamalpreet
+Customer's Last Name             : Kaur
+Customer's gender                : Female
+Customer's Birth Date            : 20/02/1998
+Customer's Age                   : 22
+Customer's Mobile Number         : 4561589875
+Customer's email                 : kamalpreet34@gmail.com
+Customer's username              : kamalkaur
+Customer's password              : L0/99Ja629rtSJqf3Sp29A==
+Customer's Address               : 234, Speedwell Street
+Customer's City                  : Brampton
+------------------------------------------
+     ------VEHICLE RENTED BY THE CUSTOMER------        
+====================================================
+                 ------CAR------
+Car IdentificationNumber         : C01
+Car Description                  : Sedan
+Car ManufacturerName             : Polo
+Car IsSelfDrive                  : false
+Car IsInsured                    : true
+Car InsuranceProviderName        : National
+Car VehicleNoOfSeats             : 4
+Car FuelType                     : Petrol
+Car RatePerKm                    : $5.00
+Car ratePerDay                   : $10.00
+Car Color                        : White
+Car Type                         : Sedan
+ 
+     ----- DRIVER DETAILS ------
+
+Driver's ID                      : 1
+Driver's First Name              : Vel
+Driver's Last Name               : Ratan
+Driver's gender                  : Male
+Driver's Birth Date              : 14/11/1995
+Driver's Age                     : 24
+Driver's Mobile Number           : 2546572334
+Driver's email                   : ratvel234@out.com
+Driver's username                : retvel21
+Driver's password                : dster543
+Driver's Driving License Number  : C02358-0986-5609
+Driver's Driving History Cleared : true
+Driver's Salary                  : 1000
+
+-------------------- RENT DETAILS ------------------
+
+Rent Start Date : 05/02/19
+Rent End Date : 10/02/19
+Rent in number of days : $50.00
+Number of KM Drived : 40
+Rent in number of KM : $200.00
+====================================================
+Total rent to pay : $250.00
+====================================================
+--------------------------------------
+Amount to pay for all the rented vehicles : $250.00
+
+        ------ CUSTOMER DETAILS ------     
+  
+====================================================
+Customer's ID                    : 3
+Customer's First Name            : Jyothi
+Customer's Last Name             : Thomas
+Customer's gender                : Male
+Customer's Birth Date            : 5/09/1990
+Customer's Age                   : 29
+Customer's Mobile Number         : 4574359876
+Customer's email                 : jyotit123@gmail.com
+Customer's username              : jyotithomas
+Customer's password              : nHqAa29bAKK51v+kT4MXbA==
+Customer's Address               : 123, Shepherd Ave
+Customer's City                  : Scorbrough
+------------------------------------------
+     ------VEHICLE RENTED BY THE CUSTOMER------        
+====================================================
+------MOTORCYCLE------
+Motorcycle's IdentificationNumber        : MC02
+Motorcycle's Description                 : Thunderbird
+Motorcycle's ManufacturerName            : Bullet
+Motorcycle's isSelfDrive                 : true
+Motorcycle's isInsured                   : true
+Motorcycle's InsuranceProviderName       : Nation
+Motorcycle's VehicleNoOfSeats            : 2
+Motorcycle's FuelType                    : Petrol
+Motorcycle's RatePerDay                  : $5.00
+Motorcycle's ratePerKm                   : $5.00
+------------------------------------
+
+-------------------- RENT DETAILS ------------------
+
+Rent Start Date : 09/01/19
+Rent End Date : 30/01/19
+Rent in number of days : $105.00
+Number of KM Drived : 140
+Rent in number of KM : $700.00
+====================================================
+Total rent to pay : $805.00
+====================================================
+--------------------------------------
+     ------VEHICLE RENTED BY THE CUSTOMER------        
+====================================================
+                  BUS        
+----------------------------------------------------
+Bus IdentificationNumber         : B02
+Bus Description                  : Customer-focused bifurcated group ware
+Bus ManufacturerName             : Mercedes
+Bus isSelfDrive                  : false
+Bus isInsured                    : true
+Bus InsuranceProviderName        : TruSheild
+Bus VehicleNoOfSeats             : 24
+Bus FuelType                     : Diesel
+Bus RatePerDay                   : $10.00
+Bus ratePerKm                    : $2.00
+----------------------------------------------------
+ 
+     ----- DRIVER DETAILS ------
+
+Driver's ID                      : 2
+Driver's First Name              : Kartik
+Driver's Last Name               : Sharma
+Driver's gender                  : Male
+Driver's Birth Date              : 12/06/1992
+Driver's Age                     : 27
+Driver's Mobile Number           : 4562583579
+Driver's email                   : kartik34@yahoo.com
+Driver's username                : Skartik
+Driver's password                : HB+1K3YRe0bipXVyo+qaUw==
+Driver's Driving License Number  : C01147-9875-4598
+Driver's Driving History Cleared : true
+Driver's Salary                  : 500
+
+-------------------- RENT DETAILS ------------------
+
+Rent Start Date : 08/05/18
+Rent End Date : 08/08/18
+Rent in number of days : $920.00
+Number of KM Drived : 200
+Rent in number of KM : $400.00
+====================================================
+Total rent to pay : $1320.00
+====================================================
+--------------------------------------
+Amount to pay for all the rented vehicles : $2125.00
+
+        ------ CUSTOMER DETAILS ------     
+  
+====================================================
+Customer's ID                    : 4
+Customer's First Name            : Avni
+Customer's Last Name             : Patel
+Customer's gender                : Female
+Customer's Birth Date            : 27/02/1992
+Customer's Age                   : 27
+Customer's Mobile Number         : 7892584598
+Customer's email                 : avniPatel@yahoo.com
+Customer's username              : AvniPAtel
+Customer's password              : DhK/FdSWnYI+2mwpVMa2mQ==
+Customer's Address               : 456, Yonge Street
+Customer's City                  : Toronto
+------------------------------------------
+     ------VEHICLE RENTED BY THE CUSTOMER------        
+====================================================
+------MOTORCYCLE------
+Motorcycle's IdentificationNumber        : MC02
+Motorcycle's Description                 : Thunderbird
+Motorcycle's ManufacturerName            : Bullet
+Motorcycle's isSelfDrive                 : true
+Motorcycle's isInsured                   : true
+Motorcycle's InsuranceProviderName       : Nation
+Motorcycle's VehicleNoOfSeats            : 2
+Motorcycle's FuelType                    : Petrol
+Motorcycle's RatePerDay                  : $5.00
+Motorcycle's ratePerKm                   : $5.00
+------------------------------------
+
+-------------------- RENT DETAILS ------------------
+
+Rent Start Date : 09/01/19
+Rent End Date : 30/01/19
+Rent in number of days : $105.00
+Number of KM Drived : 140
+Rent in number of KM : $700.00
+====================================================
+Total rent to pay : $805.00
+====================================================
+--------------------------------------
+Amount to pay for all the rented vehicles : $805.00
+
+        ------ CUSTOMER DETAILS ------     
+  
+====================================================
+Customer's ID                    : 5
+Customer's First Name            : Charmi
+Customer's Last Name             : Patel
+Customer's gender                : Female
+Customer's Birth Date            : 25/11/1993
+Customer's Age                   : 26
+Customer's Mobile Number         : 6572583587
+Customer's email                 : patelCharmi34@outlook.com
+Customer's username              : charmi89
+Customer's password              : Z11Qw5YDUDD4pelzYMoeTA==
+Customer's Address               : 4070, Square One
+Customer's City                  : Missisauga
+------------------------------------------
+     ------VEHICLE RENTED BY THE CUSTOMER------        
+====================================================
+                 ------CAR------
+Car IdentificationNumber         : C04
+Car Description                  : Convertible and Crossover
+Car ManufacturerName             : Lamborghini
+Car IsSelfDrive                  : true
+Car IsInsured                    : true
+Car InsuranceProviderName        : Convertible Insaurances
+Car VehicleNoOfSeats             : 2
+Car FuelType                     : Diesel
+Car RatePerKm                    : $8.00
+Car ratePerDay                   : $30.00
+Car Color                        : Red
+Car Type                         : Convertible
+This vehicle doesn't have a driver
+
+-------------------- RENT DETAILS ------------------
+
+Rent Start Date : 10/10/19
+Rent End Date : 1/12/19
+Rent in number of days : $1560.00
+Number of KM Drived : 310
+Rent in number of KM : $2480.00
+====================================================
+Total rent to pay : $4040.00
+====================================================
+--------------------------------------
+Amount to pay for all the rented vehicles : $4040.00
+jasmins36@gmail.com

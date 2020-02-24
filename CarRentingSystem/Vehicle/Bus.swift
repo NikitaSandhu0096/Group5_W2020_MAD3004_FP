@@ -69,7 +69,7 @@ class Bus  : Vehicle
         print("Bus ratePerKm                    : \(ratePerKm.currency())")
         print("----------------------------------------------------")
         for d in driver{
-            print("Driver is assigned to the bus (isSelfDrive = false)")
+//            print("Driver is assigned to the bus")
             d.value.display()
         }
     }
