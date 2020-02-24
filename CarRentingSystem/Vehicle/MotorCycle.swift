@@ -42,6 +42,7 @@ class MotorCycle : Vehicle
           
          func display()
          {
+<<<<<<< HEAD
             print("------MOTORCYCLE------")
             print("Motorcycle's IdentificationNumber        : \(identificationNumber)")
             print("Motorcycle's Description                 : \(description)")
@@ -54,6 +55,20 @@ class MotorCycle : Vehicle
             print("Motorcycle's RatePerDay                  : \(ratePerDay.currency())")
             print("Motorcycle's ratePerKm                   : \(ratePerKm.currency())")
             print("------------------------------------")
+=======
+           print("----------------------MOTORCYCLE---------------------")
+            print("Motorcycle's IdentificationNumber:        \(identificationNumber)")
+            print("Motorcycle's Description:                 \(description)")
+            print("Motorcycle's ManufacturerName:            \(manufacturerName)")
+            print("Motorcycle's isSelfDrive:                 \(isSelfDrive)")
+            print("Motorcycle's isInsured                    \(isInsured)")
+            print("Motorcycle's InsuranceProviderName        \(insuranceProviderName)")
+            print("Motorcycle's VehicleNoOfSeats:            \(vehicleNoOfSeats)")
+            print("Motorcycle's FuelType:                    \(fuelType)")
+            print("Motorcycle's RatePerDay:                  \(ratePerDay.currency())")
+            print("Motorcycle's ratePerKm:                   \(ratePerKm.currency())")
+            print("-----------------------------------------------------")
+>>>>>>> df983b1e49914a0059370a3d94e5a85a81574d41
         }
 }
 

@@ -183,7 +183,11 @@ owner5.addVehicleOwned(vehicleOwned: mc5, vehicleIdentificationNumber: mc5.ident
 //owner5.display()
 
 //Displaying Customer Details
+<<<<<<< HEAD
 //customer1.display() // customer has no vehicle rented initially
+=======
+
+>>>>>>> df983b1e49914a0059370a3d94e5a85a81574d41
 customer1.addVehicleRent(vehicleRent: rent1, vehicleRentID: rent1.vehicleRentID)
 customer1.addVehicleRent(vehicleRent: rent2, vehicleRentID: rent2.vehicleRentID)
 //customer1.display()
