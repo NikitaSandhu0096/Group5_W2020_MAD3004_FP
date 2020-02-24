@@ -55,8 +55,7 @@ class Bus  : Vehicle
           
     func display()
     {
-        print("                  BUS        ")
-        print("----------------------------------------------------")
+        print("                 ------ BUS ------       ")
         print("Bus IdentificationNumber             : \(identificationNumber)")
         print("Bus Description                      : \(description)")
         print("Bus ManufacturerName                 : \(manufacturerName)")
@@ -67,7 +66,7 @@ class Bus  : Vehicle
         print("Bus FuelType                         : \(fuelType)")
         print("Bus RatePerDay                       : \(ratePerDay.currency())")
         print("Bus ratePerKm                        : \(ratePerKm.currency())")
-        print("----------------------------------------------------")
+//        print("----------------------------------------------------")
         for d in driver{
 //            print("Driver is assigned to the bus")
             d.value.display()

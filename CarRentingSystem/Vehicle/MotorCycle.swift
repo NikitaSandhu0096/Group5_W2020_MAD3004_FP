@@ -43,7 +43,7 @@ class MotorCycle : Vehicle
          func display()
          {
 
-            print("------MOTORCYCLE------")
+            print("             ------MOTORCYCLE------")
             print("Motorcycle's IdentificationNumber        : \(identificationNumber)")
             print("Motorcycle's Description                 : \(description)")
             print("Motorcycle's ManufacturerName            : \(manufacturerName)")
@@ -54,7 +54,6 @@ class MotorCycle : Vehicle
             print("Motorcycle's FuelType                    : \(fuelType)")
             print("Motorcycle's RatePerDay                  : \(ratePerDay.currency())")
             print("Motorcycle's ratePerKm                   : \(ratePerKm.currency())")
-            print("------------------------------------")
 
         }
 }

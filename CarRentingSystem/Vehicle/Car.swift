@@ -61,7 +61,7 @@ class Car: Vehicle
         print("Car Type                         : \(carType)")
 
         if driver.count == 0{
-            print("====================================================")
+            print("---------------------------------------------")
             print("This vehicle doesn't have a driver")
         } else{
             for i in driver

@@ -69,7 +69,7 @@ class Owner : Person{
     
      func display() {
 
-       print("------------------- OWNER DETAILS -----------------")
+       print("              ------ OWNER DETAILS ------")
         print("Owner's ID                           : \(self.id)")
         print("Owner's First Name                   : \(self.firstName)")
         print("Owner's Last Name                    : \(self.lastName)")
@@ -93,7 +93,7 @@ class Owner : Person{
             for i in vehicleListOwned{
                 i.value.display()
                 print("----------------------------------------------")
-                print("====================================================")
+//                print("====================================================")
             }
         }
     }
