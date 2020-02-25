@@ -307,7 +307,7 @@ do{
 
     if let d = d6{
 //        d.setEmail(email: "Invalid Email")
-        print(d.email)
+//        print(d.email)
     }else{
         throw DriverError.InvalidEmail
     }

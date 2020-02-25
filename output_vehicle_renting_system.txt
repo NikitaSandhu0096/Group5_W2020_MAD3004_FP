@@ -8,26 +8,24 @@ Owner's Age                          : 25
 Owner's Mobile Number                : 1234567890
 Owner's email                        : nsandhu@gmail.com
 Owner's username                     : nsandhu
-Owner's password                     : +kHsnUftwIRFve1RJ7m9xQ==
+Owner's password                     : OGQRUvbQvaq1K8Ci5OS++A==
 Owner's Company Title                : tmall
 Owner's Business Landline Number     : 657498
 Owner's Website                      : tmall.com
 ====================================================
          Owner's Vehicle List Owned :         
 ====================================================
-                 ------CAR------
-Car IdentificationNumber         : C01
-Car Description                  : Sedan
-Car ManufacturerName             : Polo
-Car IsSelfDrive                  : false
-Car IsInsured                    : true
-Car InsuranceProviderName        : National
-Car VehicleNoOfSeats             : 4
-Car FuelType                     : Petrol
-Car RatePerKm                    : $5.00
-Car ratePerDay                   : $10.00
-Car Color                        : White
-Car Type                         : Sedan
+                 ------ BUS ------       
+Bus IdentificationNumber             : B01
+Bus Description                      : JBL enabled
+Bus ManufacturerName                 : Benz
+Bus isSelfDrive                      : false
+Bus isInsured                        : true
+Bus InsuranceProviderName            : Orient
+Bus VehicleNoOfSeats                 : 20
+Bus FuelType                         : Diesel
+Bus RatePerDay                       : $20.00
+Bus ratePerKm                        : $3.00
  
           ------ DRIVER DETAILS ------
 
@@ -61,17 +59,19 @@ Car Type                         : HatchBack
 ---------------------------------------------
 This vehicle doesn't have a driver
 ----------------------------------------------
-                 ------ BUS ------       
-Bus IdentificationNumber             : B01
-Bus Description                      : JBL enabled
-Bus ManufacturerName                 : Benz
-Bus isSelfDrive                      : false
-Bus isInsured                        : true
-Bus InsuranceProviderName            : Orient
-Bus VehicleNoOfSeats                 : 20
-Bus FuelType                         : Diesel
-Bus RatePerDay                       : $20.00
-Bus ratePerKm                        : $3.00
+                 ------CAR------
+Car IdentificationNumber         : C01
+Car Description                  : Sedan
+Car ManufacturerName             : Polo
+Car IsSelfDrive                  : false
+Car IsInsured                    : true
+Car InsuranceProviderName        : National
+Car VehicleNoOfSeats             : 4
+Car FuelType                     : Petrol
+Car RatePerKm                    : $5.00
+Car ratePerDay                   : $10.00
+Car Color                        : White
+Car Type                         : Sedan
  
           ------ DRIVER DETAILS ------
 
@@ -106,6 +106,18 @@ Owner's Website                      : nature.com
 ====================================================
          Owner's Vehicle List Owned :         
 ====================================================
+             ------MOTORCYCLE------
+Motorcycle's IdentificationNumber        : MC01
+Motorcycle's Description                 : Classic
+Motorcycle's ManufacturerName            : Bajaj
+Motorcycle's isSelfDrive                 : true
+Motorcycle's isInsured                   : true
+Motorcycle's InsuranceProviderName       : Overseas
+Motorcycle's VehicleNoOfSeats            : 2
+Motorcycle's FuelType                    : Petrol
+Motorcycle's RatePerDay                  : $5.00
+Motorcycle's ratePerKm                   : $5.00
+----------------------------------------------
                  ------ BUS ------       
 Bus IdentificationNumber             : B02
 Bus Description                      : Customer-focused bifurcated group ware
@@ -129,22 +141,10 @@ Driver's Age                         : 27
 Driver's Mobile Number               : 4562583579
 Driver's email                       : kartik34@yahoo.com
 Driver's username                    : Skartik
-Driver's password                    : ns50liFO4IoImPS0Dp9sow==
+Driver's password                    : etpF3LcDbvoaUaY4NZ0A1w==
 Driver's Driving License Number      : C01147-9875-4598
 Driver's Driving History Cleared     : true
 Driver's Salary                      : 500
-----------------------------------------------
-             ------MOTORCYCLE------
-Motorcycle's IdentificationNumber        : MC01
-Motorcycle's Description                 : Classic
-Motorcycle's ManufacturerName            : Bajaj
-Motorcycle's isSelfDrive                 : true
-Motorcycle's isInsured                   : true
-Motorcycle's InsuranceProviderName       : Overseas
-Motorcycle's VehicleNoOfSeats            : 2
-Motorcycle's FuelType                    : Petrol
-Motorcycle's RatePerDay                  : $5.00
-Motorcycle's ratePerKm                   : $5.00
 ----------------------------------------------
                  ------CAR------
 Car IdentificationNumber         : C03
@@ -229,6 +229,34 @@ Owner's Website                      : tmall.com
          Owner's Vehicle List Owned :         
 ====================================================
                  ------ BUS ------       
+Bus IdentificationNumber             : B04
+Bus Description                      : Customer-focused bifurcated
+Bus ManufacturerName                 : Mercedes
+Bus isSelfDrive                      : false
+Bus isInsured                        : true
+Bus InsuranceProviderName            : MR.Yonge
+Bus VehicleNoOfSeats                 : 45
+Bus FuelType                         : Diesel
+Bus RatePerDay                       : $30.00
+Bus ratePerKm                        : $5.00
+ 
+          ------ DRIVER DETAILS ------
+
+Driver's ID                          : 4
+Driver's First Name                  : Pritam
+Driver's Last Name                   : Singh
+Driver's gender                      : Male
+Driver's Birth Date                  : 12/12/1995
+Driver's Age                         : 24
+Driver's Mobile Number               : 9872571257
+Driver's email                       : singhpritam@outlook.com
+Driver's username                    : pritamS
+Driver's password                    : qb4MbSDdtqHQmRRFbjsPKA==
+Driver's Driving License Number      : C0451-7157-6825
+Driver's Driving History Cleared     : true
+Driver's Salary                      : 800
+----------------------------------------------
+                 ------ BUS ------       
 Bus IdentificationNumber             : B03
 Bus Description                      : Focused actuating help-desk
 Bus ManufacturerName                 : Benz
@@ -255,34 +283,6 @@ Driver's password                    : Mr2JDQuJfGy8kfqqwQ1Q3w==
 Driver's Driving License Number      : C0987-5289-3412
 Driver's Driving History Cleared     : true
 Driver's Salary                      : 640
-----------------------------------------------
-                 ------ BUS ------       
-Bus IdentificationNumber             : B04
-Bus Description                      : Customer-focused bifurcated
-Bus ManufacturerName                 : Mercedes
-Bus isSelfDrive                      : false
-Bus isInsured                        : true
-Bus InsuranceProviderName            : MR.Yonge
-Bus VehicleNoOfSeats                 : 45
-Bus FuelType                         : Diesel
-Bus RatePerDay                       : $30.00
-Bus ratePerKm                        : $5.00
- 
-          ------ DRIVER DETAILS ------
-
-Driver's ID                          : 4
-Driver's First Name                  : Pritam
-Driver's Last Name                   : Singh
-Driver's gender                      : Male
-Driver's Birth Date                  : 12/12/1995
-Driver's Age                         : 24
-Driver's Mobile Number               : 9872571257
-Driver's email                       : singhpritam@outlook.com
-Driver's username                    : pritamS
-Driver's password                    : hPPS+PldrgRLqjjlicXLPQ==
-Driver's Driving License Number      : C0451-7157-6825
-Driver's Driving History Cleared     : true
-Driver's Salary                      : 800
 ----------------------------------------------
                  ------ BUS ------       
 Bus IdentificationNumber             : B05
@@ -354,24 +354,24 @@ Motorcycle's RatePerDay                  : $5.00
 Motorcycle's ratePerKm                   : $5.00
 ----------------------------------------------
              ------MOTORCYCLE------
-Motorcycle's IdentificationNumber        : MC04
-Motorcycle's Description                 : Chrome
-Motorcycle's ManufacturerName            : Pulsar
-Motorcycle's isSelfDrive                 : true
-Motorcycle's isInsured                   : true
-Motorcycle's InsuranceProviderName       : Hero
-Motorcycle's VehicleNoOfSeats            : 2
-Motorcycle's FuelType                    : Petrol
-Motorcycle's RatePerDay                  : $5.00
-Motorcycle's ratePerKm                   : $5.00
-----------------------------------------------
-             ------MOTORCYCLE------
 Motorcycle's IdentificationNumber        : MC05
 Motorcycle's Description                 : Classic
 Motorcycle's ManufacturerName            : Honda
 Motorcycle's isSelfDrive                 : true
 Motorcycle's isInsured                   : true
 Motorcycle's InsuranceProviderName       : Philo
+Motorcycle's VehicleNoOfSeats            : 2
+Motorcycle's FuelType                    : Petrol
+Motorcycle's RatePerDay                  : $5.00
+Motorcycle's ratePerKm                   : $5.00
+----------------------------------------------
+             ------MOTORCYCLE------
+Motorcycle's IdentificationNumber        : MC04
+Motorcycle's Description                 : Chrome
+Motorcycle's ManufacturerName            : Pulsar
+Motorcycle's isSelfDrive                 : true
+Motorcycle's isInsured                   : true
+Motorcycle's InsuranceProviderName       : Hero
 Motorcycle's VehicleNoOfSeats            : 2
 Motorcycle's FuelType                    : Petrol
 Motorcycle's RatePerDay                  : $5.00
@@ -558,30 +558,6 @@ Customer's City                  : Scorbrough
 ----------------------------------------------------
      ------VEHICLE RENTED BY THE CUSTOMER------        
 ====================================================
-             ------MOTORCYCLE------
-Motorcycle's IdentificationNumber        : MC02
-Motorcycle's Description                 : Thunderbird
-Motorcycle's ManufacturerName            : Bullet
-Motorcycle's isSelfDrive                 : true
-Motorcycle's isInsured                   : true
-Motorcycle's InsuranceProviderName       : Nation
-Motorcycle's VehicleNoOfSeats            : 2
-Motorcycle's FuelType                    : Petrol
-Motorcycle's RatePerDay                  : $5.00
-Motorcycle's ratePerKm                   : $5.00
-
--------------------- RENT DETAILS -------------------
-
-Rent Start Date : 09/01/19
-Rent End Date : 30/01/19
-Rent in number of days : $105.00
-Number of KM Drived : 140
-Rent in number of KM : $700.00
-=====================================================
-Total rent to pay : $805.00
-=====================================================
-     ------VEHICLE RENTED BY THE CUSTOMER------        
-====================================================
                  ------ BUS ------       
 Bus IdentificationNumber             : B02
 Bus Description                      : Customer-focused bifurcated group ware
@@ -605,7 +581,7 @@ Driver's Age                         : 27
 Driver's Mobile Number               : 4562583579
 Driver's email                       : kartik34@yahoo.com
 Driver's username                    : Skartik
-Driver's password                    : ns50liFO4IoImPS0Dp9sow==
+Driver's password                    : etpF3LcDbvoaUaY4NZ0A1w==
 Driver's Driving License Number      : C01147-9875-4598
 Driver's Driving History Cleared     : true
 Driver's Salary                      : 500
@@ -619,6 +595,30 @@ Number of KM Drived : 200
 Rent in number of KM : $400.00
 =====================================================
 Total rent to pay : $1320.00
+=====================================================
+     ------VEHICLE RENTED BY THE CUSTOMER------        
+====================================================
+             ------MOTORCYCLE------
+Motorcycle's IdentificationNumber        : MC02
+Motorcycle's Description                 : Thunderbird
+Motorcycle's ManufacturerName            : Bullet
+Motorcycle's isSelfDrive                 : true
+Motorcycle's isInsured                   : true
+Motorcycle's InsuranceProviderName       : Nation
+Motorcycle's VehicleNoOfSeats            : 2
+Motorcycle's FuelType                    : Petrol
+Motorcycle's RatePerDay                  : $5.00
+Motorcycle's ratePerKm                   : $5.00
+
+-------------------- RENT DETAILS -------------------
+
+Rent Start Date : 09/01/19
+Rent End Date : 30/01/19
+Rent in number of days : $105.00
+Number of KM Drived : 140
+Rent in number of KM : $700.00
+=====================================================
+Total rent to pay : $805.00
 =====================================================
 Amount to pay for all the rented vehicles :$2125.00
 ====================================================
@@ -712,4 +712,3 @@ Total rent to pay : $4040.00
 =====================================================
 Amount to pay for all the rented vehicles :$4040.00
 ====================================================
-jasmins36@gmail.com
