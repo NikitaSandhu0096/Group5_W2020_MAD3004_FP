@@ -21,3 +21,6 @@ https://stackoverflow.com/questions/35700281/date-format-in-swift
 
 https://stackoverflow.com/questions/24723431/swift-days-between-two-nsdates
 
+https://stackoverflow.com/questions/43747709/how-to-obtain-a-regular-expression-for-validation-email-address-for-one-domain-o
+
+https://stackoverflow.com/questions/19395503/regular-expression-for-10-digits-or-11-digits
